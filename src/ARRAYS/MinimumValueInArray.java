@@ -6,13 +6,14 @@ public class MinimumValueInArray {
         System.out.println(MinimumElement(arr));
     }
     static int MinimumElement(int[] arr){
-        int max = Integer.MAX_VALUE;
+        int min = Integer.MAX_VALUE;
+//        int min = arr[0];
 
         for (int i = 0; i <arr.length ; i++) {
-            if(arr[i] < max){
-                max = arr[i];
+            if(arr[i] < min){
+                min = arr[i];
             }
         }
-        return  max;
+        return  min;
     }
 }
