@@ -13,7 +13,6 @@ public class SwappingAnElementInArray {
             int  temp = arr[startIndex];
             arr[startIndex] = arr[endIndex];
             arr[endIndex]= temp;
-
     }
 
 }
