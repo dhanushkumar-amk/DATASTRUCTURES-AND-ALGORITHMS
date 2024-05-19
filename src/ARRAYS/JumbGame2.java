@@ -1,2 +1,8 @@
-package ARRAYS;public class JumbGame2 {
+package ARRAYS;
+
+public class JumbGame2 {
+    public static void main(String[] args) {
+
+    }
+    
 }
