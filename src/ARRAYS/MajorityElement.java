@@ -20,6 +20,12 @@ public class MajorityElement {
             else  count--;
         }
 
-        return 0;
+        for (int i = 0; i <n ; i++) {
+            int finalCount = 0;
+
+            if(element == nums[i]) count++;
+            if(finalCount >= (n/2)) return  element;
+        }
+        return -1;
     }
 }
