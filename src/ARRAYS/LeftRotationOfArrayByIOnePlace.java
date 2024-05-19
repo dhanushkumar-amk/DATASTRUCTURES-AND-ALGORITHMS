@@ -17,7 +17,7 @@ static void LeftRotation(int[] nums, int n){
     }
     nums[i-1] = temp;
     for ( i = 0; i < n-1; i++) {
-        System.out.println(nums[i] + " ");
+        System.out.print(nums[i] + " ");
      }
     }
 }
