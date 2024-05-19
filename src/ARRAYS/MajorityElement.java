@@ -18,7 +18,7 @@ public class MajorityElement {
             element = nums[i];
             }
 
-            if(element == nums[i]) count++;
+           else if(element == nums[i]) count++;
             else  count--;
         }
 
