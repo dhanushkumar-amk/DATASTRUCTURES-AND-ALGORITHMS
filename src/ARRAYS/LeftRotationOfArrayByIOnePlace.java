@@ -13,7 +13,7 @@ static void LeftRotation(int[] nums){
         int temp = nums[0];
         int n = nums.length-1;
         int i;
-    for ( i = 0; i <n; i++) {
+    for ( i = 0; i <=n; i++) {
         nums[i] = nums[i+1];
     }
     nums[i-1] = temp;
