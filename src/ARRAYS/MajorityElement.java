@@ -29,7 +29,6 @@ int finalCount = 0;
 
             if (finalCount > (n/2)) return element;
         }
-
         return -1;
     }
 }
