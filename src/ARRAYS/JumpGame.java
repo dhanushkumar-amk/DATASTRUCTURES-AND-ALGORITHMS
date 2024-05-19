@@ -9,7 +9,7 @@ public class JumpGame {
         int finalPosition = nums.length-1;
         for (int index = nums.length-2; index >=0 ; index--) {
             if(nums[index] + index >= finalPosition)
-            finalPosition = nums[index];
+            finalPosition = index;
         }
 
         return finalPosition ==0;
