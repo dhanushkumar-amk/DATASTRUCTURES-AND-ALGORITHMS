@@ -12,11 +12,11 @@ public class LeftRotationOfArrayByIOnePlace {
 static void LeftRotation(int[] nums, int n){
         int temp = nums[0];
         int i;
-    for ( i = 0; i <n-1; i++) {
+    for ( i = 0; i <n; i++) {
         nums[i] = nums[i+1];
     }
     nums[i-1] = temp;
-    for ( i = 0; i < n-1; i++) {
+    for ( i = 0; i < n; i++) {
         System.out.print(nums[i] + " ");
      }
     }
