@@ -1,2 +1,6 @@
-package ARRAYS;public class MajorityElement {
+package ARRAYS;
+
+
+public class MajorityElement {
+
 }
