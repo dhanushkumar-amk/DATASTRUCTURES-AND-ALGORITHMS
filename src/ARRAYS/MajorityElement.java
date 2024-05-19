@@ -25,7 +25,7 @@ public class MajorityElement {
         for (int i = 0; i <n ; i++) {
 
 
-            if(element == nums[i]) count++;
+            if(element == nums[i]) finalCount++;
             if(finalCount >= (n/2)) return  element;
         }
         return -1;
