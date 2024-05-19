@@ -1,2 +1,11 @@
-package ARRAYS;public class LeftRotationOfArrayByIOnePlace {
+package ARRAYS;
+
+public class LeftRotationOfArrayByIOnePlace {
+    public static void main(String[] args) {
+
+    }
+
+    
+
 }
+
