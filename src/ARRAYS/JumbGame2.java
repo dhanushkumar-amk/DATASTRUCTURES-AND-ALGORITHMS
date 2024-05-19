@@ -2,7 +2,8 @@ package ARRAYS;
 
 public class JumbGame2 {
     public static void main(String[] args) {
-
+        int[] nums = { 2, 3, 1, 4, 5 };
+        System.out.println(jumpGame(nums));
     }
 
     static int jumpGame(int[] nums) {
