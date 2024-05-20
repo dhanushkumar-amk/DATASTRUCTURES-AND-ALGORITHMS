@@ -29,9 +29,13 @@ public class StringBuilder {
         String s1 = "hello";
         String s2 = "world";
         String s3 = "!";
-        System.out.println(s1 + s2);
+   /*     System.out.println(s1 + s2);
         System.out.println(s1.concat(s2));
         System.out.println(s1+s2+s3);
+    */
         System.out.println(s1.concat(s2.concat(s3))); // to join two or more string
+
+
+
     }
 }
