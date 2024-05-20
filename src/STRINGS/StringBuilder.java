@@ -17,7 +17,10 @@ public class StringBuilder {
 //        String name = "Dhanushkumar";
 //        String name1 = new String("hello world")
 
-        Mthods in String
+//        Methods in String
+        String name = "Dhanushkumar";
 
+//        length() method
+        System.out.println(name.length());
     }
 }
