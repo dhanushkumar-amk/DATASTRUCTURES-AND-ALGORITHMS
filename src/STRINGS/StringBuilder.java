@@ -55,6 +55,10 @@ public class StringBuilder {
 
 
         // contains() method - to check the value is present or not in main string check if s2 is a path of s1 it exit then return  true else return false and it is a case sensitive
-        
+        // it always return true or false
+        name2 = "SanjayKumar";
+        String name3 = "sanjay";
+        System.out.println(name3.contains(name2));
+
     }
 }
