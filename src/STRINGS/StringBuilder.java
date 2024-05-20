@@ -20,10 +20,14 @@ public class StringBuilder {
 //        Methods in String
         String name = "Dhanushkumar";
 
-//        length() method
+//        length() method   - to see the length of a String
         System.out.println(name.length());
         System.out.println("Welcome".length());
 
+//        Concat()  - to join a two strings
+//        + and concate() method
+String s1 = "hello";
+        String s2 = "world";
 
     }
 }
