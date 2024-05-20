@@ -17,11 +17,12 @@ public class InverseOfAnArray {
         }
     }
     static int[] Inverse(int[] nums){
-       int[] SecondArray = new int[nums.length];
-        for (int index = 0; index <nums.length ; index++) {
-            int value =  nums[index];
-            SecondArray[value] =  index;
+      int[] secondArray =  new int[nums.length];
+
+        for (int index = 0; index < nums.length ; index++) {
+            int value = nums[index];
+            secondArray[value] = index;
         }
-        return  SecondArray;
+        return secondArray;
     }
 }
