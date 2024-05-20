@@ -3,7 +3,7 @@ import java.lang.StringBuilder;
 
 public class ReverseAString {
     public static void main(String[] args) {
-        String s = 
+        String s =  "the sky is blue";
         System.out.println(reverseWords(s));
     }
     static String reverseWords(String s){
