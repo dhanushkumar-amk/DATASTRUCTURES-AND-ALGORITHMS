@@ -58,7 +58,7 @@ public class StringBuilder {
         // it always return true or false
         name2 = "SanjayKumar";
         String name3 = "Sanjay";
-        System.out.println(name3.contains(name2));
+        System.out.println(name2.contains(name3));
 
     }
 }
