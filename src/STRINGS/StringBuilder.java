@@ -26,8 +26,9 @@ public class StringBuilder {
 
 //        Concat()  - to join a two strings
 //        + and concate() method
-String s1 = "hello";
+        String s1 = "hello";
         String s2 = "world";
-
+        System.out.println(s1 + s2);
+        System.out.println(s1.concat(s2));
     }
 }
