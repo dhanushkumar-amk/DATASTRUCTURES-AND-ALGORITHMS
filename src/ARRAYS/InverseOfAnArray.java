@@ -1,2 +1,4 @@
-package ARRAYS;public class InverseOfAnArray {
+package ARRAYS;
+
+public class InverseOfAnArray {
 }
