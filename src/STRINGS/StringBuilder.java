@@ -133,8 +133,10 @@ public class StringBuilder {
 
         // String Builder and String Buffer
         System.out.println("String Builder and String Buffer");
-        StringBuffer obj = new StringBuffer("Hello world");
-        System.out.println(obj);
+        System.out.println();
+
+        StringBuffer obj = new StringBuffer("Hello world"); // it gives extra 16 spaces
+        System.out.println(obj.reverse());
 
     }
 }
