@@ -14,6 +14,6 @@ public class ReverseAString {
             sb.append(words[i]);
             sb.append(" ");
         }
-        return  s.toString().trim();
+        return  sb.toString().trim();
     }
 }
