@@ -63,7 +63,7 @@ public class StringBuilder {
 
 
 
-        //  equals(),  equalsIgnoreCase() - campare strings
+        //  equals(),  equalsIgnoreCase() - compare strings
         // it always return true or false
         // case sensitivity
         String Compare1 = "Hello";
@@ -98,5 +98,9 @@ public class StringBuilder {
         System.out.println("Before Replace :" + Replace);
         System.out.println("After Replace : " + Replace.replace("Hello World" , "Hello Dhanush"));
 
+        System.out.println("--------------------------------------------------------------------");
+
+        // subString() method is a important || =>  exact substring from a main string or exact some portion of a string
+        
     }
 }
