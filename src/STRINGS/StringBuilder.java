@@ -125,7 +125,7 @@ public class StringBuilder {
         // split() method -  split the string into the multiple lines based on delimeter  => (delimeter every element in the string is a delemeter)
         String email = "Dhanushkumaramk@gmail.com";
         System.out.println("Before Splitting : " + email);
-        System.out.println("After  splitting : " + email.split("@");
+        System.out.println("After  splitting : " + email.split("@" ));
 
 
     }
