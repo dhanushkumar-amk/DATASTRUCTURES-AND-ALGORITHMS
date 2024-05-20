@@ -36,7 +36,8 @@ public class StringBuilder {
         System.out.println(s1.concat(s2.concat(s3))); // to join two or more string
 
 // trim() method  - remove spaces from right and left side of a string
-String s =
+String s = "   Welcome   ";
+        System.out.println(s.length());
 
     }
 }
