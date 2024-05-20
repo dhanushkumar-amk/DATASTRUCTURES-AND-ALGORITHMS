@@ -84,5 +84,12 @@ public class StringBuilder {
         System.out.println( "Equals :" + Compare3.equals(Compare4));
         System.out.println( "EqualsIgnoreCase :" + Compare3.equalsIgnoreCase(Compare4));
 
+        System.out.println("--------------------------------------------------------------------");
+
+        // replace Method() - used to replace the values in a string
+
+        String Replace =  "Hello World";
+        System.out.println("Before Replace" + Replace.replace("Hello World" , "Hello Dhanush"));
+
     }
 }
