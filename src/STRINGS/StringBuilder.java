@@ -59,6 +59,16 @@ public class StringBuilder {
         name2 = "SanjayKumar";
         String name3 = "Sanjay";
         System.out.println(name2.contains(name3));
+        System.out.println("--------------------------------------------------------------------");
+
+
+
+        //  equals(),  equalsIgnoreCase() - campare strings
+        String Compare1 = "Hello";
+        String Compare2 = "Hello";
+
+        System.out.println(Compare1 == Compare2);
+        System.out.println(Compare1.equals(Compare2));
 
     }
 }
