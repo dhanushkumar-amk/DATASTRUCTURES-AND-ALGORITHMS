@@ -64,11 +64,14 @@ public class StringBuilder {
 
 
         //  equals(),  equalsIgnoreCase() - campare strings
+        // it always return true or false
+
         String Compare1 = "Hello";
         String Compare2 = "Hello";
 
-        System.out.println(Compare1 == Compare2);
-        System.out.println(Compare1.equals(Compare2));
+        System.out.println(Compare1 == Compare2); // true
+        System.out.println(Compare1.equals(Compare2)); // true
+        System.out.println(Compare1.equals("welcome")); // false
 
     }
 }
