@@ -147,5 +147,8 @@ public class StringBuilder {
         System.out.println(obj1);
         System.out.println("Append world with hello : " + obj1.append("world") );
 
+        System.out.println("--------------------------------------------------------------------");
+
+
     }
 }
