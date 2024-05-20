@@ -73,5 +73,8 @@ public class StringBuilder {
         System.out.println(Compare1.equals(Compare2)); // true
         System.out.println(Compare1.equals("welcome")); // false
 
+
+        System.out.println("--------------------------------------------------------------------");
+
     }
 }
