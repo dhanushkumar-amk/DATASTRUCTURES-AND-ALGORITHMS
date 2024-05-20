@@ -104,6 +104,6 @@ public class StringBuilder {
         // Start index = 0;
         // end index + 1
         String SubString1 = "Dhanush";
-        System.out.println(SubString1.substring(0,1));
+        System.out.println(SubString1.substring(0,5));
     }
 }
