@@ -13,14 +13,16 @@ public class JumbGame2 {
         int coverage = 0;
 
         // base condition
-        for (int i = 0; i < nums.length; i++) {
-            coverage = Math.max(coverage, i + nums[i]);
+        for (int i = 0; i <nums.length ; i++) {
+            coverage =  Math.max(coverage, i+nums[i]);
 
-            if (i == lastIndexJump) {
-                lastIndexJump = coverage;
-                totalJump++;
-                if (coverage >= destination)
-                    return totalJump;
+            if(i== lastIndexJump){
+               lastIndexJump = coverage;
+               totalJump++;
+
+               if (coverage >= destination){
+                   return totalJump;
+               }
             }
         }
         return totalJump;
