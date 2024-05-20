@@ -135,9 +135,16 @@ public class StringBuilder {
         System.out.println("String Builder and String Buffer");
         System.out.println();
 
-        StringBuffer obj = new StringBuffer("Hello world"); // it gives extra 16 spaces
+        StringBuffer obj = new StringBuffer("Hello "); // it gives extra 16 spaces
+        // reverse method
         System.out.println(obj);
         System.out.println(" Reverse : "+obj.reverse());
+        System.out.println("--------------------------------------------------------------------");
+
+
+        // append method used to insert the value
+        System.out.println(obj);
+        System.out.println("Append world with hello : " + obj.append("world") );
 
     }
 }
