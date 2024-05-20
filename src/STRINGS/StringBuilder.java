@@ -116,7 +116,7 @@ public class StringBuilder {
         // case Conversions
         // 1 toLowerCase
         // 2 toUpperCase
-
+        System.out.println(name);
         System.out.println("Lower Case : "+name.toLowerCase());
         System.out.println("Upper case : " +name.toUpperCase());
 
