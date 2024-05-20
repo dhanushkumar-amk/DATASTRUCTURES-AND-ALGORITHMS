@@ -109,7 +109,6 @@ public class StringBuilder {
         System.out.println(SubString1.substring(0,3));
         System.out.println(SubString1.substring(0,4));
         System.out.println(SubString1.substring(0,5));
-        System.out.println(SubString1.substring(0,5));
         System.out.println(SubString1.substring(0,6));
         System.out.println(SubString1.substring(0,7));
     }
