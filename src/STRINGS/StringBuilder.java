@@ -50,6 +50,11 @@ public class StringBuilder {
         // charAt() method  - return the character based on the index
         String name2 = "Sanjay";
         System.out.println(name2);
-        System.out.println(name2.charAt(2));
+        System.out.println(name2.charAt(2)); //return 3 index of character here n
+        System.out.println("--------------------------------------------------------------------");
+
+
+        // contains() method - to check the value is present or not in main string check if s2 is a path of s1 it exit then return  true else return false and it is a case sensitive
+        
     }
 }
