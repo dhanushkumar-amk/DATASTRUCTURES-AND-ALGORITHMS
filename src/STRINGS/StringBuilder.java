@@ -111,5 +111,13 @@ public class StringBuilder {
         System.out.println(SubString1.substring(0,5));
         System.out.println(SubString1.substring(0,6));
         System.out.println(SubString1.substring(0,7));
+        System.out.println("--------------------------------------------------------------------");
+
+        // case Conversions
+        // 1 toLowerCase
+        // 2 toUpperCase
+
+
+
     }
 }
