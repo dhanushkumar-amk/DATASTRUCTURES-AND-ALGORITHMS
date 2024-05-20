@@ -9,10 +9,11 @@ public class InverseOfAnArray {
             System.out.print(nums[i] + " ");
         }
 
-        int[] SecondArrau = Inverse(nums);
+        int[] SecondArray = Inverse(nums);
+        System.out.println();
         System.out.println("After Inversion");
         for (int i = 0; i < nums.length ; i++) {
-            System.out.print(SecondArrau[i] + " ");
+            System.out.print(SecondArray[i] + " ");
         }
     }
     static int[] Inverse(int[] nums){
