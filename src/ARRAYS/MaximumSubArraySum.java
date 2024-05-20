@@ -7,7 +7,25 @@ public class MaximumSubArraySum {
     }
 
     public static int MaximumSubArray(int[] nums){
-    
+    int ToatalAmount = nums[0];
+    int maxAmount =  nums[0];
+
+
+        for (int i = 0; i <nums.length ; i++) {
+            if(ToatalAmount >= 0){
+                ToatalAmount += nums[i];
+            }
+            else {
+                ToatalAmount = nums[i];
+            }
+
+            if(ToatalAmount > maxAmount){
+                maxAmount = ToatalAmount;
+            }
+        }
+
+        return  maxAmount;
+
     }
 
 }
