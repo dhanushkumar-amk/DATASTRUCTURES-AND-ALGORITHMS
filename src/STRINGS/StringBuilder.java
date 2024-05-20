@@ -101,6 +101,9 @@ public class StringBuilder {
         System.out.println("--------------------------------------------------------------------");
 
         // subString() method is a important || =>  exact substring from a main string or exact some portion of a string
-        
+        // Start index = 0;
+        // end index + 1
+        String SubString1 = "Dhanush";
+        System.out.println(SubString1.substring(0,1));
     }
 }
