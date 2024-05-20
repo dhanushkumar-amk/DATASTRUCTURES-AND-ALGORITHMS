@@ -145,7 +145,7 @@ public class StringBuilder {
         // append method used to insert the value
         StringBuffer obj1 = new StringBuffer("Hello "); // it gives extra 16 spaces
         System.out.println(obj1);
-        System.out.println("Append world with hello : " + obj.append("world") );
+        System.out.println("Append world with hello : " + obj1.append("world") );
 
     }
 }
