@@ -28,7 +28,8 @@ public class StringBuilder {
 //        + and concate() method
         String s1 = "hello";
         String s2 = "world";
+        String s3 = "!";
         System.out.println(s1 + s2);
-        System.out.println(s1.concat(s2));
+        System.out.println(s1.concat(s2.concat(s3)));
     }
 }
