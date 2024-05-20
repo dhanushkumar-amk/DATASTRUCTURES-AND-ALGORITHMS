@@ -24,6 +24,9 @@ public class StringBuilder {
         System.out.println(name.length());
         System.out.println("Welcome".length());
 
+        System.out.println("--------------------------------------------------------------------");
+
+
 //        Concat()  - to join a two strings
 //        + and concate() method
         String s1 = "hello";
@@ -42,5 +45,10 @@ public class StringBuilder {
         System.out.println("Before Trimming : " +s.length());
         System.out.println(s.trim());
         System.out.println("After Trimming : " + s.trim().length());
+        System.out.println("--------------------------------------------------------------------");
+
+        // charAt() method  - return the character based on the index
+        name = "Sanjay";
+        System.out.println(s);
     }
 }
