@@ -37,7 +37,7 @@ public class StringBuilder {
 
 // trim() method  - remove spaces from right and left side of a string
         String s = "   Welcome   "; // 13 length
-        System.out.println("Before Trimming : " +s.trim().length());
+        System.out.println("Before Trimming : " +s.length());
         System.out.println(s.trim());
         System.out.println("After Trimming : " + s.trim().length());
     }
