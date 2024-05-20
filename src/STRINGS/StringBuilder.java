@@ -89,6 +89,11 @@ public class StringBuilder {
         // replace Method() - used to replace the values in a string
 
         String Replace =  "Hello World";
+        // replace a single character
+        System.out.println("Before Replace :" + Replace);
+        System.out.println("After Replace : " + Replace.replace("H" , "G"));
+
+        // replacing sequence of characters
         System.out.println("Before Replace :" + Replace);
         System.out.println("After Replace : " + Replace.replace("Hello World" , "Hello Dhanush"));
 
