@@ -128,11 +128,13 @@ public class StringBuilder {
         // System.out.println("After  splitting : " + email.split("@" ));
         System.out.println("--------------------------------------------------------------------");
         System.out.println();
-        System.out.println();
-        System.out.println();
-        System.out.println();
+
+
+
         // String Builder and String Buffer
         System.out.println("String Builder and String Buffer");
+        StringBuffer obj = new StringBuffer("Hello world");
+        System.out.println(obj);
 
     }
 }
