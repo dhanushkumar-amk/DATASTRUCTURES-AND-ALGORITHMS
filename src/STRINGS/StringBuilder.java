@@ -120,6 +120,12 @@ public class StringBuilder {
         System.out.println("Lower Case : "+name.toLowerCase());
         System.out.println("Upper case : " +name.toUpperCase());
 
+        System.out.println("--------------------------------------------------------------------");
+
+        // split() method -  split the string into the multiple lines based on delimeter  => (delimeter every element in the string is a delemeter)
+        String email = "Dhanushkumaramk@gmail.com";
+        System.out.println("Before Splitting : " + email);
+        System.out.println("After  splitting : " + email.split("@");
 
 
     }
