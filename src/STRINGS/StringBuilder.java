@@ -92,6 +92,7 @@ public class StringBuilder {
         // replace a single character
         System.out.println("Before Replace :" + Replace);
         System.out.println("After Replace : " + Replace.replace("H" , "G"));
+        System.out.println();
 
         // replacing sequence of characters
         System.out.println("Before Replace :" + Replace);
