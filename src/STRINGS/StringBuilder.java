@@ -22,5 +22,8 @@ public class StringBuilder {
 
 //        length() method
         System.out.println(name.length());
+        System.out.println("Welcome".length());
+
+
     }
 }
