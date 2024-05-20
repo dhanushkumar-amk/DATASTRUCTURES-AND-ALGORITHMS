@@ -48,7 +48,8 @@ public class StringBuilder {
         System.out.println("--------------------------------------------------------------------");
 
         // charAt() method  - return the character based on the index
-        name = "Sanjay";
-        System.out.println(s);
+        String name2 = "Sanjay";
+        System.out.println(name2);
+        System.out.println(name2.charAt(2));
     }
 }
