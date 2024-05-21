@@ -11,6 +11,7 @@ String string2 = "dirty room";
     }
     static boolean ValidAnagrams(String string1 , String string2)
     {
-       
+       string1 = string1.toLowerCase();
+       string2 = string2.toLowerCase();
     }
 }
