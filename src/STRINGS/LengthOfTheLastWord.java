@@ -3,7 +3,7 @@ import java.lang.*;
 
 public class LengthOfTheLastWord {
     public static void main(String[] args) {
-        String word = "Hello World ";
+        String word = "Hello Worlde ";
         System.out.println(lastWordCount(word));
     }
 
