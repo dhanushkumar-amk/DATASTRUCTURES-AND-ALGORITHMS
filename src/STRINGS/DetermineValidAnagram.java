@@ -13,5 +13,12 @@ String string2 = "dirty room";
     {
        string1 = string1.toLowerCase();
        string2 = string2.toLowerCase();
+
+       string1 =  string1.replace(" ", "");
+       string2 =  string2.replace(" ", "");
+
+        for (int i = 0; i <; i++) {
+
+        }
     }
 }
