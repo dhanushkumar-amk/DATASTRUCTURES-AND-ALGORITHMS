@@ -5,10 +5,10 @@ import java.util.HashMap;
 public class FirstUniqueCharcterInAString {
     public static void main(String[] args) {
   String s = "fourByFourFrog";
-        System.out.println();
+        System.out.println(FirstUnique(s));
     }
 
-    public int FirstUnique(String s){
+    public static int FirstUnique(String s){
         int index =-1;
         HashMap<Character, Integer> hm = new HashMap<>();
         for (int i = 0; i <s.length() ; i++) {
