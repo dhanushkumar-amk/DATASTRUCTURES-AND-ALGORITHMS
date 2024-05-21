@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 public class FirstUniqueCharcterInAString {
     public static void main(String[] args) {
-  String s = "FourByFourFrog";
+  String s = "fourByFourFrog";
         System.out.println(FirstUnique(s));
     }
 
