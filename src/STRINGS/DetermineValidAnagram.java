@@ -21,7 +21,7 @@ int[] counts = new int[26];
                 counts[string1.charAt(i)- 'a']++;
         }
         for (int i = 0; i <string2.length() ; i++) {
-            counts[string2.charAt(i)-1]--;
+            counts[string2.charAt(i)-'a']--;
         }
 
         for (int count : counts){
