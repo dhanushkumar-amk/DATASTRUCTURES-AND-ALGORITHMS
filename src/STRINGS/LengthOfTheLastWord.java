@@ -11,7 +11,7 @@ public class LengthOfTheLastWord {
 
         int count =0;
 
-        for (int i = word.length()-1; i >= 0 ; i++) {
+        for (int i = word.length()-1; i >= 0 ; i--) {
             if(word.charAt(i) != ' ') count++;
 
             else {
