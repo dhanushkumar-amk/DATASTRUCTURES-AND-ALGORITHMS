@@ -3,8 +3,8 @@ import  java.lang.*;
 
 public class DetermineValidAnagram {
     public static void main(String[] args) {
-String string1 = "dormitory";
-String string2 = "dirty room";
+     String string1 = "dormitory";
+     String string2 = "dirty room";
 
         System.out.println(ValidAnagrams(string1, string2));
 
