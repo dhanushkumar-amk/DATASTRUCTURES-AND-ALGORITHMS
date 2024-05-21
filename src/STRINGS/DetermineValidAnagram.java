@@ -16,9 +16,18 @@ String string2 = "dirty room";
 
        string1 =  string1.replace(" ", "");
        string2 =  string2.replace(" ", "");
-
-        for (int i = 0; i <; i++) {
-
+int[] counts = new int[26];
+        for (int i = 0; i < string1.length(); i++) {
+                counts[string1.charAt(i)- 'a']++;
         }
+        for (int i = 0; i <string2.length() ; i++) {
+            counts[string2.charAt(i)-1]--;
+        }
+
+        for (int count : counts){
+            if (count != 0)
+                return  false;
+        }
+        return  true;
     }
 }
