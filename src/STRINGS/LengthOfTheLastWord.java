@@ -9,14 +9,12 @@ public class LengthOfTheLastWord {
 
     static int lastWordCount(String word){
 
-        int count =0;
-
-        for (int i = word.length()-1; i >= 0 ; i--) {
-            if(word.charAt(i) != ' ') count++;
-
-            else {
-                if (count > 0) return  count;
-            }
+      int count = 0;
+        for (int i = word.length()-1; i >=0 ; i--) {
+             if (word.charAt(i) != ' ') count++;
+             else {
+                 if (count > 0) return count;
+             }
         }
         return count;
     }
