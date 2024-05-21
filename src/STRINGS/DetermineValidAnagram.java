@@ -19,12 +19,12 @@ String string2 = "dirty room";
 
         int[] counts = new int[26];
 
-        for (int i = 0; i <string1.length() ; i++) {
-            counts[string1.charAt(i -'a')]++;
+        for (int i = 0; i < string1.length() ; i++) {
+            counts[string1.charAt(i) - 'a']++;
         }
 
         for (int i = 0; i < string2.length(); i++) {
-            counts[string2.charAt(i - 'a')]--;
+            counts[string2.charAt(i) - 'a']--;
         }
 
         for(int count : counts){
