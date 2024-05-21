@@ -9,16 +9,11 @@ public class palindrome {
         System.out.println(Palindrome(s));
     }
     static boolean Palindrome(String s){
-        int left = 0;
-        int right = s.length()-1;
-        while(left < right){
-            if(s.charAt(left) == s.charAt(right)){
-                right--;
-                left++;
-            }
-            else return false;
-        }
+      int left = 0;
+      int right = s.length()-1;
 
-        return true;
+      while(left < right){
+          if(s.charAt(left) == s.char)
+      }
     }
 }
