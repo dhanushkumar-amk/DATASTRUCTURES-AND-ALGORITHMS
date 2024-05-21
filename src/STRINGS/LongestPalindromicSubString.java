@@ -34,7 +34,7 @@ String s =  "ABRBADAADAB";
 
 
             // tak even values
-            left = i + 1;
+            left = i - 1;
             right = i;
 
             while (s.charAt(left) == s.charAt(right)) {
