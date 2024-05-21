@@ -9,12 +9,12 @@ public class FirstUniqueCharcterInAString {
     }
 
     public static int FirstUnique(String s){
-
+        // for case-sensitive
         s  = s.toLowerCase();
         int index =-1;
         HashMap<Character, Integer> hm = new HashMap<>();
-        for (int i = 0; i <s.length() ; i++) {
 
+        for (int i = 0; i <s.length() ; i++) {
             char c = s.charAt(i);
             int freq = hm.getOrDefault(c, 0);
             hm.put(c, (freq + 1));
