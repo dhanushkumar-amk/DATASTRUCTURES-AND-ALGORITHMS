@@ -3,6 +3,8 @@ import java.lang.*;
 public class LongestPalindromicSubString {
     public static void main(String[] args) {
 String s =  "ABRBADAADAB";
+
+// output : BADAADAB
         System.out.println(LongestSuStringPalindrome(s));
     }
 
