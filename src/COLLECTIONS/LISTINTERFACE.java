@@ -51,7 +51,7 @@ public class LISTINTERFACE {
         al.add('A');
         al.add(true);
 
-        
+
         // add all
         ArrayList a = new ArrayList<>();
 
@@ -142,7 +142,8 @@ public class LISTINTERFACE {
 for(Object e : al)
     System.out.println(e);
     }
-        System.out.println("-----------------------------------------------------------------------");
+
+
 
 
 // 3 => iterator method
