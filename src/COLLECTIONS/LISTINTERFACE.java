@@ -66,7 +66,7 @@ public class LISTINTERFACE {
 
         // remove
 //     al.remove(1);
-     al.remove("dhanushkumar")
+     al.remove("Dhanushkumar")
 ;
         System.out.println(al);
         //[100, 15.5, A, true]
