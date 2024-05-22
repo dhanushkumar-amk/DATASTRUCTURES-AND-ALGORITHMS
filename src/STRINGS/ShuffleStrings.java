@@ -1,2 +1,6 @@
-package STRINGS;public class ShuffleStrings {
+package STRINGS;
+
+public class ShuffleStrings {
+    psvm
+    
 }
