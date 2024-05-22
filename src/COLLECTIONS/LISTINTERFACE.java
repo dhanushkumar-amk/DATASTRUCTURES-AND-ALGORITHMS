@@ -85,7 +85,7 @@ public class LISTINTERFACE {
 
         //retreive a specific element in an arraylist
         al.get(3);
-        System.out.println(al.get(3));
+        System.out.println(al.get(1));
     }
 
 }
