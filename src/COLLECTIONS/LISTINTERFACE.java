@@ -1,9 +1,6 @@
 package COLLECTIONS;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.Objects;
+import java.util.*;
 
 public class LISTINTERFACE {
 
@@ -138,9 +135,16 @@ public class LISTINTERFACE {
 for(Object e : al)
     System.out.println(e);
     }
+        System.out.println("-----------------------------------------------------------------------");
 
 
+// 3 => iterator method
 
+    Iterator it = al.iterator();
+
+    while(it.hasNext()){
+        System.out.println(it,next());
+    }
 
 
 }
