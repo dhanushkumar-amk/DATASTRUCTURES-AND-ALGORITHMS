@@ -86,6 +86,13 @@ public class LISTINTERFACE {
         //retreive a specific element in an arraylist
         al.get(3);
         System.out.println(al.get(1));
+
+
+        // change the value inan arraylist
+        // replace
+
+        al.set(1,"Dhanushkumar");
+        System.out.println(al);
     }
 
 }
