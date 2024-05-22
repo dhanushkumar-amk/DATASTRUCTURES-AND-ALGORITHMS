@@ -10,13 +10,32 @@ public class collections {
 //    int[] a = new int[10];
 
 //        fixed in size
-//        humogeneous
-//   readymade method
+//        homogeneous
+//      ready made method
 
 //        ArrayList
 //         hashtable
 //        hashmap
 //        list
+
+
+        // COLLECTION INTERFACE METHODS COMMON METHODS
+
+        // 1 => ADD(OBJECTS)
+        // 2 => ADDALL(COLLECTIONS) USED TO ADD GROUP OF OBJECTS
+        // 3 =>  REMOVE()
+        // 4 => REMOVEALL(COLECTIONS)
+        // 5 => RETAINALL(COLLECTION OBJECTS) IS USED TO EXPERT  CURRENT OBJECT OTHER OBJECTS ARE REMOVED
+        // 6 => CLEAR()
+        // 7 => SIZE();
+        // 8 => ISEMPTY()
+        // 9 => CONTAINS() CHECK IF THE VALUE IS PRESENT OR NOT
+        // 10 => CONTAINSALL(COLLECTIONS)
+        // 11 => TOARRAY(COLLECTION) USED TO CONVERT THE OBJECT INTO ARRAY
+
+
+
+//        THIS METHODS ARE COMMON IN ALL THE COLLECTION INTERFACE
 
 
     }
