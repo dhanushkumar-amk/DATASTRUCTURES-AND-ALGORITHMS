@@ -109,6 +109,23 @@ public class LISTINTERFACE {
 
 
 
+        // read the data from the arraylist
+//    for loop
+//     for each method
+//      iterator()
+
+
+        // for loop
+        System.out.println("Reading the elemnets in array list");
+        for (int i = 0; i <al.size() ; i++) {
+            System.out.println(al.get(i));
+        }
+
+
+
+
+
+
     }
 
 
