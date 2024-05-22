@@ -123,12 +123,18 @@ public class LISTINTERFACE {
         for (int i = 0; i <al.size() ; i++) {
             System.out.println(al.get(i));
         }
+//
+//        100
+//        Dhanushkumar
+//        15.5
+//        A
+//        true
 
 
 
-
-
-
+        // for each method
+for(object e : al)
+    System.out.println(e);
     }
 
 
