@@ -71,6 +71,13 @@ public class LISTINTERFACE {
         System.out.println(al);
         //[100, 15.5, A, true]
 
+        System.out.println("-----------------------------------------------------------------------");
+
+
+        // insert the element
+
+        al.add(1,"sanjay");
+
     }
 
 }
