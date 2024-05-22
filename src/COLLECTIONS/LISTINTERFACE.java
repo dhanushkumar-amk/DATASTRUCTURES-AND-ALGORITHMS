@@ -131,6 +131,7 @@ public class LISTINTERFACE {
 //        A
 //        true
 
+        System.out.println("-----------------------------------------------------------------------");
 
 
         // for each method
