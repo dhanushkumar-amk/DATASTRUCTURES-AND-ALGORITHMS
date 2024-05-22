@@ -54,6 +54,12 @@ public class LISTINTERFACE {
         al.add(true);
 
         System.out.println(al);
+//        [100, Dhanushkumar, 15.5, A, true]
+
+
+        // to check size
+
+        System.out.println("Number of elements in arraylist : "+ al.size());
 
 
 
