@@ -78,7 +78,14 @@ public class LISTINTERFACE {
 
         al.add(1,"sanjay");
         System.out.println(al);
+        //[100, sanjay, 15.5, A, true]
 
+        System.out.println("-----------------------------------------------------------------------");
+
+
+        //retreive a specific element in an arraylist
+        al.get(3);
+        System.out.println(al.get(3));
     }
 
 }
