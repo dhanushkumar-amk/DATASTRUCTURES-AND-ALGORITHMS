@@ -86,13 +86,28 @@ public class LISTINTERFACE {
         //retreive a specific element in an arraylist
         al.get(3);
         System.out.println(al.get(1));
-
+// sanjay
 
         // change the value inan arraylist
         // replace
 
         al.set(1,"Dhanushkumar");
         System.out.println(al);
+
+//        [100, Dhanushkumar, 15.5, A, true]
+
+
+//        search an array i present or not
+
+        System.out.println(  al.contains("Dhanushkumar"));
+
+
+
+
     }
+
+
+
+
 
 }
