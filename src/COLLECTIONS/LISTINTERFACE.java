@@ -102,6 +102,11 @@ public class LISTINTERFACE {
         System.out.println(  al.contains("Dhanushkumar"));
 
 
+        // is empty
+
+        System.out.println(al.isEmpty());
+
+
 
 
     }
