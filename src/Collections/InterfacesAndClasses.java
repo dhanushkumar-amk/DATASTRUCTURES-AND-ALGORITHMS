@@ -25,7 +25,13 @@ public class InterfacesAndClasses {
 //    queue interface
 
 
-    //
+    // list interface
+
+//     list interface is a child interface of a collection interface
+//    when it is used  whenever we want to added a order wise  implementation and also allows duplicates
+// if what order is inserted that order will be preserved
+
+
 
 
 }
