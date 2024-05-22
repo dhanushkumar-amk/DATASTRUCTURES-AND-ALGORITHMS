@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1fc313a1-47ef-4e2a-abfa-abef66444f96" name="Changes" comment="modified" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="module" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;dhanushkumar-amk&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/dhanushkumar-amk/DATASTRUCTURES-AND-ALGORITHMS.git&quot;,
+    &quot;accountId&quot;: &quot;8b3ee10a-396e-43d4-af40-cadf9d53ef57&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2gaGd2WUG9XGa4Pf7rKhzhzWBSm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ARRAYS.NumberSmallerThanCurrentNumber.executor": "Run",
+    "Application.ArrayISSorted.executor": "Run",
+    "Application.CountsmallerOrequalTotargetInarrys.executor": "Run",
+    "Application.DetermineValidAnagram.executor": "Run",
+    "Application.FirstUniqueCharcterInAString.executor": "Run",
+    "Application.InverseOfAnArray.executor": "Run",
+    "Application.IsomorphicString.executor": "Run",
+    "Application.JumbGame2.executor": "Run",
+    "Application.JumpGame.executor": "Run",
+    "Application.LeftRotationOfArrayByIOnePlace.executor": "Run",
+    "Application.LengthOfTheLastWord.executor": "Run",
+    "Application.LongestPalindromicSubString.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MajorityElement.executor": "Run",
+    "Application.MaximumElementInRange.executor": "Run",
+    "Application.MaximumSubArraySum.executor": "Run",
+    "Application.MinimumElementInRange.executor": "Run",
+    "Application.MinimumValueInArray.executor": "Run",
+    "Application.NumberSmallerThanCurrentNumber.executor": "Run",
+    "Application.RemoveDuplicates.executor": "Run",
+    "Application.ReverseAString.executor": "Run",
+    "Application.ReverseAnarray.executor": "Run",
+    "Application.SecondLargestElementInArray.executor": "Run",
+    "Application.SecondSmallestElement.executor": "Run",
+    "Application.SingleNonRepeatingNumber.executor": "Run",
+    "Application.SingleNonRepeatingelementsInarray.executor": "Run",
+    "Application.SortColors.executor": "Run",
+    "Application.SpanOfAnArray.executor": "Run",
+    "Application.StringBuilder.executor": "Run",
+    "Application.SwappingAnElementInArray.executor": "Run",
+    "Application.TwoSum.executor": "Run",
+    "Application.ZeroOnetwo.executor": "Run",
+    "Application.array.executor": "Run",
+    "Application.maximumValueInarray.executor": "Run",
+    "Application.missingNumber.executor": "Run",
+    "Application.palindrome.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/hp5cd/OneDrive/Documents/DATASTRUCTURES-AND-ALGORITHMS",
+    "onboarding.tips.debug.path": "C:/Users/hp5cd/OneDrive/Documents/DATASTRUCTURES-AND-ALGORITHMS/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.keymap"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.IsomorphicString">
+    <configuration name="DetermineValidAnagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="STRINGS.DetermineValidAnagram" />
+      <module name="DATASTRUCTURES-AND-ALGORITHMS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="STRINGS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstUniqueCharcterInAString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="STRINGS.FirstUniqueCharcterInAString" />
+      <module name="DATASTRUCTURES-AND-ALGORITHMS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="STRINGS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IsomorphicString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="STRINGS.IsomorphicString" />
+      <module name="DATASTRUCTURES-AND-ALGORITHMS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="STRINGS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LengthOfTheLastWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="STRINGS.LengthOfTheLastWord" />
+      <module name="DATASTRUCTURES-AND-ALGORITHMS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="STRINGS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestPalindromicSubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="STRINGS.LongestPalindromicSubString" />
+      <module name="DATASTRUCTURES-AND-ALGORITHMS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="STRINGS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="array" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ARRAYS.array" />
+      <module name="DATASTRUCTURES-AND-ALGORITHMS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ARRAYS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.IsomorphicString" />
+        <item itemvalue="Application.LongestPalindromicSubString" />
+        <item itemvalue="Application.FirstUniqueCharcterInAString" />
+        <item itemvalue="Application.LengthOfTheLastWord" />
+        <item itemvalue="Application.DetermineValidAnagram" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1fc313a1-47ef-4e2a-abfa-abef66444f96" name="Changes" comment="" />
+      <created>1715928361058</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715928361058</updated>
+    </task>
+    <task id="LOCAL-00001" summary="modified">
+      <option name="closed" value="true" />
+      <created>1715928834981</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715928834981</updated>
+    </task>
+    <task id="LOCAL-00002" summary="modified">
+      <option name="closed" value="true" />
+      <created>1715997695411</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715997695411</updated>
+    </task>
+    <task id="LOCAL-00003" summary="modified">
+      <option name="closed" value="true" />
+      <created>1716002194657</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716002194657</updated>
+    </task>
+    <task id="LOCAL-00004" summary="modified">
+      <option name="closed" value="true" />
+      <created>1716009498497</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716009498497</updated>
+    </task>
+    <task id="LOCAL-00005" summary="modified">
+      <option name="closed" value="true" />
+      <created>1716009719749</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1716009719749</updated>
+    </task>
+    <task id="LOCAL-00006" summary="modified">
+      <option name="closed" value="true" />
+      <created>1716010211576</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1716010211576</updated>
+    </task>
+    <task id="LOCAL-00007" summary="modified">
+      <option name="closed" value="true" />
+      <created>1716010306785</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1716010306785</updated>
+    </task>
+    <task id="LOCAL-00008" summary="modified">
+      <option name="closed" value="true" />
+      <created>1716010584194</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1716010584194</updated>
+    </task>
+    <task id="LOCAL-00009" summary="modified">
+      <option name="closed" value="true" />
+      <created>1716010826782</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1716010826782</updated>
+    </task>
+    <task id="LOCAL-00010" summary="modified">
+      <option name="closed" value="true" />
+      <created>1716010997366</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1716010997366</updated>
+    </task>
+    <task id="LOCAL-00011" summary="modified">
+      <option name="closed" value="true" />
+      <created>1716011374140</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1716011374140</updated>
+    </task>
+    <task id="LOCAL-00012" summary="modified">
+      <option name="closed" value="true" />
+      <created>1716011481751</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1716011481751</updated>
+    </task>
+    <task id="LOCAL-00013" summary="modified">
+      <option name="closed" value="true" />
+      <created>1716011869061</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1716011869061</updated>
+    </task>
+    <task id="LOCAL-00014" summary="modified">
+      <option name="closed" value="true" />
+      <created>1716012189069</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1716012189069</updated>
+    </task>
+    <task id="LOCAL-00015" summary="modified">
+      <option name="closed" value="true" />
+      <created>1716016834524</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1716016834524</updated>
+    </task>
+    <task id="LOCAL-00016" summary="modified">
+      <option name="closed" value="true" />
+      <created>1716019882220</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1716019882220</updated>
+    </task>
+    <task id="LOCAL-00017" summary="modified">
+      <option name="closed" value="true" />
+      <created>1716022955418</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1716022955418</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="modified" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified" />
+  </component>
+</project>
