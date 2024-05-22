@@ -1,4 +1,4 @@
-package Collections;
+package COLLECTIONS;
 
 public class Arrays {
     // arrays vs collections

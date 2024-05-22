@@ -1,6 +1,4 @@
-package Collections;
-
-import java.util.ArrayList;
+package COLLECTIONS;
 
 public class collections {
 // collection is a group of objects represents a group of object in single entities
