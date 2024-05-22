@@ -56,12 +56,16 @@ public class LISTINTERFACE {
         System.out.println(al);
 //        [100, Dhanushkumar, 15.5, A, true]
 
-
+        System.out.println("-----------------------------------------------------------------------");
         // to check size
 
         System.out.println("Number of elements in arraylist : "+ al.size());
+//        Number of elements in arraylist : 5
 
+        System.out.println("-----------------------------------------------------------------------");
 
+        // remove
+        System.out.println(al.remove(1));
 
     }
 
