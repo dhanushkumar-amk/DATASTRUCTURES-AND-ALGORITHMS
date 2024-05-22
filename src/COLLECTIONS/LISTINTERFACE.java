@@ -98,7 +98,7 @@ public class LISTINTERFACE {
 
 
 //        search an array i present or not
-
+// return true or false
         System.out.println(  al.contains("Dhanushkumar"));
 
 
