@@ -51,6 +51,13 @@ public class LISTINTERFACE {
         al.add('A');
         al.add(true);
 
+        
+        // add all
+        ArrayList a = new ArrayList<>();
+
+        a.addAll(al);
+        System.out.println(a);
+
         System.out.println(al);
 //        [100, Dhanushkumar, 15.5, A, true]
 
@@ -140,11 +147,15 @@ for(Object e : al)
 
 // 3 => iterator method
 
-    Iterator it = al.iterator();
+//    Iterator it = al.iterator();
+//
+//    while(it.hasNext()){
+//        System.out.println(it,next());
+//    }
 
-    while(it.hasNext()){
-        System.out.println(it,next());
-    }
+    // add all method
+
+
 
 
 }
