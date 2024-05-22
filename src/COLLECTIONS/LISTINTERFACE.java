@@ -77,6 +77,7 @@ public class LISTINTERFACE {
         // insert the element
 
         al.add(1,"sanjay");
+        System.out.println(al);
 
     }
 
