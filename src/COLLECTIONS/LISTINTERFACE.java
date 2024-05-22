@@ -107,7 +107,6 @@ public class LISTINTERFACE {
         System.out.println(al.isEmpty());
 
         System.out.println("-----------------------------------------------------------------------");
-        System.out.println("-----------------------------------------------------------------------");
 
 
 
@@ -119,6 +118,8 @@ public class LISTINTERFACE {
 
         // for loop
         System.out.println("Reading the elemnets in array list");
+        System.out.println("-----------------------------------------------------------------------");
+
         for (int i = 0; i <al.size() ; i++) {
             System.out.println(al.get(i));
         }
