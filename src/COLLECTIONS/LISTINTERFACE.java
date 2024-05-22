@@ -65,7 +65,9 @@ public class LISTINTERFACE {
         System.out.println("-----------------------------------------------------------------------");
 
         // remove
-        System.out.println(al.remove(1));
+     al.remove(1);
+
+        System.out.println(al);
 
     }
 
