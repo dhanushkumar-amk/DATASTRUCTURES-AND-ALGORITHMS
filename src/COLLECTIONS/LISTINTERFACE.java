@@ -3,6 +3,7 @@ package COLLECTIONS;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.Objects;
 
 public class LISTINTERFACE {
 
@@ -133,7 +134,7 @@ public class LISTINTERFACE {
 
 
         // for each method
-for(object e : al)
+for(Object e : al)
     System.out.println(e);
     }
 
