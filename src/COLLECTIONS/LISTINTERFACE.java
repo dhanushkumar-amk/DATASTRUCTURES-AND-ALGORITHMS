@@ -106,6 +106,8 @@ public class LISTINTERFACE {
 
         System.out.println(al.isEmpty());
 
+        System.out.println("-----------------------------------------------------------------------");
+        System.out.println("-----------------------------------------------------------------------");
 
 
 
