@@ -9,7 +9,7 @@ public class ReverseOnlyLetters {
     static String ReverseCharcter(String s){
         char[] arr = s.toCharArray();
             int left =0;
-            int right = s.length()-1;
+            int right = s.length();
 
     while (left < right){
         if(!Character.isLetter(arr[left])) left++;
