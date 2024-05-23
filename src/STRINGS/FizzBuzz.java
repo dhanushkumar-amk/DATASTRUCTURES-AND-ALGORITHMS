@@ -9,7 +9,7 @@ public class FizzBuzz {
         System.out.println(fizzBuzz(n));
     }
     static List<String> fizzBuzz(int n){
-      
+    
         return li;
     }
 }
