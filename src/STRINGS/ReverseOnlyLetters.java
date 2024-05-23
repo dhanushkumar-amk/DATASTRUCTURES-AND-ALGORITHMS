@@ -13,7 +13,7 @@ public class ReverseOnlyLetters {
 
     while (left < right){
         if(!Character.isLetter(arr[left])) left++;
-        else if(!Character.isLetter(arr[right])) right++;
+        else if(!Character.isLetter(arr[right])) right--;
         else {
             char temp = arr[left];
             arr[left] = arr[right];
