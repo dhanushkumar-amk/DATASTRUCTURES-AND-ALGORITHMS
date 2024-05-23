@@ -1,2 +1,28 @@
-package STRINGS;public class ReverseOnlyLetters {
+package STRINGS;
+import java.lang.*;
+
+public class ReverseOnlyLetters {
+    public static void main(String[] args) {
+        String s = "olleh dlrow!";
+        System.out.println(ReverseCharcter(s));
+    }
+    static String ReverseCharcter(String s){
+        char[] arr = s.toCharArray();
+
+        int left = 0;
+        int right = s.length()-1;
+
+        while(left<right){
+            if (!Character.isLetter(arr[left])) left++;
+            else if(!Character.isLetter((arr[right]))) right--;
+            else {
+                char temp = arr[left];
+                arr[left] = arr[right];
+                arr[right] = temp;
+                right--;
+                left++;
+            }
+        }
+        return new String(arr);
+    }
 }
