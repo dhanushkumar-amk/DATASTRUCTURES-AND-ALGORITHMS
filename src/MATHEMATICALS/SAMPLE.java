@@ -6,6 +6,7 @@ public class SAMPLE {
         System.out.println("Hello world");
         System.out.println("Mathematics");
         System.out.println("Success");
+        System.out.println();
 
     }
 }
