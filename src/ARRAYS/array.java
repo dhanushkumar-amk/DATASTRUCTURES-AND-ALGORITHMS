@@ -7,7 +7,7 @@ public class array {
    // Arrays in java
         // creating of the array
     int num[] = {1,2,3,4,5};
-        System.out.println(num);
+        System.out.println(num[0]);
 
     }
 
