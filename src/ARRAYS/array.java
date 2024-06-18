@@ -29,7 +29,7 @@ public class array {
             System.out.print(i);
         }
 // multidimensional array
-int[][] mulArr = new int[][];
+//int[][] mulArr = new int[][];
 
     }
 
