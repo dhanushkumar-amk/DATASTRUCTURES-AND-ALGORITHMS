@@ -23,6 +23,11 @@ public class array {
             System.out.print(num[i]);
         }
 
+        //  for each loop in array
+        for (int i : num){
+            System.out.print(i);
+        }
+
     }
 
 
