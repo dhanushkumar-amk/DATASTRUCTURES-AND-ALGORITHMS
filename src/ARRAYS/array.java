@@ -30,7 +30,7 @@ public class array {
         }
 // multidimensional array
 //int[][] mulArr = new int[][];
-
+int arr1[] = {10,20};
     }
 
 
