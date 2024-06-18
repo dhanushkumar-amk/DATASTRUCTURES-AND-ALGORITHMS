@@ -28,7 +28,7 @@ public class array {
         for (int i : num){
             System.out.print(i);
         }
-
+//
 
 
     }
