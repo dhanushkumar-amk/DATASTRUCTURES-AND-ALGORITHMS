@@ -9,9 +9,9 @@ public class ArrayISSorted {
     static boolean SortedOrNot(int[] nums) {
         for (int i = 1; i < nums.length; i++) {
             if (nums[i] >= nums[i - 1]) {
-return true;
+        return true;
             } else {
-continue;
+        continue;
             }
 
         }
