@@ -6,7 +6,7 @@ public class ARRAYISSORTED1 {
         System.out.println(sorted(nums));
     }
     public static boolean sorted(int nums[]){
-        for (int i = 0; i <nums.length ; i++) {
+        for (int i = 0; i <nums.length-1; i++) {
             if (nums[i] >nums[i-1]) {
                 return true;
             }
