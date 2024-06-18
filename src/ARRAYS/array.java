@@ -22,6 +22,7 @@ public class array {
         for (int i = 0; i < num.length; i++) {
             System.out.print(num[i]);
         }
+        System.out.println();
 
         //  for each loop in array
         for (int i : num){
