@@ -14,7 +14,6 @@ public class ARRAYISSORTED1 {
                 continue;
             }
         }
-
         return false;
     }
 }
