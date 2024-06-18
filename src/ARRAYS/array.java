@@ -17,6 +17,12 @@ public class array {
 
         // length of an array
         System.out.println(num.length);
+
+//        loop through array
+        for (int i = 0; i < num.length; i++) {
+            System.out.println(num[i]);
+        }
+
     }
 
 
