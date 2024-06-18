@@ -31,6 +31,7 @@ public class array {
 // multidimensional array
 //int[][] mulArr = new int[][];
 int arr1[] = {10,20};
+        System.out.println(arr1[1]);
     }
 
 
