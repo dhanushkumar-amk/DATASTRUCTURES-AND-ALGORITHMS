@@ -29,6 +29,8 @@ public class array {
             System.out.print(i);
         }
 
+        
+
     }
 
 
