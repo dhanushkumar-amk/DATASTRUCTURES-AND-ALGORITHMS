@@ -14,7 +14,7 @@ public class SubarrayOfAnArray {
                 System.out.println();
             }
             System.out.println("---------------------");
-            
+
         }
     }
 }
