@@ -4,7 +4,7 @@ public class SecondLargestElementInArray {
 
     public static void main(String[] args) {
         int[] a = {45, 56, 34, 78, 56, 99, 101};
-        System.out.println(SecondLargest(a));
+//        System.out.println(SecondLargest(a));
         System.out.println(secondLargestElement(a));
     }
 
