@@ -7,7 +7,7 @@ public class productOfAnArrayExpectIteself {
         int nums[] = {1,2,3,4};
         int result[] = ProductExceptSelf(nums);
         for (int i = 0; i < nums.length; i++) {
-            System.out.println(result[i]);
+                System.out.println(result[i]);
         }
     }
 
@@ -35,4 +35,7 @@ public class productOfAnArrayExpectIteself {
         }
         return resultArr;
     }
+
+    // another way
+    
 }
