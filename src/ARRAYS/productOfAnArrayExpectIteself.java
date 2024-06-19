@@ -4,7 +4,7 @@ package ARRAYS;
 public class productOfAnArrayExpectIteself {
 
     public static void main(String[] args) {
-        int nums[] = {1,2,3,4};
+        int nums[] = {-1,1,0 ,-3,3};
         int result[] = ProductExceptSelf(nums);
         for (int i = 0; i < nums.length; i++) {
                 System.out.println(result[i]);
