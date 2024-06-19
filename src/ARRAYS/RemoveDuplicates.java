@@ -16,6 +16,5 @@ public class RemoveDuplicates {
  }
 
  // another way
-
-
+    // using two pointers method
 }
