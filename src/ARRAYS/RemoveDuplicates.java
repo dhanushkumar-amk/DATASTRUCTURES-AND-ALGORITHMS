@@ -7,7 +7,7 @@ public class RemoveDuplicates {
 
         int k = rmDuplicates(nums);
         for (int i = 0; i < k; i++) {
-            System.out.println(nums[i]);
+            System.out.print(nums[i]);
         }
 
 //        System.out.println(rmDuplicates(nums));
