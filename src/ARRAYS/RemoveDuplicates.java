@@ -3,7 +3,7 @@ package ARRAYS;
 public class RemoveDuplicates {
     public static void main(String[] args) {
         int[] nums = {1,1,1,2,2,3,4,4,5,6,6,7,8};
-        System.out.println(RemoveElements(nums));
+//        System.out.println(RemoveElements(nums));
 
         int k = rmDuplicates(nums);
         for (int i = 0; i < k; i++) {
