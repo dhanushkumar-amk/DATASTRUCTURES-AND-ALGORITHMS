@@ -5,12 +5,14 @@ public class productOfAnArrayExpectIteself {
 
     public static void main(String[] args) {
         int nums[] = {1,2,3,4};
-        for (int i = 0; i <nums.length-1 ; i++) {
-            System.out.println(ProductExceptItself(nums));
+        int result[] = ProductExceptSelf(nums);
+        for (int i = 0; i < nums.length; i++) {
+            System.out.println(result[i]);
         }
     }
-    public int[] ProductExcecptSelf(int[] nums){
-        int n = nums.length-1;
+
+    public static int[] ProductExceptSelf(int[] nums){
+        int n = nums.length;
         int prefixValue = 1;
         int postfixValue = 1;
 
@@ -27,12 +29,10 @@ public class productOfAnArrayExpectIteself {
             postfixValue *= nums[i];
         }
 
-        for (int i = n-1; i <=0 ; i--) {
-            resultArr[i] *= postfixValue;
-            postfixValue *= nums[i];
+        for (int i = n-1; i >= 0; i--) {
+            resultArr[i] *= prefixValue;
+            prefixValue *= nums[i];
         }
-        return  resultArr;
+        return resultArr;
     }
-
-
 }
