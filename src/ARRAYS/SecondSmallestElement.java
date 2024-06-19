@@ -5,7 +5,8 @@ public class SecondSmallestElement {
     public static void main(String[] args) {
         int[] nums = {100,78,34,65, 70};
 
-        System.out.println(SecondSmallest(nums));
+//        System.out.println(SecondSmallest(nums));
+        System.out.println(secondSmallestElement(nums));
     }
     static int SecondSmallest(int[] nums){
         int min1 = 0;
@@ -33,5 +34,27 @@ public class SecondSmallestElement {
         }
 
         return min2;
+    }
+
+
+    // another method
+
+    static int secondSmallestElement(int nums[]){
+        int n = nums.length;
+
+        if(n < 2) return -1;
+        int smallestElement = Integer.MAX_VALUE;
+        int secondSmallest = Integer.MAX_VALUE;
+
+        for (int i = 0; i <n; i++) {
+            if(nums[i] < smallestElement){
+                secondSmallest = smallestElement;
+                secondSmallest = nums[i];
+            } else if (nums[i] < secondSmallest  && nums[i] != smallestElement ) {
+                secondSmallest = nums[i];
+            }
+
+        }
+        return  secondSmallest;
     }
 }
