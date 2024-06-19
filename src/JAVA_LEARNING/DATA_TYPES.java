@@ -9,5 +9,10 @@ public class DATA_TYPES {
     String name = "Dhanush";
     char letter = 'A'; // 2 bits
     boolean choose = true;
+<<<<<<< HEAD
 >>>>>>> be331f1 (modified)
+=======
+    float values = 12.455f;
+>>>>>>> 56e99dd (Modified on 19-06-2024)
 }
+
