@@ -15,4 +15,7 @@ public class RemoveDuplicates {
      return  count;
  }
 
+ // another way
+    
+
 }
