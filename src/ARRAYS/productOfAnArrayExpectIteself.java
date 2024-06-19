@@ -5,7 +5,7 @@ public class productOfAnArrayExpectIteself {
 
     public static void main(String[] args) {
         int nums[] = {-1,1,0 ,-3,3};
-        int result[] = ProductExceptSelf(nums);
+//        int result[] = ProductExceptSelf(nums);
         int result1[] = productExceptSelf1(nums);
         for (int i = 0; i < nums.length; i++) {
                 System.out.println(result1[i]);
@@ -55,7 +55,7 @@ public class productOfAnArrayExpectIteself {
          int[] ans = new int[nums.length];
 
         for (int i = 0; i < nums.length; i++) {
-            ans[i] = right[i] * left[i];
+            ans[i] = left[i] * right[i];
         }
         
             return ans;
