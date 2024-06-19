@@ -5,6 +5,7 @@ public class SecondLargestElementInArray {
     public static void main(String[] args) {
         int[] a = {45, 56, 34, 78, 56, 99, 101};
         System.out.println(SecondLargest(a));
+        System.out.println(secondLargestElement(a));
     }
 
     static int SecondLargest(int[] a) {
@@ -33,6 +34,44 @@ public class SecondLargestElementInArray {
         }
         return max2;
     }
+
+
+
+    // another method
+
+    static int secondLargestElement(int a[]){
+        int n = a.length;
+        if( n < 2) return -1;
+
+        int laregstNumber = Integer.MIN_VALUE;
+        int secondLargestNumber = Integer.MIN_VALUE;
+
+
+        for (int i = 0; i <n ; i++) {
+            if(a[i] > laregstNumber){
+                secondLargestNumber = laregstNumber;
+                laregstNumber = a[i];
+            }
+            else if(a[i] >secondLargestNumber && a[i] != laregstNumber){
+                secondLargestNumber = a[i];
+            }
+        }
+
+        return  secondLargestNumber;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
