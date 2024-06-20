@@ -1,6 +1,6 @@
 package ARRAYS;
 
-import java.util.Arrays;
+import java.util.*;
 
 public class array {
     public static void main(String[] args) {
@@ -32,10 +32,13 @@ public class array {
 //int[][] mulArr = new int[][];
 int arr1[] = {10,20};
         System.out.println(arr1[1]);
+
+
+        String[] fruits = {"Banana", "Orange", "Apple", "Mango"};
+        Arrays.fill(fruits, "Kiwi");
     }
 
 
-    int arr[] = {1,2,3,4,5};
-    Arrays.
+
 
 }
