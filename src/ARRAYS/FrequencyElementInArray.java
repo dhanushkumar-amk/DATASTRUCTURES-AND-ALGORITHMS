@@ -15,6 +15,8 @@ FreqElement(nums);
                 i++;
             }
             System.out.println(nums[i-1] + " " + frequency);
+            frequency = 1;
+            i++;
         }
     }
 }
