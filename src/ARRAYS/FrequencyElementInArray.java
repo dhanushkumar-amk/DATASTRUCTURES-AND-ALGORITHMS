@@ -19,7 +19,7 @@ FreqElement(nums);
             i++;
         }
 
-//        while(nums.length == 1 && )
+//        if the only one value is avalible then return nums[i] and frequency = 1
         if( nums.length==1 || nums[i-1] != nums[i-2])
         {
             System.out.println(nums[i-1] + " " + frequency);
