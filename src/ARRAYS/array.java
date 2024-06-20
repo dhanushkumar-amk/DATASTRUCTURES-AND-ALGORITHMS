@@ -36,8 +36,7 @@ int arr1[] = {10,20};
 
 
     int arr2[] = new int[10];
-
-    arr2.fill
+    Arrays.fill(arr2[1]);
 
 
 }
