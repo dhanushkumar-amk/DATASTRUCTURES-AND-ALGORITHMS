@@ -4,7 +4,7 @@ public class missingNumber {
     public static void main(String[] args) {
         int[] arr = {1,2,3,5};
 //        System.out.println(MissingNumber(arr));
-        int n = arr.length;
+        int n = arr.length-1;
         System.out.println(missingNumber(arr,n));
 
     }
