@@ -18,24 +18,20 @@ public class moveZeroToEnd {
                 break;
             }
         }
+        for (int i = j+1; i < arr.length; i++) {
+          if(arr[i] != 0){
 
-        for (int i = j+1; i <arr.length ; i++) {
-            if(arr[i] != 0){
-          int start = 0;
-          int end = arr.length-1;
 
-          while (start < end){
-              int temp = arr[start];
-              arr[start] = arr[end];
-              arr[end] = temp;
-              start++;
-              end--;
+
+              int temp = arr[i];
+              arr[i] = arr[j];
+              arr[j] = temp;
+              j++;
           }
           j++;
             }
         }
     return arr;
     }
-
 
 }
