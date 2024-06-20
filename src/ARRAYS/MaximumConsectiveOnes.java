@@ -1,2 +1,4 @@
-package ARRAYS;public class MaximumConsectiveOnes {
+package ARRAYS;
+
+public class MaximumConsectiveOnes {
 }

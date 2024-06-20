@@ -20,7 +20,7 @@ int actualSum =  n * (n+1)/2;
     }
 
 
-    // another method
+    // Training Problem
 
     static int missingNumber(int[] arr) {
         int n = arr.length;
@@ -28,8 +28,8 @@ int actualSum =  n * (n+1)/2;
         for (int i = 0; i < n-1; i++) {
             sum += arr[i];
         }
-        int actualSyum = n*(n+ 1)/2;
-        int result = actualSyum - sum;
+        int actualSum = n*(n+ 1)/2;
+        int result = actualSum - sum;
         return result;
     }
 }
