@@ -46,7 +46,10 @@ int arr1[] = {10,20};
         // sort
         String[] cars = {"Volvo", "BMW", "Tesla", "Ford", "Fiat", "Mazda", "Audi"};
         Arrays.sort(cars);
-        System.out.println(cars);
+        for (int i = 0; i <cars.length ; i++) {
+            System.out.print(cars[i] + " ");
+
+        }
     }
 
 
