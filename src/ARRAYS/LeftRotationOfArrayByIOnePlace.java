@@ -8,7 +8,7 @@ public class LeftRotationOfArrayByIOnePlace {
 
     static void LeftRotation(int[] nums){
      int temp = nums[0];
-     int n = nums.length;
+     int n = nums.length-1;
 int i;
         for ( i = 0; i <n-1 ; i++) {
             nums[i] = nums[i+1];
