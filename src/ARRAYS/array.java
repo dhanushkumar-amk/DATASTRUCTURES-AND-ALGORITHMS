@@ -36,6 +36,11 @@ int arr1[] = {10,20};
 
         String[] fruits = {"Banana", "Orange", "Apple", "Mango"};
         Arrays.fill(fruits, "Kiwi");
+
+        for (int i = 0; i <fruits.length ; i++) {
+            System.out.println(fruits[i]);
+
+        }
     }
 
 
