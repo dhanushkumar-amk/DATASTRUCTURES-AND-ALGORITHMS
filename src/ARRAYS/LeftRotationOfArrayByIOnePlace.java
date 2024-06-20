@@ -7,16 +7,16 @@ public class LeftRotationOfArrayByIOnePlace {
     }
 
     static void LeftRotation(int[] nums){
-        int temp = nums[0];
-        int n = nums.length;
-
-        for (int i = 0; i < n - 1; i++) {
-            nums[i] = nums[i + 1];
+     int temp = nums[0];
+     int n = nums.length;
+int i;
+        for ( i = 0; i <n-1 ; i++) {
+            nums[i] = nums[i+1];
         }
-        nums[n - 1] = temp;
+        nums[i-1] =  temp;
 
-        for (int i = 0; i < n; i++) {
-            System.out.print(nums[i] + " ");
+        for (int j = 0; j <n ; j++) {
+            System.out.println(nums[i] + " "  );
         }
     }
 }
