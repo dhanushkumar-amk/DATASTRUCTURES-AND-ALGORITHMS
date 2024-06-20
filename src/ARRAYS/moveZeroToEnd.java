@@ -3,22 +3,22 @@ package ARRAYS;
 public class moveZeroToEnd {
     public static void main(String[] args) {
         int arr[] = {1,2,0,3,0,0,0,5,4};
-
-        zeroToEnd(arr);
-        for (int i = 0; i <arr.length ; i++) {
+int n = 9;
+        zeroToEnd(arr, n);
+        for (int i = 0; i <n ; i++) {
             System.out.print(arr[i] + " ");
         }
     }
-    public static int[] zeroToEnd(int arr[]){
+    public static int[] zeroToEnd(int arr[], int n){
         int j = -1;
 
-        for ( int i = 0; i < arr.length ; i++) {
+        for ( int i = 0; i < n ; i++) {
             if(arr[i] == 0){
                 j = i;
                 break;
             }
         }
-        for (int i = j+1; i < arr.length; i++) {
+        for (int i = j+1; i < n; i++) {
           if(arr[i] != 0){
 
 
@@ -29,8 +29,7 @@ public class moveZeroToEnd {
               j++;
           }
           j++;
-            }
-        
+        }
     return arr;
     }
 
