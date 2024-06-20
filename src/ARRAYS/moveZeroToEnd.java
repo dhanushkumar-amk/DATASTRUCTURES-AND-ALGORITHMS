@@ -30,7 +30,7 @@ public class moveZeroToEnd {
           }
           j++;
             }
-        }
+        
     return arr;
     }
 
