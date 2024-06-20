@@ -40,7 +40,7 @@ int arr1[] = {10,20};
         Arrays.fill(fruits, "Kiwi");
 
         for (int i = 0; i <fruits.length ; i++) {
-            System.out.print(fruits[i]);
+            System.out.print(fruits[i] + " ");
         }
         System.out.println();
 
