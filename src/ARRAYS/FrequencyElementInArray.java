@@ -18,5 +18,12 @@ FreqElement(nums);
             frequency = 1;
             i++;
         }
+
+//        while(nums.length == 1 && )
+        if(nums[i-1] != nums[i-2])
+        {
+            System.out.println(nums[i-1] + " " + frequency);
+            
+        }
     }
 }
