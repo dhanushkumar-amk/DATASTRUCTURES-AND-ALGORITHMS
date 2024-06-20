@@ -15,4 +15,11 @@ int actualSum =  n * (n+1)/2;
         int missingValue =   actualSum- sum;
         return missingValue;
     }
+
+
+    // another method
+
+    static int missingNumber(int[] arr){
+        
+    }
 }
