@@ -41,7 +41,7 @@ public class UnionOfTwoSortedArrays {
         }
 
 
-        while(j < n){
+        while(j < m){
             if(Union.size() == 0 || Union.get(Union.size()-1) != arr2[j]){
                 Union.add(arr2[j]);
             }
