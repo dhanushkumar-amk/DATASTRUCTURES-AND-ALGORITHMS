@@ -43,7 +43,10 @@ int arr1[] = {10,20};
             System.out.print(fruits[i]);
         }
 
-        
+        // sort
+        String[] cars = {"Volvo", "BMW", "Tesla", "Ford", "Fiat", "Mazda", "Audi"};
+        Arrays.sort(cars);
+        System.out.println(cars);
     }
 
 
