@@ -15,7 +15,7 @@ public class moveZeroToEnd {
         for ( int i = 0; i < arr.length ; i++) {
             if(arr[i] == 0){
                 j = i;
-                break;;
+                break;
             }
         }
 
