@@ -6,11 +6,11 @@ public class LinearSearch {
         int target = 46;
 
         for (int i = 0; i <arr.length ; i++) {
-            if(arr[i] == target) {
-                System.out.println("The value Avalible iin the index of : " + i);
-            } else {
-                System.out.println("The value is not avaliable");
+            while(arr[i] == target) {
+                System.out.println("The value Avalible in the index of : " + i);
             }
+                System.out.println("The value is not avaliable");
+           
         }
     }
 }
