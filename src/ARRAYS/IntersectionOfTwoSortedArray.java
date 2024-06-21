@@ -9,7 +9,7 @@ public class IntersectionOfTwoSortedArray {
         ArrayList<Integer> Intersection = IntersectionTwoSoretd(arr1, arr2);
 
         for (int i = 0; i < Intersection.size() ; i++) {
-            System.out.println(Intersection.get(i) + " ");
+            System.out.print(Intersection.get(i) + " ");
         }
     }
 
