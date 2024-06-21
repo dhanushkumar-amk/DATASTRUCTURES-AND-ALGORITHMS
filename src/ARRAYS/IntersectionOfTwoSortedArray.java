@@ -1,2 +1,4 @@
-package ARRAYS;public class IntersectionOfTwoSortedArray {
+package ARRAYS;
+
+public class IntersectionOfTwoSortedArray {
 }
