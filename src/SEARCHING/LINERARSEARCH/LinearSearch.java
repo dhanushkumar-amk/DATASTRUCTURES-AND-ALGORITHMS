@@ -8,7 +8,8 @@ public class LinearSearch {
         for (int i = 0; i <arr.length ; i++) {
             if(arr[i] == target)
                 System.out.println("The value Avalible iin the index of : "+ i);
+            System.out.println("The value is not avaliable");
+            
         }
-        System.out.println("The value is not avaliable");
     }
 }
