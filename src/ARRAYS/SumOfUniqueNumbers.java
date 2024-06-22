@@ -19,6 +19,5 @@ public class SumOfUniqueNumbers {
             }
         }
         return sum;
-
     }
 }
