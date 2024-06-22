@@ -5,7 +5,7 @@ public class SquareofSortedArray {
         int arr[] = {2,4,7,9};
         int[] result = sortedSquare(arr);
         for (int i = 0; i < result.length ; i++) {
-            System.out.print( result[i]);
+            System.out.print( result[i] + " ");
         }
     }
     public static int[]  sortedSquare(int arr[]){
