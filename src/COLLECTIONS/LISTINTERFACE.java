@@ -93,7 +93,7 @@ public class LISTINTERFACE {
         System.out.println(al.get(1));
 // sanjay
 
-        // change the value inan arraylist
+        // change the value in an arraylist
         // replace
 
         al.set(1,"Dhanushkumar");

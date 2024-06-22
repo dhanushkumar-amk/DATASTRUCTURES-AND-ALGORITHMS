@@ -13,23 +13,23 @@ ArrayList<Integer> ans = RearrangThValueBySign(a);
         }
     }
     public static ArrayList<Integer> RearrangThValueBySign(ArrayList<Integer> a){
-        int n = a.size();
+     int n = a.size();
+     ArrayList<Integer> ans =new ArrayList<>(Collections.nCopies(n,0));
 
-        ArrayList<Integer> ans = new ArrayList<>(Collections.nCopies(n,0));
-
-        int positiveValue = 0;
-        int negativeValue = 1;
+     int positiveValue = 0;
+     int negativeValue = 1;
 
         for (int i = 0; i <n ; i++) {
             if(a.get(i) < 0){
-                ans.set(negativeValue, a.get(i));
+                a.set(negativeValue, a.get(i));
                 negativeValue += 2;
             }
-            else{
-                ans.set(positiveValue, a.get(i));
+            else {
+                a.set(positiveValue, a.get(i));
                 positiveValue += 2;
             }
         }
+
         return  ans;
     }
 }
