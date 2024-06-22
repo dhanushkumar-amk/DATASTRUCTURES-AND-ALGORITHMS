@@ -29,6 +29,7 @@ public class ZeroOnetwo {
         for (int i = count1; i <count1+count2 ; i++) {
             arr.set(i,1);
         }
+
         for (int i = count1+count2; i <n ; i++) {
             arr.set(i, 2);
         }
