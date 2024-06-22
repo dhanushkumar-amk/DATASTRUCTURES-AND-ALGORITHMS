@@ -21,11 +21,11 @@ ArrayList<Integer> ans = RearrangThValueBySign(a);
 
         for (int i = 0; i <n ; i++) {
             if(a.get(i) < 0){
-                a.set(negativeValue, a.get(i));
+                ans.set(negativeValue, a.get(i));
                 negativeValue += 2;
             }
             else {
-                a.set(positiveValue, a.get(i));
+                ans.set(positiveValue, a.get(i));
                 positiveValue += 2;
             }
         }
