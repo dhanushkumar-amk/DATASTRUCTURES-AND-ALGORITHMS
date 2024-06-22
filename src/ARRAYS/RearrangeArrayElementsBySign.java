@@ -9,7 +9,7 @@ public class RearrangeArrayElementsBySign {
 ArrayList<Integer> a = new ArrayList<>(Arrays.asList(1,2,-4,-5,7,-6));
 ArrayList<Integer> ans = RearrangThValueBySign(a);
         for (int i = 0; i < ans.size() ; i++) {
-            System.out.println(ans.get(i) + " ");
+            System.out.print(ans.get(i) + " ");
         }
     }
     public static ArrayList<Integer> RearrangThValueBySign(ArrayList<Integer> a){
