@@ -8,6 +8,9 @@ public class LongestSubArrayWithSumK_PositiveAndNegative {
         int[] arr = {1,2,3,1,1,1,1,4,2,3};
         int k = 3;
 
+        int len = subArray(arr, k);
+        System.out.println("The largest value is " + len);
+
     }
     public static  int subArray(int[] arr, int k){
 
