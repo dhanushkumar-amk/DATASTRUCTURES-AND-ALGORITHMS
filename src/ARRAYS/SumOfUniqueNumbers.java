@@ -16,6 +16,7 @@ public class SumOfUniqueNumbers {
         for (int i = 0; i < frequency.length ; i++) {
             if(frequency[i] == 1){
                 sum += i;
+
             }
         }
         return sum;
