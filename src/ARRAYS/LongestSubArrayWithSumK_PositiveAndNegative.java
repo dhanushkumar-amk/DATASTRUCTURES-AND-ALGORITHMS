@@ -26,12 +26,16 @@ public class LongestSubArrayWithSumK_PositiveAndNegative {
             int remove = sum - k;
 
             if(PresumMap.containsKey(remove)){
-                int length =  
+                int length = i - PresumMap.get(remove);
+                maxLength = Math.max(maxLength, length);
             }
 
+            if (!PresumMap.containsKey(sum)){
+                PresumMap.put(sum,i);
+            }
 
         }
 
-        return k;
+        return maxLength;
     }
 }
