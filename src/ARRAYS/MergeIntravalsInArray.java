@@ -8,7 +8,8 @@ import java.util.List;
 public class MergeIntravalsInArray {
     public static void main(String[] args) {
         int[][] nums = {{1,3},{2,6}, {8,10}, {15,18}};
-        
+        int[][] merged = mergeIntervals(nums);
+        System.out.println(Arrays.deepToString(merged));
 
     }
     public static int[][] mergeIntervals(int[][] nums) {
