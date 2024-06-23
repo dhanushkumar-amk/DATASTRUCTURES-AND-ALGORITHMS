@@ -43,6 +43,7 @@ public class MergetwoSortedArray {
         }
         else {
             int mid = result.length/2;
+
             return  result[mid];
         }
     }
