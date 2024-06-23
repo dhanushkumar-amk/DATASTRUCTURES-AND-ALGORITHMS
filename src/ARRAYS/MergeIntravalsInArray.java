@@ -19,9 +19,18 @@ public class MergeIntravalsInArray {
 
         List<Integer> result = new ArrayList<>();
 
-        int[] newIntervals
+        int[] newIntervals  = nums[0];
+        result.add(newIntervals) ;
 
-        return result
+        for(int[] interval : nums){
+            if(interval[0] <= interval[1]);
+                newIntervals[1] = Math.max(newIntervals[1],interval[1]);
+                else{
+                    newIntervals = interval;
+                    result.add(newIntervals);
+            }
+        }
+        return result.toArray(new int[result.size()][]);
     }
 
 }
