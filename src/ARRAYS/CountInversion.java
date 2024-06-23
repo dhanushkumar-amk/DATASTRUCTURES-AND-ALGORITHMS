@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class CountInversion {
 
 
-    private static int mwerge(int[] arr, int low, int mid, int high){
+    private static int merge(int[] arr, int low, int mid, int high){
         ArrayList<Integer> temp = new ArrayList<>();
 
         int left = low;
@@ -47,7 +47,7 @@ public class CountInversion {
         int mid = (low + high) / 2;
         count += mergeSort(arr,low, high);
         count += mergeSort(arr, mid+1, high);
-        count += mergeSort(arr, low, mid, high);
+        count += merge(arr, low, mid, high);
         return  count;
     }
 
