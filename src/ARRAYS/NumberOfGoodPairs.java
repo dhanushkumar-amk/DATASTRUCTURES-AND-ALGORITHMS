@@ -6,17 +6,16 @@ public class NumberOfGoodPairs {
         System.out.println(numInenticalPairs(nums));
     }
     public static int numInenticalPairs(int[] nums){
-        int count[] = new int[102];
+         int[] count = new int[102];
 
-        for(int num : nums){
-            count[num]++;
-        }
+         for(int num : nums)
+             count[num]++;
 
-        int totalCount = 0;
+         int totalCount = 0;
 
-        for (int i : count){
-            totalCount += ((i) * (i-1))/2;
-        }
-        return  totalCount;
+         for(int index : count)
+             totalCount += ((index) * (index - 1))/2;
+
+         return  totalCount;
     }
 }
