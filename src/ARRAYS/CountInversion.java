@@ -59,7 +59,7 @@ public class CountInversion {
     public static void main(String[] args) {
         int a[] = {5,4,3,2,1};
         int n = 5;
-        int count = numberofInversions(a, n);
-        System.out.println(count);
+        int cnt = numberofInversions(a, n);
+        System.out.println(cnt);
     }
 }
