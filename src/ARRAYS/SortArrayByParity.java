@@ -5,7 +5,7 @@ public class SortArrayByParity {
         int[] arr = {3,1,2,4};
 int[] answer = sortOddAndEven(arr);
         for (int i = 0; i <answer.length ; i++) {
-            System.out.print(answer[i]);
+            System.out.print(answer[i] + " ");
         }
     }
     public static int[] sortOddAndEven(int[] arr){
