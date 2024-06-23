@@ -1,2 +1,4 @@
-package ARRAYS;public class MedianOfSortedArray {
+package ARRAYS;
+
+public class MedianOfSortedArray {
 }
