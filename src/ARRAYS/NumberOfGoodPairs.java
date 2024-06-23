@@ -3,7 +3,7 @@ package ARRAYS;
 public class NumberOfGoodPairs {
     public static void main(String[] args) {
         int[] nums= {1,2,3,1,1,3};
-        System.out.println(numInenticalPairs(nums));
+        System.out.println("The Number of goo Pairs in array  is : "+numInenticalPairs(nums));
     }
     public static int numInenticalPairs(int[] nums){
          int[] count = new int[102];
