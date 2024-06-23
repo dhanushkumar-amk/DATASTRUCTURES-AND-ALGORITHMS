@@ -3,8 +3,10 @@ package ARRAYS;
 public class SortArrayByParity {
     public static void main(String[] args) {
         int[] arr = {3,1,2,4};
-        System.out.println(sortOddAndEven(arr));
-
+int[] answer = sortOddAndEven(arr);
+        for (int i = 0; i <answer.length ; i++) {
+            System.out.print(answer[i]);
+        }
     }
     public static int[] sortOddAndEven(int[] arr){
         int left = 0;
