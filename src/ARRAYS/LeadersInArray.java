@@ -15,9 +15,8 @@ public class LeadersInArray {
     }
     public  static ArrayList<Integer> Leaders(int[] nums, int n){
     ArrayList<Integer> ans = new ArrayList<>();
-      int max = Integer.MIN_VALUE;
 
-        // int max = nums[n-1];
+        int max = nums[n-1];
 
         //the last element of an array always be a leader
         ans.add(nums[n-1]);

@@ -1,2 +1,8 @@
-package ARRAYS;public class ReversePairsInArray {
+package ARRAYS;
+
+public class ReversePairsInArray {
+    public static void main(String[] args) {
+
+    }
+    public ststi
 }
