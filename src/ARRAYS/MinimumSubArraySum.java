@@ -15,7 +15,7 @@ public class MinimumSubArraySum {
         int high = 0;
 
         while(high < nums.length){
-            currentSum = nums[high];
+            currentSum += nums[high];
             high++;
 
 
@@ -27,7 +27,6 @@ public class MinimumSubArraySum {
                 low++;
             }
         }
-
         return  minLengthWindow == Integer.MAX_VALUE ? 0 : minLengthWindow;
     }
 }
