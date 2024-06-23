@@ -45,7 +45,7 @@ public class CountInversion {
         if(low >= high) return count;
 
         int mid = (low + high) / 2;
-        count += mergeSort(arr,low, high);
+        count += mergeSort(arr,low, mid);
         count += mergeSort(arr, mid+1, high);
         count += merge(arr, low, mid, high);
         return  count;
