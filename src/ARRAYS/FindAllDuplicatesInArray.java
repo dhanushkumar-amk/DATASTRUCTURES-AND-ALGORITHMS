@@ -1,2 +1,7 @@
-package ARRAYS;public class FindAllDuplicatesInArray {
+package ARRAYS;
+
+public class FindAllDuplicatesInArray {
+    public static void main(String[] args) {
+        
+    }
 }
