@@ -1,7 +1,7 @@
 package ARRAYS;
 
 import java.util.*;
-
+import  java.util.Arrays;
 public class FindAllDuplicatesInArray {
     public static void main(String[] args) {
         int nums[] = {4,3,2,7,8,2,3,1};
@@ -10,7 +10,7 @@ public class FindAllDuplicatesInArray {
             System.out.print(ans[i] + " ");
         }
     }
-    
+
     public static ArrayList<Integer> removeAllDuplicates(int[] nums){
 
         ArrayList<Integer> result = new ArrayList<>();
