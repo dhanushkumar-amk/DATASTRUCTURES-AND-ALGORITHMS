@@ -5,13 +5,11 @@ public class MergetwoSortedArray {
         int[] arr1 = {1,3,8,17};
         int[] arr2 = {5,6,7,8,21,27};
 
-        int[] ans = merge(arr1, arr2);
-        for (int i = 0; i < ans.length ; i++) {
-            System.out.print(ans[i] + " ");
-        }
+        float ans = merge(arr1, arr2);
+        System.out.println(ans + " ");
     }
 
-    public static int[] merge(int[] arr1, int[] arr2){
+    public static float merge(int[] arr1, int[] arr2){
 
         int[] result = new int[arr1.length + arr2.length];
         int i = 0;
@@ -39,7 +37,14 @@ public class MergetwoSortedArray {
             k++;
         }
 
-        return  result;
+        if(result.length % 2 == 0){
+            int mid = result.length / 2;
+        return  (float)(result[mid] + result[mid-1])/2;
+        }
+        else {
+            int mid = result.length/2;
+            return  result[mid];
+        }
     }
 
 }
