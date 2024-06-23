@@ -18,7 +18,7 @@ public class MergetwoSortedArray {
         int j = arr2[0];
         int k = result[0];
         while( i < arr1.length && j < arr2.length){
-            if(arr1[i] > arr2[j]){
+            if(arr1[i] < arr2[j]){
                 result[k] = arr1[i];
                 i++;
                 k++;
