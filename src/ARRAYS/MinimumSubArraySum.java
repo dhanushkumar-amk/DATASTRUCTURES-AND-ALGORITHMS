@@ -21,7 +21,7 @@ public class MinimumSubArraySum {
 
             while(currentSum >= target){
                 int currentWindowSize = high - low;
-                minLengthWindow = Math.max(currentWindowSize,minLengthWindow);
+                minLengthWindow = Math.min(currentWindowSize,minLengthWindow);
 
                 currentSum -= nums[low];
                 low++;
