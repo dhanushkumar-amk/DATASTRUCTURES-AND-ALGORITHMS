@@ -8,8 +8,10 @@ public class TransposeMatrix {
                 {7,8,9}
         };
         //int[][] ans = transpose(matrix);
-        //System.out.println();
-        // printMatrix(matrix);
+        System.out.println("Before transpose Matrix :");
+        printMatrix(matrix);
+        System.out.println("After transpose Matrix :");
+
      int[][] ans = transpose(matrix);
      printMatrix(ans);
     }
