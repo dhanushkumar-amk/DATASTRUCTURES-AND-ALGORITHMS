@@ -10,7 +10,8 @@ public class TransposeMatrix {
         //int[][] ans = transpose(matrix);
         //System.out.println();
         // printMatrix(matrix);
-        transpose(matrix);
+     int[][] ans = transpose(matrix);
+     printMatrix(ans);
     }
 
     public static  void printMatrix(int[][] matrix){
