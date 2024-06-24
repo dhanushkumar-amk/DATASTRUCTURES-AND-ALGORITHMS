@@ -8,7 +8,7 @@ public class AdditionOfTwoMatrix {
         System.out.println("Sum of two matrices is: ");
        int[][] sum = additon(firstMatrix,secondMatrix,rows,columns);
         for (int i = 0; i <sum.length; i++) {
-            for (int j = 0; j <sum.length ; j++) {
+            for (int j = 0; j <sum[0].length ; j++) {
               System.out.print(sum[i][j] + "    ");
             }
             System.out.println();
