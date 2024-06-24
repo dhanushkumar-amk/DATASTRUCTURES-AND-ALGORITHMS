@@ -5,79 +5,42 @@ public class GenerateSpiralMatrix {
 
     }
     static int[][] generateMatrix(int n){
-        
+
         int[][] spiralMatrix = new int[n][n];
 
         int top = 0;
-        int left= 0;
-        int bottom = n-1;
-        int right = n-1;
+        int left = 0;
+
+        int Bottom = n - 1;
+        int bottom = n - 1;
 
         int count = 1;
-        int totalCount = n*n;
-        while(count <= totalCount)
-        {
-            for (int i = top; i <= left && count <= totalCount; i++) {
+        int TotalCount = n * n;
+
+        while (count <= TotalCount) {
+            // Top row
+            for (int i = left; count <= TotalCount && i <= bottom; i++) {
                 spiralMatrix[top][i] = count++;
             }
             top++;
 
-            for (int i = right; i <= bottom && count <= totalCount ; i++) {
-                spiralMatrix[i][right] = count++;
-            }
-            right--;
-
-            for (int i =right ; i <= left && count <= totalCount ; i--) {
-                spiralMatrix[bottom][i] =count++;
-            }
-            bottom++;
-
-            for (int i = bottom; i < top && count <= totalCount; i--) {
-                spiralMatrix[i][left] = count++;
-            }
-        }
-        return  spiralMatrix;
-    }
-}
-
-
-
-class Solution {
-    static int[][] generateMatrix(int n) {
-        int[][] spiralMatrix = new int[n][n];
-        int startingRow = 0;
-        int startingCol = 0;
-
-        int endingRow = n - 1;
-        int endingCol = n - 1;
-
-        int count = 1;
-        int totalcount = n * n;
-
-        while (count <= totalcount) {
-            // Top row
-            for (int index = startingCol; count <= totalcount && index <= endingCol; index++) {
-                spiralMatrix[startingRow][index] = count++;
-            }
-            startingRow++;
-
             // Rightmost column
-            for (int index = startingRow; count <= totalcount && index <= endingRow; index++) {
-                spiralMatrix[index][endingCol] = count++;
+            for (int i = top; count <= TotalCount && i <= Bottom; i++) {
+                spiralMatrix[i][bottom] = count++;
             }
-            endingCol--;
+            bottom--;
 
             // Bottom row
-            for (int index = endingCol; count <= totalcount && index >= startingCol; index--) {
-                spiralMatrix[endingRow][index] = count++;
+            for (int i = bottom; count <= TotalCount && i >= left; i--) {
+                spiralMatrix[Bottom][i] = count++;
             }
-            endingRow--;
+            Bottom--;
 
             // Leftmost column
-            for (int index = endingRow; count <= totalcount && index >= startingRow; index--) {
-                spiralMatrix[index][startingCol] = count++;
+            for (int i = Bottom; count <= TotalCount && i >= top; i--) {
+                spiralMatrix[i][left] = count++;
             }
-            startingCol++;
+            left++;
         }
 
         return spiralMatrix;
