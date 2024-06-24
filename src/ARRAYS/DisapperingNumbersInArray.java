@@ -22,9 +22,10 @@ public class DisapperingNumbersInArray {
             if (idx < 0) {
                 continue;  // Skip negative indices
             }
-
-            // Mark the visited index by negating the value at that index
-            idx *= -1;
+            else {
+                // Mark the visited index by negating the value at that index
+                arr[idx] *= -1;
+            }
         }
 
         for (int i = 0; i < arr.length; i++) {
