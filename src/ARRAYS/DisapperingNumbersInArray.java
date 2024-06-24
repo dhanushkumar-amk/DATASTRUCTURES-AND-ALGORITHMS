@@ -24,7 +24,7 @@ public class DisapperingNumbersInArray {
             }
 
             // Mark the visited index by negating the value at that index
-            arr[idx] *= -1;
+            idx *= -1;
         }
 
         for (int i = 0; i < arr.length; i++) {
