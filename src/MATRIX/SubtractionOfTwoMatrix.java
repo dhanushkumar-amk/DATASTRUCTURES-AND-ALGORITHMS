@@ -8,7 +8,7 @@ public class SubtractionOfTwoMatrix {
                 {3, 4, 1},
                 {1, 2, 3}
         };
-        int[][] secondMatrix = 
+        int[][] secondMatrix =
         System.out.println("Sum of two matrices is: ");
         int[][] sum = additon(firstMatrix,secondMatrix,rows,columns);
         for (int i = 0; i <sum.length; i++) {
