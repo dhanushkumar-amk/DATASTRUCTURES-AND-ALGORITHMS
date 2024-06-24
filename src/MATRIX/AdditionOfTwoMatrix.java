@@ -7,9 +7,9 @@ public class AdditionOfTwoMatrix {
         int[][] secondMatrix = { {-4, 5, 3}, {5, 6, 3} };
         System.out.println("Sum of two matrices is: ");
        int[][] sum = additon(firstMatrix,secondMatrix,rows,columns);
-        for(int[] row : sum) {
-            for (int column : row) {
-                System.out.print(column + "    ");
+        for (int i = 0; i <sum.length; i++) {
+            for (int j = 0; j <sum.length ; j++) {
+              System.out.print(sum[i][j] + "    ");
             }
             System.out.println();
         }
