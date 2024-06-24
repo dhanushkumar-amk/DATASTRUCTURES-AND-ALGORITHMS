@@ -1,2 +1,9 @@
-package MATRIX;public class MultiplicationOfMatrix {
+package MATRIX;
+
+public class MultiplicationOfMatrix {
+    public static void main(String[] args) {
+
+    }
+    
+
 }
