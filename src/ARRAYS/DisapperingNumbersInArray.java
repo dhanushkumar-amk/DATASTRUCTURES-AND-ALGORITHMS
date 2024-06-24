@@ -16,7 +16,7 @@ List<Integer> ans = MissingNumber(arr);
 
         List<Integer> result = new ArrayList<>();
         for (int i = 0; i < arr.length; i++) {
-            int idx = Math.abs(arr[i] -1);
+            int idx = Math.abs(arr[i])-1;
 
             if(idx < 0) continue;
             // if the idx is not ngative then we change it into neaative
