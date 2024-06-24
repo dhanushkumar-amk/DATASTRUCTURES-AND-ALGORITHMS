@@ -8,8 +8,11 @@ public class ReverseTheColumOfTheMatrix {
                 {9,10,11,12},
                 {13,14,15,16}
         };
+        System.out.println("Before Reversing the Matrix");
         printMatrix(matrix);
-
+        reverseMatrix(matrix);
+        System.out.println("After Reversing the Matrix");
+        printMatrix(matrix);
     }
 
     public static  void printMatrix(int[][] matrix){
