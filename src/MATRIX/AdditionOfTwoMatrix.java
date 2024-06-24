@@ -6,17 +6,21 @@ public class AdditionOfTwoMatrix {
         int[][] firstMatrix = { {2, 3, 4}, {5, 2, 3} };
         int[][] secondMatrix = { {-4, 5, 3}, {5, 6, 3} };
 
-        int[][] sum = addition(matrix1, )
-    }
-
-    static int[][] addition(int[][] matrix1, int[][] matrix2, int row, int column){
-        int[][] sum = new int[row][column];
-
-        for (int i = 0; i <row ; i++) {
-            for (int j = 0; j < column; j++) {
-                sum[i][j] = matrix1[i][j] + matrix2[i][j];
+        // Adding Two matrices
+        int[][] sum = new int[rows][columns];
+        for(int i = 0; i < rows; i++) {
+            for (int j = 0; j < columns; j++) {
+                sum[i][j] = firstMatrix[i][j] + secondMatrix[i][j];
             }
         }
-        return  sum;
+
+        // Displaying the result
+        System.out.println("Sum of two matrices is: ");
+        for(int[] row : sum) {
+            for (int column : row) {
+                System.out.print(column + "    ");
+            }
+            System.out.println();
+        }
     }
 }
