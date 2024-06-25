@@ -16,7 +16,7 @@ public class CeilOfTheSortedArray {
         while(low <= high){
             int mid = (low + high)/2;
             if(nums[mid] >= target){
-                answer = mid;
+                answer = nums[mid];
                 high = mid -1;
             }
             else low = mid + 1;
