@@ -1,2 +1,4 @@
-package SEARCHING.LINERARSEARCH;public class MaxWealth {
+package SEARCHING.LINERARSEARCH;
+// 
+public class MaxWealth {
 }
