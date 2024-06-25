@@ -9,7 +9,10 @@ public class SetMatrixZero {
                 {1,1,1},
         };
 
-        
+       public static void setZero(int[][] matrix){
+           
+
+        }
     }
 
 }
