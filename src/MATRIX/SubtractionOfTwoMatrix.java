@@ -15,7 +15,7 @@ public class SubtractionOfTwoMatrix {
 
         };
         System.out.println("Sum of two matrices is: ");
-        int[][] sum = additon(firstMatrix,secondMatrix,rows,columns);
+        int[][] sum = Subtraction(firstMatrix,secondMatrix,rows,columns);
         for (int i = 0; i <sum.length; i++) {
             for (int j = 0; j <sum[0].length ; j++) {
                 System.out.print(sum[i][j] + "    ");
@@ -23,7 +23,7 @@ public class SubtractionOfTwoMatrix {
             System.out.println();
         }
     }
-    static int[][] additon(int[][] firstMatrix, int[][] secondMatrix, int rows, int columns){
+    static int[][] Subtraction(int[][] firstMatrix, int[][] secondMatrix, int rows, int columns){
         int[][] sum = new int[rows][columns];
         for (int i = 0; i < rows ; i++) {
             for (int j = 0; j <columns ; j++) {
