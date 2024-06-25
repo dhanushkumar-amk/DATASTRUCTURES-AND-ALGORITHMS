@@ -1,2 +1,5 @@
-package SEARCHING.LINERARSEARCH;public class SearchInString {
+package SEARCHING.LINERARSEARCH;
+
+public class SearchInString {
+
 }
