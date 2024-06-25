@@ -3,7 +3,7 @@ package SEARCHING.LINERARSEARCH;
 public class SearchInRange {
     public static void main(String[] args) {
     int[] arr = {1,4,7,9,6,23,2,67};
-    int target = 3;
+    int target = 9;
     int start = 1;
     int end = 6;
         System.out.println(searchinRange(arr,target,start,end));
