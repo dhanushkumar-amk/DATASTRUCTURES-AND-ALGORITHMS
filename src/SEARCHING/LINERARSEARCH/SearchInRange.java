@@ -11,7 +11,7 @@ public class SearchInRange {
     }
     static int searchinRange(int[] arr, int target, int start, int end){
         for (int i = start; i <=end ; i++) {
-            if (arr[i] == target) return i;
+            if (arr[i] == target) return i+1;
         }
         return -1;
     }
