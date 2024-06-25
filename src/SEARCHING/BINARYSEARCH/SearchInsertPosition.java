@@ -1,2 +1,4 @@
-package SEARCHING.BINARYSEARCH;public class SearchInsertPosition {
+package SEARCHING.BINARYSEARCH;
+
+public class SearchInsertPosition {
 }
