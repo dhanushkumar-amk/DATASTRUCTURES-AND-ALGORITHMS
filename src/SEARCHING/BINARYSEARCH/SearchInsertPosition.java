@@ -1,6 +1,7 @@
 package SEARCHING.BINARYSEARCH;
 
 public class SearchInsertPosition {
+// same code as well as lower bound program
     public static void main(String[] args) {
         int[] nums = {1,2,4,7};
         int value = 6;
