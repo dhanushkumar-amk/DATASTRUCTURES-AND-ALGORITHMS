@@ -3,7 +3,7 @@ package SEARCHING.LINERARSEARCH;
 public class SearchInString {
     public static void main(String[] args) {
         String name = "Dhanush";
-        char target = 'u';
+        char target = 'j';
         System.out.println(search(name , target));
     }
     static boolean search(String name, char target){
