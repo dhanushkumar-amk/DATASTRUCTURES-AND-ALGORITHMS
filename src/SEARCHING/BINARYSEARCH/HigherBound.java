@@ -8,7 +8,7 @@ public class HigherBound {
         System.out.println(higherBound(nums,target,n));
     }
 // upper bound is the smallest index such that arr[mid]> answer
-    // the smallest number that greater than than the target
+    // the smallest number that greater than the target
     static int higherBound(int[] nums,int target, int n){
         int low = 0;
         int high = n-1;
