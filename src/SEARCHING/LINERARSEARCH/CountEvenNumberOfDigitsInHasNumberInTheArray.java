@@ -5,7 +5,7 @@ import java.util.Arrays;
 // https://leetcode.com/problems/find-numbers-with-even-number-of-digits/description/
 public class CountEvenNumberOfDigitsInHasNumberInTheArray {
     public static void main(String[] args) {
-        int[] nums = {12,345,2,6,7896};
+        int[] nums = {12,345,2,6,7896,3743};
         int ans = findNumbers(nums);
         System.out.println(ans);
     }
