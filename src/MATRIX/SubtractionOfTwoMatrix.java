@@ -10,7 +10,8 @@ public class SubtractionOfTwoMatrix {
         };
         int[][] secondMatrix ={
                 {3,4,5},
-                {2,}
+                {2,3,0},
+                {0,1,2},
 
         };
         System.out.println("Sum of two matrices is: ");
