@@ -3,7 +3,7 @@ package SEARCHING.BINARYSEARCH;
 public class HigherBound {
     public static void main(String[] args) {
         int[] nums = {2,33,44,56,65,67,87,98};
-        int target = 68;
+        int target = 67;
         int n = 8;
         System.out.println(higherBound(nums,target,n));
     }
