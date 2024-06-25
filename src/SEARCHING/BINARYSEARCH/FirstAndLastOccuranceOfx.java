@@ -49,8 +49,29 @@ public class FirstAndLastOccuranceOfx {
     static  int[] firstandlast(int[] nums, int target, int n){
         int lower = lowerBound(nums,target,n);
         if(lower == n || nums[lower] != target) return new int[] {-1,-1};
-
         return new  int[]{lower, higherBound(nums,target, n)-1};
-
     }
+
+    // another way without using lower bound
+
+
+    static  int[] firstOccurance(int[] nums, int target, int n){
+        int low = 0;
+        int high = n-1;
+        int first = -1;
+        while(low <= high){
+            int mid = (low + high)/2;
+
+            if(nums[mid]== target) {
+                first = mid;
+                high
+            }
+            else{
+                answer = nums[mid];
+                high = mid -1;
+            }
+        }
+    }
+
+
 }
