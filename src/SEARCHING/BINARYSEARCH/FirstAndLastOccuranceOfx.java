@@ -4,74 +4,49 @@ import java.util.Arrays;
 
 public class FirstAndLastOccuranceOfx {
     public static void main(String[] args) {
-        int[] nums = {2,4,6,8,8,8,11,13};
+        int[] nums = {2, 4, 6, 8, 8, 8, 11, 13};
         int target = 8;
         int n = 8;
-    int[] ans = firstandlast(nums,target,n);
+        int[] ans = firstandlast(nums, target, n);
         System.out.println(Arrays.toString(ans));
     }
 
     // lowerbound
-    static int lowerBound(int[]nums, int target, int n){
+    static int lowerBound(int[] nums, int target, int n) {
         int low = 0;
-        int high = n-1;
+        int high = n - 1;
         int answer = n;
 
-        while(low <= high){
-            int mid = (low + high)/2;
-            if(nums[mid] >= target){
+        while (low <= high) {
+            int mid = (low + high) / 2;
+            if (nums[mid] >= target) {
                 answer = mid;
-                high = mid -1;
-            }
-            else low = mid + 1;
+                high = mid - 1;
+            } else low = mid + 1;
         }
         return answer;
     }
 
     // upperbound
-    static int higherBound(int[] nums,int target, int n){
+    static int higherBound(int[] nums, int target, int n) {
         int low = 0;
-        int high = n-1;
+        int high = n - 1;
         int answer = n;
 
-        while(low <= high) {
+        while (low <= high) {
             int mid = (low + high) / 2;
-            if(nums[mid] > target) {
+            if (nums[mid] > target) {
                 answer = mid;
-                high = mid -1;
-            }
-            else low = mid + 1;
+                high = mid - 1;
+            } else low = mid + 1;
         }
         return answer;
     }
 
 
-    static  int[] firstandlast(int[] nums, int target, int n){
-        int lower = lowerBound(nums,target,n);
-        if(lower == n || nums[lower] != target) return new int[] {-1,-1};
-        return new  int[]{lower, higherBound(nums,target, n)-1};
+    static int[] firstandlast(int[] nums, int target, int n) {
+        int lower = lowerBound(nums, target, n);
+        if (lower == n || nums[lower] != target) return new int[]{-1, -1};
+        return new int[]{lower, higherBound(nums, target, n) - 1};
     }
-
-    // another way without using lower bound
-
-
-    static  int[] firstOccurance(int[] nums, int target, int n){
-        int low = 0;
-        int high = n-1;
-        int first = -1;
-        while(low <= high){
-            int mid = (low + high)/2;
-
-            if(nums[mid]== target) {
-                first = mid;
-                high
-            }
-            else{
-                answer = nums[mid];
-                high = mid -1;
-            }
-        }
-    }
-
-
 }
