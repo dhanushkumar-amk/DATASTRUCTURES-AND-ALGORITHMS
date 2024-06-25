@@ -5,7 +5,7 @@ public class SearchInsertPosition {
         int[] nums = {1,2,4,7};
         int value = 6;
         int n = 4;
-        System.out.println();
+        System.out.println(insertPosition(nums,value,n));
     }
     static int insertPosition(int[] nums, int value, int n){
         int low = 0;
@@ -18,7 +18,8 @@ public class SearchInsertPosition {
                 answer = mid;
                 high = mid - 1;
             }
-            else  low = mid + 
+            else  low = mid + 1;
         }
+        return  answer;
     }
 }
