@@ -2,9 +2,9 @@ package SEARCHING.BINARYSEARCH;
 
 public class LowerBound {
     public static void main(String[] args) {
-int[] nums = {2,33,44,56,65,67,87,98};
-int target = 68;
-int n = 8;
+   int[] nums = {2,33,44,56,65,67,87,98};
+   int target = 68;
+   int n = 8;
         System.out.println(lowerBound(nums,target,n));
     }
     //lower bound is the smallest value that is greater or equal to the target
