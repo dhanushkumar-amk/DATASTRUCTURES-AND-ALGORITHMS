@@ -9,7 +9,7 @@ public class SearchIn2DArray {
                 {4,5,6},
                 {7,8,9},
         };
-        int target = 18;
+        int target = 8;
         int[] ans = search(arr,target);
         System.out.println(Arrays.toString(ans));
     }
