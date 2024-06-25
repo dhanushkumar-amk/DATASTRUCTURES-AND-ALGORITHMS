@@ -20,7 +20,7 @@ public class HigherBound {
                 answer = mid;
                 high = mid -1;
             }
-            else low = mid -1;
+            else low = mid + 1;
         }
         return answer;
     }
