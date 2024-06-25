@@ -13,7 +13,7 @@ public class SearchIn2DArray {
     static int search(int[][] arr, int target){
         for (int row = 0; row <arr.length ; row++) {
             for (int column = 0; column <arr.length ; column++) {
-                if(arr[row][column] == target) return arr[row][column];
+                if(arr[row][column] == target) return row+column;
             }
         }
         return -1;
