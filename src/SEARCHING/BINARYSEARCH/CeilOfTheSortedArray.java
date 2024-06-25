@@ -4,10 +4,10 @@ public class CeilOfTheSortedArray {
     public static void main(String[] args) {
         int[] nums = {10,20,30,40,50};
         int target = 25;
-        System.out.println(lowerBound(nums,target));
+        System.out.println(ceil(nums,target));
     }
     //lower bound is the smallest value that is greater or equal to the target
-    static int lowerBound(int[]nums, int target){
+    static int ceil(int[]nums, int target){
         int n = nums.length;
         int low = 0;
         int high = n-1;
