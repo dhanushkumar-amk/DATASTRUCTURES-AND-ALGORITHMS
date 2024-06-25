@@ -6,18 +6,23 @@ public class MaxWealth {
                 {4,5,1},
                 {1,3,3}
         };
+        int ans = maximumWealth(accounts);
+        System.out.println(ans);
 
     }
-    public int maximumWealth(int[][] accounts){
+    public static int maximumWealth(int[][] accounts){
         // person = row
         // accounts = column
-
+int max = Integer.MIN_VALUE;
         for (int person = 0; person <accounts.length ; person++) {
-            int sum = 0;
+            int rowSum = 0;
             for (int account = 0; account < accounts[person].length ; account++) {
-
+                rowSum = accounts[person][account];
+            }
+            if(rowSum > max){
+                max= rowSum;
             }
         }
-        return sum;
+        return max;
     }
 }
