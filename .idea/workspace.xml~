@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1fc313a1-47ef-4e2a-abfa-abef66444f96" name="Changes" comment="Modified on 26-06-2024">
+      <change beforePath="$PROJECT_DIR$/src/SEARCHING/BINARYSEARCH/FindSquareOfAnNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SEARCHING/BINARYSEARCH/FindSquareOfAnNumber.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="module" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;dhanushkumar-amk&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/dhanushkumar-amk/DATASTRUCTURES-AND-ALGORITHMS.git&quot;,
+    &quot;accountId&quot;: &quot;8b3ee10a-396e-43d4-af40-cadf9d53ef57&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/ARRAYS/LeadersInArray.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2gaGd2WUG9XGa4Pf7rKhzhzWBSm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ARRAYISSORTED1.executor": "Run",
+    "Application.ARRAYS.NumberSmallerThanCurrentNumber.executor": "Run",
+    "Application.AdditionOfTwoMatrix.executor": "Run",
+    "Application.ArrayISSorted.executor": "Run",
+    "Application.BasicLinearSearch.executor": "Run",
+    "Application.BitonicArray.executor": "Run",
+    "Application.CeilOfTheSortedArray.executor": "Run",
+    "Application.CountEvenNumberOfDigitsInHasNumberInTheArray.executor": "Run",
+    "Application.CountInversion.executor": "Run",
+    "Application.CountOccuranceOfTheElementsInArray.executor": "Run",
+    "Application.CountsmallerOrequalTotargetInarrys.executor": "Run",
+    "Application.DetermineValidAnagram.executor": "Run",
+    "Application.DisapperingNumbersInArray.executor": "Run",
+    "Application.FindAllDuplicatesInArray.executor": "Run",
+    "Application.FindHowManyTimesArrayHasBeenRotated.executor": "Run",
+    "Application.FirstAndLastOccuranceOfx.executor": "Run",
+    "Application.FirstAndLastOccurancewithoutLowerAndUpper.executor": "Run",
+    "Application.FirstUniqueCharcterInAString.executor": "Run",
+    "Application.FizzBuzz.executor": "Run",
+    "Application.FloorInSortedArray.executor": "Run",
+    "Application.FrequencyElementInArray.executor": "Run",
+    "Application.GenerateSpiralMatrix.executor": "Run",
+    "Application.HigherBound.executor": "Run",
+    "Application.IntersectionOfTwoSortedArray.executor": "Run",
+    "Application.InverseOfAnArray.executor": "Run",
+    "Application.IsomorphicString.executor": "Run",
+    "Application.JumbGame2.executor": "Run",
+    "Application.JumpGame.executor": "Run",
+    "Application.LISTINTERFACE.executor": "Run",
+    "Application.LeadersInArray.executor": "Run",
+    "Application.LeftRotationByDPlaces.executor": "Run",
+    "Application.LeftRotationOfArrayByIOnePlace.executor": "Run",
+    "Application.LengthOfTheEvenOddSubArray.executor": "Run",
+    "Application.LengthOfTheLastWord.executor": "Run",
+    "Application.LinearSearch.executor": "Run",
+    "Application.LongestPalindromicSubString.executor": "Run",
+    "Application.LongestSubArrayWithSumK_PositiveAndNegative.executor": "Run",
+    "Application.LowerBound.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MajorityElement.executor": "Run",
+    "Application.MaxWealth.executor": "Run",
+    "Application.MaximumConsectiveOnes.executor": "Run",
+    "Application.MaximumElementInRange.executor": "Run",
+    "Application.MaximumProductAfterKIncrement.executor": "Run",
+    "Application.MaximumProductAfterKOperations.executor": "Run",
+    "Application.MaximumSubArraySum.executor": "Run",
+    "Application.MaximumSumSubArrayWithSizeK.executor": "Run",
+    "Application.MergeIntervalsInArray.executor": "Run",
+    "Application.MergeIntravalsInArray.executor": "Run",
+    "Application.MergetwoSortedArray.executor": "Run",
+    "Application.MinimumElementInRange.executor": "Run",
+    "Application.MinimumElementInRotatedSortedArray.executor": "Run",
+    "Application.MinimumNumber.executor": "Run",
+    "Application.MinimumSubArraySum.executor": "Run",
+    "Application.MinimumValueInArray.executor": "Run",
+    "Application.MultiplicationOfMatrix.executor": "Run",
+    "Application.NumberAppearsOnces.executor": "Run",
+    "Application.NumberOfGoodPairs.executor": "Run",
+    "Application.NumberSmallerThanCurrentNumber.executor": "Run",
+    "Application.PeakElementINArray.executor": "Run",
+    "Application.RearrangeArrayElementsBySign.executor": "Run",
+    "Application.RemoveDuplicates.executor": "Run",
+    "Application.ReverseAString.executor": "Run",
+    "Application.ReverseAnarray.executor": "Run",
+    "Application.ReverseOnlyLetters.executor": "Run",
+    "Application.ReverseTheColumOfTheMatrix.executor": "Run",
+    "Application.RotateMatrixBy90Degree.executor": "Run",
+    "Application.RotateMatrixby180Deg.executor": "Run",
+    "Application.SAMPLE.executor": "Run",
+    "Application.STRINGS.SearchInString.executor": "Run",
+    "Application.SearchIn2DArray.executor": "Run",
+    "Application.SearchInRange.executor": "Run",
+    "Application.SearchInRotatedSortedArray1.executor": "Run",
+    "Application.SearchInRotatedSortedArray2.executor": "Run",
+    "Application.SearchInString.executor": "Run",
+    "Application.SearchInsertPosition.executor": "Run",
+    "Application.SecondLargestElementInArray.executor": "Run",
+    "Application.SecondSmallestElement.executor": "Run",
+    "Application.SetMatrixZero.executor": "Run",
+    "Application.ShuffleStrings.executor": "Run",
+    "Application.SingleElementInSortedArray.executor": "Run",
+    "Application.SingleNonRepeatingNumber.executor": "Run",
+    "Application.SingleNonRepeatingelementsInarray.executor": "Run",
+    "Application.SortArrayByParity.executor": "Run",
+    "Application.SortColors.executor": "Run",
+    "Application.SpanOfAnArray.executor": "Run",
+    "Application.SpiralMatrix.executor": "Run",
+    "Application.SquareofSortedArray.executor": "Run",
+    "Application.StringBuilder.executor": "Run",
+    "Application.SubarrayOfAnArray.executor": "Run",
+    "Application.SubtractionOfTwoMatrix.executor": "Run",
+    "Application.SumOfUniqueNumbers.executor": "Run",
+    "Application.SwappingAnElementInArray.executor": "Run",
+    "Application.TransposeMatrix.executor": "Run",
+    "Application.TwoSum.executor": "Run",
+    "Application.UnionOfTwoSortedArrays.executor": "Run",
+    "Application.ZeroOnetwo.executor": "Run",
+    "Application.array.executor": "Run",
+    "Application.maximumNumber.executor": "Run",
+    "Application.maximumValueInarray.executor": "Run",
+    "Application.missingNumber.executor": "Run",
+    "Application.moveZeroToEnd.executor": "Run",
+    "Application.palindrome.executor": "Run",
+    "Application.productOfAnArrayExpectIteself.executor": "Run",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/hp5cd/OneDrive/Documents/DATASTRUCTURES-AND-ALGORITHMS/src",
+    "onboarding.tips.debug.path": "C:/Users/hp5cd/OneDrive/Documents/DATASTRUCTURES-AND-ALGORITHMS/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.keymap"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hp5cd\OneDrive\Documents\DATASTRUCTURES-AND-ALGORITHMS\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.FindSquareOfAnNumber">
+    <configuration name="FindHowManyTimesArrayHasBeenRotated" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SEARCHING.BINARYSEARCH.FindHowManyTimesArrayHasBeenRotated" />
+      <module name="DATASTRUCTURES-AND-ALGORITHMS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SEARCHING.BINARYSEARCH.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindSquareOfAnNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SEARCHING.BINARYSEARCH.FindSquareOfAnNumber" />
+      <module name="DATASTRUCTURES-AND-ALGORITHMS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SEARCHING.BINARYSEARCH.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PeakElementINArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SEARCHING.BINARYSEARCH.PeakElementINArray" />
+      <module name="DATASTRUCTURES-AND-ALGORITHMS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SEARCHING.BINARYSEARCH.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchElementInBitonicArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SEARCHING.BINARYSEARCH.SearchElementInBitonicArray" />
+      <module name="DATASTRUCTURES-AND-ALGORITHMS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SEARCHING.BINARYSEARCH.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingleElementInSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SEARCHING.BINARYSEARCH.SingleElementInSortedArray" />
+      <module name="DATASTRUCTURES-AND-ALGORITHMS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SEARCHING.BINARYSEARCH.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="array" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ARRAYS.array" />
+      <module name="DATASTRUCTURES-AND-ALGORITHMS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ARRAYS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FindSquareOfAnNumber" />
+        <item itemvalue="Application.PeakElementINArray" />
+        <item itemvalue="Application.SearchElementInBitonicArray" />
+        <item itemvalue="Application.SingleElementInSortedArray" />
+        <item itemvalue="Application.FindHowManyTimesArrayHasBeenRotated" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1fc313a1-47ef-4e2a-abfa-abef66444f96" name="Changes" comment="" />
+      <created>1715928361058</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715928361058</updated>
+    </task>
+    <task id="LOCAL-00001" summary="modified">
+      <option name="closed" value="true" />
+      <created>1715928834981</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715928834981</updated>
+    </task>
+    <task id="LOCAL-00002" summary="modified">
+      <option name="closed" value="true" />
+      <created>1715997695411</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715997695411</updated>
+    </task>
+    <task id="LOCAL-00003" summary="modified">
+      <option name="closed" value="true" />
+      <created>1716002194657</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716002194657</updated>
+    </task>
+    <task id="LOCAL-00004" summary="modified">
+      <option name="closed" value="true" />
+      <created>1716009498497</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716009498497</updated>
+    </task>
+    <task id="LOCAL-00005" summary="modified">
+      <option name="closed" value="true" />
+      <created>1716009719749</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1716009719749</updated>
+    </task>
+    <task id="LOCAL-00006" summary="modified">
+      <option name="closed" value="true" />
+      <created>1716010211576</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1716010211576</updated>
+    </task>
+    <task id="LOCAL-00007" summary="modified">
+      <option name="closed" value="true" />
+      <created>1716010306785</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1716010306785</updated>
+    </task>
+    <task id="LOCAL-00008" summary="modified">
+      <option name="closed" value="true" />
+      <created>1716010584194</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1716010584194</updated>
+    </task>
+    <task id="LOCAL-00009" summary="modified">
+      <option name="closed" value="true" />
+      <created>1716010826782</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1716010826782</updated>
+    </task>
+    <task id="LOCAL-00010" summary="modified">
+      <option name="closed" value="true" />
+      <created>1716010997366</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1716010997366</updated>
+    </task>
+    <task id="LOCAL-00011" summary="modified">
+      <option name="closed" value="true" />
+      <created>1716011374140</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1716011374140</updated>
+    </task>
+    <task id="LOCAL-00012" summary="modified">
+      <option name="closed" value="true" />
+      <created>1716011481751</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1716011481751</updated>
+    </task>
+    <task id="LOCAL-00013" summary="modified">
+      <option name="closed" value="true" />
+      <created>1716011869061</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1716011869061</updated>
+    </task>
+    <task id="LOCAL-00014" summary="modified">
+      <option name="closed" value="true" />
+      <created>1716012189069</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1716012189069</updated>
+    </task>
+    <task id="LOCAL-00015" summary="modified">
+      <option name="closed" value="true" />
+      <created>1716016834524</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1716016834524</updated>
+    </task>
+    <task id="LOCAL-00016" summary="modified">
+      <option name="closed" value="true" />
+      <created>1716019882220</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1716019882220</updated>
+    </task>
+    <task id="LOCAL-00017" summary="modified">
+      <option name="closed" value="true" />
+      <created>1716022955418</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1716022955418</updated>
+    </task>
+    <task id="LOCAL-00018" summary="modified">
+      <option name="closed" value="true" />
+      <created>1716998411870</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1716998411870</updated>
+    </task>
+    <task id="LOCAL-00019" summary="modified">
+      <option name="closed" value="true" />
+      <created>1718754141761</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1718754141761</updated>
+    </task>
+    <task id="LOCAL-00020" summary="modified">
+      <option name="closed" value="true" />
+      <created>1718754191595</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1718754191595</updated>
+    </task>
+    <task id="LOCAL-00021" summary="modified">
+      <option name="closed" value="true" />
+      <created>1718754570469</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1718754570469</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Modified">
+      <option name="closed" value="true" />
+      <created>1718754609447</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1718754609447</updated>
+    </task>
+    <task id="LOCAL-00023" summary="modified">
+      <option name="closed" value="true" />
+      <created>1718755133570</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1718755133570</updated>
+    </task>
+    <task id="LOCAL-00024" summary="modified">
+      <option name="closed" value="true" />
+      <created>1718755455345</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1718755455345</updated>
+    </task>
+    <task id="LOCAL-00025" summary="modified">
+      <option name="closed" value="true" />
+      <created>1718799454299</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1718799454299</updated>
+    </task>
+    <task id="LOCAL-00026" summary="modified">
+      <option name="closed" value="true" />
+      <created>1718799703835</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1718799703835</updated>
+    </task>
+    <task id="LOCAL-00027" summary="modified">
+      <option name="closed" value="true" />
+      <created>1718811386611</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1718811386611</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Modified on 19-06-2024">
+      <option name="closed" value="true" />
+      <created>1718811468625</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1718811468625</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Modified on 20-06-2024">
+      <option name="closed" value="true" />
+      <created>1718844534785</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1718844534785</updated>
+    </task>
+    <task id="LOCAL-00030" summary="modified">
+      <option name="closed" value="true" />
+      <created>1718888861106</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1718888861106</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Modified on 20-06-2024">
+      <option name="closed" value="true" />
+      <created>1718896738106</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1718896738106</updated>
+    </task>
+    <task id="LOCAL-00032" summary="modified">
+      <option name="closed" value="true" />
+      <created>1719033412717</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1719033412718</updated>
+    </task>
+    <task id="LOCAL-00033" summary="modified">
+      <option name="closed" value="true" />
+      <created>1719042416792</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1719042416792</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Modified">
+      <option name="closed" value="true" />
+      <created>1719121098991</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1719121098991</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Merge remote-tracking branch 'origin/master'">
+      <option name="closed" value="true" />
+      <created>1719121549137</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1719121549137</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Modified on 23-06-2024">
+      <option name="closed" value="true" />
+      <created>1719130361086</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1719130361086</updated>
+    </task>
+    <task id="LOCAL-00037" summary="modified">
+      <option name="closed" value="true" />
+      <created>1719154226905</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1719154226905</updated>
+    </task>
+    <task id="LOCAL-00038" summary="modified">
+      <option name="closed" value="true" />
+      <created>1719154244177</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1719154244177</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Modified on 24-06-2024">
+      <option name="closed" value="true" />
+      <created>1719200889751</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1719200889751</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Modified on 24-06-2024">
+      <option name="closed" value="true" />
+      <created>1719203871418</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1719203871418</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Modified on 24-06-2024">
+      <option name="closed" value="true" />
+      <created>1719203881161</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1719203881161</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Modified on 24-06-2024">
+      <option name="closed" value="true" />
+      <created>1719213642263</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1719213642263</updated>
+    </task>
+    <task id="LOCAL-00043" summary="modified">
+      <option name="closed" value="true" />
+      <created>1719230390592</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1719230390592</updated>
+    </task>
+    <task id="LOCAL-00044" summary="modified">
+      <option name="closed" value="true" />
+      <created>1719230400266</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1719230400266</updated>
+    </task>
+    <task id="LOCAL-00045" summary="modified">
+      <option name="closed" value="true" />
+      <created>1719283506731</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1719283506731</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Modified on 25-06-2024">
+      <option name="closed" value="true" />
+      <created>1719291761590</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1719291761590</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Modified on 25-06-2024">
+      <option name="closed" value="true" />
+      <created>1719316811755</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1719316811755</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Modified on 26-06-2024">
+      <option name="closed" value="true" />
+      <created>1719376821933</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1719376821933</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Modified on 26-06-2024">
+      <option name="closed" value="true" />
+      <created>1719403202485</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1719403202485</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Modified on 19-06-2024" />
+    <MESSAGE value="Modified on 20-06-2024" />
+    <MESSAGE value="Modified" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
+    <MESSAGE value="Modified on 23-06-2024" />
+    <MESSAGE value="Modified on 24-06-2024" />
+    <MESSAGE value="modified" />
+    <MESSAGE value="Modified on 25-06-2024" />
+    <MESSAGE value="Modified on 26-06-2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modified on 26-06-2024" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ARRAYS/CountInversion.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ARRAYS/CountInversion.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ARRAYS/MergetwoSortedArray.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SEARCHING/BINARYSEARCH/FirstAndLastOccurancewithoutLowerAndUpper.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SEARCHING/BINARYSEARCH/SearchInRotatedSortedArray2.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
