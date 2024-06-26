@@ -1,7 +1,7 @@
 package SEARCHING.BINARYSEARCH;
 
 public class FindSquareOfAnNumber {
-    public static int floorSqrt(int n) {
+     static int floorSqrt(int n) {
 
     // iif the n is 0 or 1
     if(n==1 || n == 0) return n;
