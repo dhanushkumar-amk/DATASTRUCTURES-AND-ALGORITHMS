@@ -1,2 +1,4 @@
-package SEARCHING.BINARYSEARCH;public class PeakElementINArray {
+package SEARCHING.BINARYSEARCH;
+
+public class PeakElementINArray {
 }

@@ -1,6 +1,6 @@
 package SEARCHING.BINARYSEARCH;
 
-public class BitonicArray {
+public class SearchElementInBitonicArray {
     // Java code to search key in bitonic array
 
 
