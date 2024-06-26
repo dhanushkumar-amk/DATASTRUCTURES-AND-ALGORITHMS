@@ -12,9 +12,10 @@ public class PeakElementINArray {
         int low = 1, high = n - 2;
         while (low <= high) {
             int mid = (low + high) / 2;
-if(arr.get(mid) < arr.get(mid -1) && arr.get(mid) > arr.get(mid+1)) return arr.get(mid);
+if(arr.get(mid) < arr.get(mid -1) && arr.get(mid) > arr.get(mid+1)) return mid;
 
-            // Dummy return statement
+if(arr.get(mid) > arr.get(mid+1)) low = mid + 1;
+else high = mid -1;
         return -1;
     }
 
