@@ -12,6 +12,15 @@ public class SearchInRotatedSortedArray1 {
             System.out.println("The index is: " + ans);
     }
     public static int search(ArrayList<Integer> arr, int n, int target){
+        int low = 0;
+        int high = n-1;
 
+        while(low <= high){
+            int mid = (low + high)/2;
+
+            if(arr.get(mid) == target) return  mid;
+
+            if()
+        }
     }
 }
