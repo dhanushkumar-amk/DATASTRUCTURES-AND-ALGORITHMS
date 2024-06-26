@@ -6,7 +6,7 @@ public class FindSquareOfAnNumber {
     // iif the n is 0 or 1
     if(n==1 || n == 0) return n;
 
-        int low = 2;
+    int low = 2;
         int high = n;
         int ans = 0;
 
