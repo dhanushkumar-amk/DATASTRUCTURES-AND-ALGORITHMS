@@ -1,2 +1,5 @@
-package SEARCHING.BINARYSEARCH;public class SearchInRotatedSortedArray2 {
+package SEARCHING.BINARYSEARCH;
+
+public class SearchInRotatedSortedArray2 {
+    
 }
