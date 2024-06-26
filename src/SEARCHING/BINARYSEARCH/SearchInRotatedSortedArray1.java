@@ -33,9 +33,6 @@ public class SearchInRotatedSortedArray1 {
                 } else {
                     high = mid - 1;
                 }
-                {
-
-                }
             }
         }
         return -1;
