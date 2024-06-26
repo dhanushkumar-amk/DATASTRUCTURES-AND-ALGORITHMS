@@ -16,7 +16,18 @@ public class SearchInRotatedSortedArray2 {
         int low = 0;
         int high =n - 1;
 
-        
+        while (low < high){
+            int mid = low + (high - low)/2;
+
+            if(arr[mid] == target) return true;
+
+            if(arr[low] == target || arr[high] == target) {
+                low = mid + 1;
+                high = mid - 1;
+                continue;
+            }
+
+        }
         return false;
     }
 
