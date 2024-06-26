@@ -24,7 +24,7 @@ public class FindSquareOfAnNumber {
     }
 
     public static void main(String[] args) {
-        int n = 25;
+        int n = 5;
         int ans = floorSqrt(n);
         System.out.println(ans);
     }
