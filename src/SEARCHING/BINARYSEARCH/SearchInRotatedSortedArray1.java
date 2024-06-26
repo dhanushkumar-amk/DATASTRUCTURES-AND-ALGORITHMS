@@ -28,9 +28,9 @@ public class SearchInRotatedSortedArray1 {
                 }
             }
             else{
-                if(arr.get(mid) <= arr.get(high))
+                if()
                 {
-                    
+
                 }
         }
     }
