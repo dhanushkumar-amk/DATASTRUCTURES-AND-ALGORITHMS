@@ -56,6 +56,6 @@ public class CountOccuranceOfTheElementsInArray {
 
   public static  int[] count(int[] nums, int target, int n){
         int[] ans = firstandlast(nums,target,n);
-    if(ans.firstOccurance == -1)
+    if(ans[0].firstOccurance == -1)
     }
 }
