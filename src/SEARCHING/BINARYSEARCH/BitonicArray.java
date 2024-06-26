@@ -6,10 +6,7 @@ public class BitonicArray {
 
         // Function for binary search
         // in ascending part
-        static int ascendingBinarySearch(int arr[],
-                                         int low,
-                                         int high,
-                                         int key)
+        static int ascendingBinarySearch(int arr[], int low, int high, int key)
         {
             while (low <= high)
             {
@@ -32,10 +29,7 @@ public class BitonicArray {
 
         // Function for binary search in
         // descending part of array
-        static int descendingBinarySearch(int arr[],
-                                          int low,
-                                          int high,
-                                          int key)
+        static int descendingBinarySearch(int arr[], int low, int high, int key)
         {
             while (low <= high)
             {
@@ -57,10 +51,7 @@ public class BitonicArray {
         }
 
         // finding bitonic point
-        static int findBitonicPoint(int arr[],
-                                    int n,
-                                    int l,
-                                    int r)
+        static int findBitonicPoint(int arr[], int n, int l, int r)
         {
             int mid;
             int bitonicPoint = 0;
