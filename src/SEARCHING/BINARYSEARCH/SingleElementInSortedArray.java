@@ -4,7 +4,8 @@ public class SingleElementInSortedArray {
 
     public static void main(String[] args) {
         int[] nums = {1,1,2,2,3,4,4,5,5};
-        System.out.println(singleElement(nums));
+        // System.out.println(singleElement(nums));
+        System.out.println(SingleElement(nums));
     }
 
 
@@ -19,6 +20,11 @@ public class SingleElementInSortedArray {
 }
 
 // another way using binary search
+static int SingleElement(int[] nums){
+
+
+        return;
+}
 
 }
 
