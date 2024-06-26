@@ -11,7 +11,14 @@ public class SearchInRotatedSortedArray2 {
             System.out.println("Target is present in the array.");
     }
 
-    
+    public static boolean searchInARotatedSortedArrayII(int []arr, int target) {
+        int n = arr.length;
+        int low = 0;
+        int high =n - 1;
+
+        
+        return false;
+    }
 
 
 }
