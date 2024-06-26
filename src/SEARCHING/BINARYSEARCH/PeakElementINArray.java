@@ -14,7 +14,7 @@ public class PeakElementINArray {
             int mid = (low + high) / 2;
 if(arr.get(mid) < arr.get(mid -1) && arr.get(mid) > arr.get(mid+1)) return mid;
 
-if(arr.get(mid) > arr.get(mid+1)) low = mid + 1;
+if(arr.get(mid) > arr.get(mid-1)) low = mid + 1;
 else high = mid -1;
         return -1;
     }
