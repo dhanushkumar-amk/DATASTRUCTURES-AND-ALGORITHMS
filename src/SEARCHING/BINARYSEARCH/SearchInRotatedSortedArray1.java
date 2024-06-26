@@ -21,7 +21,7 @@ public class SearchInRotatedSortedArray1 {
 
             if (arr.get(mid) == target) return mid;
 
-            if (arr.get(low) < arr.get(mid)) {
+            if (arr.get(low) <= arr.get(mid)) {
                 if (arr.get(low) <= target && target <= arr.get(mid)) {
                     high = mid - 1;
                 } else {
