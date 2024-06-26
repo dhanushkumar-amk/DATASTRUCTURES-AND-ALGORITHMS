@@ -33,13 +33,12 @@ public class FindHowManyTimesArrayHasBeenRotated {
 
             } else {
                 if(arr[mid] < ans){
-                    index =
-
+                    index =mid;
                     ans = arr[mid];
                 }
             }
         }
-        return ans;
+        return index;
     }
 
     public static void main(String[] args) {
