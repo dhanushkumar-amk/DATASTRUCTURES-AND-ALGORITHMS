@@ -23,6 +23,9 @@ int ans = root(n,m);
     }
 
     static int rootValue(int mid ,int n, int m){
+        //  mid == m then return 1;
+        // mid > m then return 2;
+        // mid < m then return 0;
         long ans = 1;
         for (int i = 1; i <= n ; i++) {
             ans *= mid;
