@@ -7,7 +7,7 @@ public class FindSquareOfAnNumber {
     if(n==1 || n == 0) return n;
 
         int low = 2;
-        int high = n/2;
+        int high = n;
         int ans = 0;
 
         while (low <= high){
@@ -18,7 +18,7 @@ public class FindSquareOfAnNumber {
             low = mid + 1;
             ans = mid;
         }
-        else high = mid -1;
+        else high = mid - 1;
         }
             return ans;
     }
