@@ -21,7 +21,7 @@ public class SearchInRotatedSortedArray2 {
 
             if(arr[mid] == target) return true;
 
-            if(arr[low] == target || arr[high] == target) {
+            if(arr[low] == arr[mid] && arr[high] == arr[mid]) {
                 low = mid + 1;
                 high = mid - 1;
                 continue;
