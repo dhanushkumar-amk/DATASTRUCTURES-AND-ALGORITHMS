@@ -5,7 +5,7 @@ public class SearchInRotatedSortedArray1 {
     public static void main(String[] args) {
         ArrayList<Integer> arr = new ArrayList<>(Arrays.asList(7, 8, 9, 1, 2, 3, 4, 5, 6));
         int n = 9, target = 1;
-        int ans = search(arr, n, k);
+        int ans = search(arr, n, target);
         if (ans == -1)
             System.out.println("Target is not present.");
         else
@@ -38,4 +38,5 @@ public class SearchInRotatedSortedArray1 {
                 }
         }
     }
+        return -1;
 }
