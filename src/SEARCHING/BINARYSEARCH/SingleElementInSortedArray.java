@@ -1,2 +1,5 @@
-package SEARCHING.BINARYSEARCH;public class SingleElementInSortedArray {
+package SEARCHING.BINARYSEARCH;
+
+public class SingleElementInSortedArray {
+    
 }
