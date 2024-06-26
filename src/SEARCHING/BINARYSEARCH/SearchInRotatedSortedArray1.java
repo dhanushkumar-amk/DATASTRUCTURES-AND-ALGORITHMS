@@ -12,6 +12,6 @@ public class SearchInRotatedSortedArray1 {
             System.out.println("The index is: " + ans);
     }
     public static int search(ArrayList<Integer> arr, int n, int target){
-        
+
     }
 }
