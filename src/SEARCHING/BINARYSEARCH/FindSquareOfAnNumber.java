@@ -25,7 +25,6 @@ public class FindSquareOfAnNumber {
 
     public static void main(String[] args) {
         int n = 25;
-        int ans = floorSqrt(n);
-        System.out.println("The floor of square root of " + n + " is: " + ans);
+        System.out.println(floorSqrt(n));
     }
 }
