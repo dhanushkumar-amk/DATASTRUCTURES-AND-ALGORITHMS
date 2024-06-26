@@ -4,5 +4,5 @@ public class FindSquareOfAnNumber {
     public static void main(String[] args) {
 
     }
-    
+
 }
