@@ -16,7 +16,6 @@ public class PeakElementINArray {
             else high = mid - 1;
         }
         return -1;
-
     }
     public static void main(String[] args) {
         ArrayList<Integer> arr =
