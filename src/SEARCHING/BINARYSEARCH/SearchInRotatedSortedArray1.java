@@ -11,32 +11,33 @@ public class SearchInRotatedSortedArray1 {
         else
             System.out.println("The index is: " + ans);
     }
-    public static int search(ArrayList<Integer> arr, int n, int target){
+
+    public static int search(ArrayList<Integer> arr, int n, int target) {
         int low = 0;
-        int high = n-1;
+        int high = n - 1;
 
-        while(low <= high){
-            int mid = (low + high)/2;
+        while (low <= high) {
+            int mid = (low + high) / 2;
 
-            if(arr.get(mid) == target) return  mid;
+            if (arr.get(mid) == target) return mid;
 
-            if(arr.get(low) < arr.get(mid)){
-                if(arr.get(low) <= target && target <=arr.get(mid)){
-                    high = mid -1;
-                }else{
-                    low =mid + 1;
-                }
-            }
-            else{
-                if(arr.get(mid) <= target && target <= arr.get(high)){
+            if (arr.get(low) < arr.get(mid)) {
+                if (arr.get(low) <= target && target <= arr.get(mid)) {
+                    high = mid - 1;
+                } else {
                     low = mid + 1;
-                }else {
-                    high= mid -1;
+                }
+            } else {
+                if (arr.get(mid) <= target && target <= arr.get(high)) {
+                    low = mid + 1;
+                } else {
+                    high = mid - 1;
                 }
                 {
 
                 }
+            }
         }
-    }
         return -1;
+    }
 }
