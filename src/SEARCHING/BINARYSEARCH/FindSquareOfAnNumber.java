@@ -22,7 +22,7 @@ public class FindSquareOfAnNumber {
         if(mid * mid == n){
             return mid;
         }
-        else if(mid * mid > n){
+        else if(mid * mid < n){
             low = mid + 1;
             ans = mid;
         }
