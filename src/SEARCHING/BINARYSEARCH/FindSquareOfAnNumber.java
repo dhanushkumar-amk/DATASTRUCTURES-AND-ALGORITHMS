@@ -1,7 +1,13 @@
 package SEARCHING.BINARYSEARCH;
 
 public class FindSquareOfAnNumber {
-     static int floorSqrt(int n) {
+
+    public static void main(String[] args) {
+        int n = 5;
+        int ans = floorSqrt(n);
+        System.out.println(ans);
+    }
+     public static int floorSqrt(int n) {
 
     // iif the n is 0 or 1
     if(n==1 || n == 0) return n;
@@ -21,11 +27,5 @@ public class FindSquareOfAnNumber {
         else high = mid - 1;
         }
             return ans;
-    }
-
-    public static void main(String[] args) {
-        int n = 5;
-        int ans = floorSqrt(n);
-        System.out.println(ans);
     }
 }
