@@ -4,5 +4,5 @@ public class KOKOEatingBanana {
     public static void main(String[] args) {
 
     }
-    
+
 }
