@@ -1,2 +1,5 @@
-package SEARCHING.BINARYSEARCH;public class CapacityToShipPackageWithinDDays {
+package SEARCHING.BINARYSEARCH;
+
+public class CapacityToShipPackageWithinDDays {
+    
 }
