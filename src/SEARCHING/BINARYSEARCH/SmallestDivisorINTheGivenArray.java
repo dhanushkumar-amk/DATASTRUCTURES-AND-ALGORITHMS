@@ -1,2 +1,4 @@
-package SEARCHING.BINARYSEARCH;public class SmallestDivisorINTheGivenArray {
+package SEARCHING.BINARYSEARCH;
+
+public class SmallestDivisorINTheGivenArray {
 }
