@@ -2,54 +2,56 @@ package SEARCHING.BINARYSEARCH;
 
 public class MinimumNumberOfdaysToMakeMBouquets {
 
-    static  boolean isPossibleSolution(int[] arr, int boq, int flowers, int mid){
-        int adj = 0;
-        int bcount = 0;
-        for (int i = 0; i <arr.length ; i++) {
-            if (arr[i] <= mid) {
-                adj++;
-                if(adj == flowers){
-                    bcount++;
-                    if(bcount == boq){
-                        return  true;
-                    }
-                    adj = 0;
-                }
-            }
-            else{
-                adj = 0;
+    public static boolean possible(int[] arr, int day, int m, int k) {
+        int n = arr.length; // Size of the array
+        int cnt = 0;
+        int noOfB = 0;
+        // Count the number of bouquets:
+        for (int i = 0; i < n; i++) {
+            if (arr[i] <= day) {
+                cnt++;
+            } else {
+                noOfB += (cnt / k);
+                cnt = 0;
             }
         }
-        return  false;
+        noOfB += (cnt / k);
+        return noOfB >= m;
     }
 
-    static int midDayBoutquets(int[] arr, int boq, int flowers ){
-        int res = -1;
-
-        if(boq * flowers > arr.length)  return -1;
-
-        int low =arr[0];
-        int high = arr[0];
-
-        for (int i = 0; i <arr.length ; i++) {
-            if(arr[i] < low)low = arr[i];
-
-            if(arr[i] > high) high = arr[i];
-
+    public static int roseGarden(int[] arr, int k, int m) {
+        long val = (long) m * k;
+        int n = arr.length; // Size of the array
+        if (val > n) return -1; // Impossible case.
+        // Find maximum and minimum:
+        int mini = Integer.MAX_VALUE, maxi = Integer.MIN_VALUE;
+        for (int i = 0; i < n; i++) {
+            mini = Math.min(mini, arr[i]);
+            maxi = Math.max(maxi, arr[i]);
         }
 
-        while(low <= high){
-            int mid = (low + high)/2;
-            if(isPossibleSolution(arr, boq,flowers, mid) == true){
-                res = mid;
-                high = mid -1;
-            }
-            else {
+        // Apply binary search:
+        int low = mini, high = maxi;
+        while (low <= high) {
+            int mid = (low + high) / 2;
+            if (possible(arr, mid, m, k)) {
+                high = mid - 1;
+            } else {
                 low = mid + 1;
             }
         }
-        return res;
+        return low;
     }
 
+    public static void main(String[] args) {
+        int[] arr = {7, 7, 7, 7, 13, 11, 12, 7};
+        int k = 3;
+        int m = 2;
+        int ans = roseGarden(arr, k, m);
+        if (ans == -1)
+            System.out.println("We cannot make m bouquets.");
+        else
+            System.out.println("We can make bouquets on day " + ans);
+    }
 
 }
