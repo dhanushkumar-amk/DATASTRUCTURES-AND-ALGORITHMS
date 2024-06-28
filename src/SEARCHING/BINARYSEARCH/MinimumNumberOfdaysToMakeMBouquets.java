@@ -1,2 +1,5 @@
-package SEARCHING.BINARYSEARCH;public class MinimumNumberOfdaysToMakeMBouquets {
+package SEARCHING.BINARYSEARCH;
+
+public class MinimumNumberOfdaysToMakeMBouquets {
+    
 }
