@@ -1,2 +1,9 @@
-package SEARCHING.BINARYSEARCH;public class PaintersPartions {
+package SEARCHING.BINARYSEARCH;
+
+public class PaintersPartions {
+    public static void main(String[] args) {
+
+    }
+
+    
 }
