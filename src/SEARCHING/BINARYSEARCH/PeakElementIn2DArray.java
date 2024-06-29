@@ -4,7 +4,8 @@ public class PeakElementIn2DArray {
 
 
     public static void main(String[] args) {
-        int[] matrix = {
+        int[][] matrix = {
+                {10,20,15},
                 {}
         };
     }
