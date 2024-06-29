@@ -24,8 +24,9 @@ int b = 2;
                 }
            pbc = arr[i];
             }
-            return true;
         }
+        return true;
+
     }
 
     static  int maxTime(int[]arr, int a, int b){
@@ -50,6 +51,5 @@ int b = 2;
         }
     return   res * b;
     }
-
 
 }
