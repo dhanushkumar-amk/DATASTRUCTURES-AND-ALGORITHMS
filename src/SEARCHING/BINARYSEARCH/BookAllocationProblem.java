@@ -17,10 +17,11 @@ public class BookAllocationProblem {
             if(arr[i] > mid) return false;
 
 
-            if(studentPageCount +arr[i] <= mid) studentPageCount += arr[i];
+            if(studentPageCount + arr[i] <= mid)
+                studentPageCount += arr[i];
             else {
                 student++;
-           if(student > b) return false;
+                 if(student > b) return false;
             }
             studentPageCount = arr[i];
         }
@@ -37,14 +38,16 @@ public class BookAllocationProblem {
         int low = arr[0];
         int high = 0;
         for (int i = 0; i <arr.length ; i++) {
-            if(arr[i] < low) low = arr[i];
+            if(arr[i] < low) {
+                low = arr[i];
+            }
             high += arr[i];
         }
 
         int res = -1;
         while(low <= high){
             int mid = (low + high)/2;
-        if(ispossibleSolution(arr, b, mid) == true){
+        if(ispossibleSolution(arr, b, mid)){
             res = mid;
             high = mid - 1;
         }else{
