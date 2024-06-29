@@ -1,2 +1,5 @@
-package SEARCHING.BINARYSEARCH;public class SplitArrayLargestSum {
+package SEARCHING.BINARYSEARCH;
+
+public class SplitArrayLargestSum {
+    
 }
