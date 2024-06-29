@@ -25,8 +25,10 @@ public class SearchIn2DArray {
         int row = mid / m, col = mid % m;
 
         if(matrix.get(row).get(col) == target) return true;
-        else if(matrix.get(row).get(col) > target) 
+        else if(matrix.get(row).get(col) > target)  high = mid -1;
+        else low = mid + 1;
     }
+    return false;
     }
 
 }
