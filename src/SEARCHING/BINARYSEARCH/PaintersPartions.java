@@ -5,7 +5,7 @@ public class PaintersPartions {
 int[] arr = {10,20,30,40};
 int a = 2;
 int b = 2;
-        System.out.println();
+        System.out.println(maxTime(arr, a,b));
     }
     static boolean isPossible(int[] arr, int a, int mid){
         int painters = 1;
