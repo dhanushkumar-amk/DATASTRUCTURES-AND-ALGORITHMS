@@ -7,9 +7,15 @@ public class SearchIn2DMatrix2 {
         int m = matrix.get(0).size();
 
         int row = 0;
-        int col = m-1;
+        int col = m - 1;
 
-        while( < n )
+        while (row < n && col >= 0) {
+            if (matrix.get(row).get(col) == target) return true;
+            else if (matrix.get(row).get(col) < target) row++;
+            else col--;
+        }
+    return false;
+    }
 
     public static void main(String[] args) {
         ArrayList<ArrayList<Integer>> matrix = new ArrayList<>();
