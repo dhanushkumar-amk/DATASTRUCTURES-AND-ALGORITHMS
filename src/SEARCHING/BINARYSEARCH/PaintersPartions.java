@@ -7,7 +7,7 @@ int a = 2;
 int b = 2;
         System.out.println();
     }
-    static boolean isPossible(int[] arr, int b, int mid){
+    static boolean isPossible(int[] arr, int a, int mid){
         int painters = 1;
         int pbc = 0;
 
@@ -19,7 +19,9 @@ int b = 2;
             }
             else {
                 painters++;
-                if(painters > b) return false;
+                if(painters > a) {
+                    return false;
+                }
            pbc = arr[i];
             }
             return true;
@@ -38,7 +40,7 @@ int b = 2;
         while(low <= high){
             int mid = low + (high - low)/2;
 
-            if(isPossible(arr, b,mid)){
+            if(isPossible(arr, a,mid)){
                 res = mid;
                 high = mid -1;
             }
@@ -46,6 +48,7 @@ int b = 2;
                 low = mid + 1;
             }
         }
+    return   res * b;
     }
 
 
