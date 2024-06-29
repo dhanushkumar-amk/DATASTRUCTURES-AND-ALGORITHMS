@@ -21,8 +21,11 @@ public class SearchIn2DArray {
     int high = m*n-1;
 
     while(low <= high){
-        int mid = (low <= high)/2;
-        
+        int mid = (low + high)/2;
+        int row = mid / m, col = mid % m;
+
+        if(matrix.get(row).get(col) == target) return true;
+        else if(matrix.get(row).get(col) > target) 
     }
     }
 
