@@ -20,6 +20,4 @@ public class KthMissingPositiveNumber {
         int ans = missingK(vec, n, k);
         System.out.println("The missing number is: " + ans);
     }
-
-
 }
