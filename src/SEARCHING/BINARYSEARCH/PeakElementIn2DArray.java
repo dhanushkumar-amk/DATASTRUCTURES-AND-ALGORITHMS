@@ -6,6 +6,7 @@ public class PeakElementIn2DArray {
     public static void main(String[] args) {
         int[][] matrix = {
                 {10,20,15},
+                {21,30,14},
                 {}
         };
     }
