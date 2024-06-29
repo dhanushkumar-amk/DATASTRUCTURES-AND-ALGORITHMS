@@ -13,7 +13,9 @@ public class SearchIn2DArray {
     }
 
     public static boolean searchMatrix(ArrayList<ArrayList<Integer>> matrix, int target){
-        int row =
+        int n = matrix.size();
+    int  m = matrix[0].size();
+
     }
 
 }
