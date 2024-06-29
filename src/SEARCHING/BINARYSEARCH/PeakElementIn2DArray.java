@@ -1,16 +1,21 @@
 package SEARCHING.BINARYSEARCH;
 
+import java.util.Arrays;
+
 public class PeakElementIn2DArray {
 
 
     public static void main(String[] args) {
-        int[][] matrix = {
+        int[][] mat = {
                 {10,20,15},
                 {21,30,14},
-                {}
+                {7,16,32},
         };
+
+        int[] ans = findPeakGrid(mat);
+        System.out.println(Arrays.toString(ans));
     }
-        public int[] findPeakGrid(int[][] mat) {
+        public static  int[] findPeakGrid(int[][] mat) {
             int n = mat.length;
             int m = mat[0].length;
             int low = 0;
@@ -44,7 +49,7 @@ public class PeakElementIn2DArray {
             }
             return new int[] {-1,-1};
         }
-        public int find_max_in_col(int mat[][], int n, int col) {
+        public static int find_max_in_col(int mat[][], int n, int col) {
             int idx = 0;
             int value = 0;
             for (int i=0; i<n; i++) {
