@@ -14,8 +14,16 @@ public class SearchIn2DArray {
 
     public static boolean searchMatrix(ArrayList<ArrayList<Integer>> matrix, int target){
         int n = matrix.size();
-    int  m = matrix[0].size();
+    int  m = matrix.get(0).size();
 
+
+    int low = 0;
+    int high = m*n-1;
+
+    while(low <= high){
+        int mid = (low <= high)/2;
+        
+    }
     }
 
 }
