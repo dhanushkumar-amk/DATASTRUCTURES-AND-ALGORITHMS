@@ -12,6 +12,8 @@ public class SearchIn2DArray {
         System.out.println(result ? "true" : "false");
     }
 
-    static boolean searchMatrix(ArrayList<Integer> matrix, int target)
+    public static boolean searchMatrix(ArrayList<ArrayList<Integer>> matrix, int target){
+        int row =
+    }
 
 }
