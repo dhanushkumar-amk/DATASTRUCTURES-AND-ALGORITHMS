@@ -6,6 +6,6 @@ public class KthMissingPositiveNumber {
     int days = 5;
         System.out.println();
     }
-    
+
 
 }
