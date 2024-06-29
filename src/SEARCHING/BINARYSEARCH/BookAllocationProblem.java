@@ -8,7 +8,7 @@ public class BookAllocationProblem {
         System.out.println(maxPage(arr, b));
     }
 
-    static boolean ispossibleSolution(int[] arr, int b, int mid){
+    public static boolean ispossibleSolution(int[] arr, int b, int mid){
         int student = 1;
         int studentPageCount = 0;
         for (int i = 0; i <arr.length ; i++) {
@@ -29,7 +29,7 @@ public class BookAllocationProblem {
     }
 
 
-    static int maxPage(int[] arr, int b){
+   public static int maxPage(int[] arr, int b){
 
         // base condition
         if(arr.length < b) return -1;
