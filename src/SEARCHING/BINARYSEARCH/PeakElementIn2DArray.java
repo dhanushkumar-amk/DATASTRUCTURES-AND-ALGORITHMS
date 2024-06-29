@@ -1,2 +1,5 @@
-package SEARCHING.BINARYSEARCH;public class PeakElementIn2DArray {
+package SEARCHING.BINARYSEARCH;
+
+public class PeakElementIn2DArray {
+    
 }
