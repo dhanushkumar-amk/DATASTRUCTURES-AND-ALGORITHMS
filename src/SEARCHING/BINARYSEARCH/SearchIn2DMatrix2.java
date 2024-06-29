@@ -9,7 +9,7 @@ public class SearchIn2DMatrix2 {
         int row = 0;
         int col = m-1;
 
-        while()
+        while( < n )
 
     public static void main(String[] args) {
         ArrayList<ArrayList<Integer>> matrix = new ArrayList<>();
