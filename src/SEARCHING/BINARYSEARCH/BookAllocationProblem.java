@@ -3,7 +3,7 @@ package SEARCHING.BINARYSEARCH;
 public class BookAllocationProblem {
 
     public static void main(String[] args) {
-        int[] arr = {12,344,67,90};
+        int[] arr = {12,34,67,90};
         int b= 2;
         System.out.println(maxPage(arr, b));
     }
