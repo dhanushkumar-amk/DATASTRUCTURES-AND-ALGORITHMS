@@ -32,7 +32,7 @@ public class MedianOfTheMatrix {
                 count += temp;
             }
 
-            if(count <= medianPosition) min = mid + 1;
+            if(count < medianPosition) min = mid + 1;
             else max = mid;
         }
         return min;
