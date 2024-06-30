@@ -7,12 +7,11 @@ public class INSERTIONSORT {
         for (int i = 0; i <arr.length ; i++) {
             System.out.print(arr[i] + " ");
         }
-
-        int[] ans =sort(arr);
+        sort(arr);
 
         System.out.println("After Sorting : ");
-        for (int i = 0; i <ans.length ; i++) {
-            System.out.print(ans[i] + " ");
+        for (int i = 0; i <arr.length ; i++) {
+            System.out.print(arr[i] + " ");
 
         }
     }
