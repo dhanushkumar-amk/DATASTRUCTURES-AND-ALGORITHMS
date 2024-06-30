@@ -1,2 +1,5 @@
-package SORTING.INSERTIONSORT;public class INSERTIONSORT {
+package SORTING.INSERTIONSORT;
+
+public class INSERTIONSORT {
+    
 }
