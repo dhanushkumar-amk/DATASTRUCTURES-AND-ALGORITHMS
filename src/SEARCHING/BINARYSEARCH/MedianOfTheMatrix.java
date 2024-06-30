@@ -46,6 +46,5 @@ public class MedianOfTheMatrix {
             else break;
         }
         return  count;
-
     }
 }

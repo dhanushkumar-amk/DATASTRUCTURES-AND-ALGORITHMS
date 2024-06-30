@@ -1,2 +1,4 @@
-package SEARCHING.BINARYSEARCH;public class WoodCuttingProblem {
+package SEARCHING.BINARYSEARCH;
+
+public class WoodCuttingProblem {
 }
