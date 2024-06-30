@@ -30,7 +30,7 @@ public class WoodCuttingProblem {
 
            int woodCount = findWoodCount( treeHeight, mid);
            if(woodCount == target || low == mid) return mid;
-           else if (woodCount < target) low = mid;
+           else if (woodCount > target) low = mid;
            else high = mid;
         }
         return -1;
