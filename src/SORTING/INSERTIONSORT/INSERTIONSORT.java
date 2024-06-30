@@ -13,7 +13,6 @@ public class INSERTIONSORT {
         System.out.println("After Sorting : ");
         for (int i = 0; i <arr.length ; i++) {
             System.out.print(arr[i] + " ");
-
         }
     }
     static void sort(int[] arr){
