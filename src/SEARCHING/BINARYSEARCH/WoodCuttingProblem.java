@@ -8,6 +8,14 @@ public class WoodCuttingProblem {
         System.out.println(machineHeight(treeHeight, target));
     }
 
+    static int findWoodCount(int[] treeHeight, int mid){
+        int woodCount = 0;
+        for (int i = 0; i < treeHeight.length; i++) {
+            if(treeHeight[i] > mid) woodCount +=(treeHeight[i] - mid);
+        }
+        return woodCount;
+    }
+
     static int machineHeight(int[] treeHeight, int target){
         // find max value
         int max = 0;
@@ -26,14 +34,5 @@ public class WoodCuttingProblem {
            else high = mid;
         }
         return -1;
-    }
-
-
-    static int findWoodCount(int[] treeHeight, int mid){
-       int woodCount = 0;
-        for (int i = 0; i < treeHeight.length; i++) {
-            if(treeHeight[i] > mid) woodCount +=(treeHeight[i] - mid);
-        }
-        return woodCount;
     }
 }
