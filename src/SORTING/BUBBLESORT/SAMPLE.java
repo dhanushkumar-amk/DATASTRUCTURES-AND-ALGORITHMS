@@ -10,8 +10,9 @@ public class SAMPLE {
     }
 
     static void bubbleSort(int[] arr){
+       boolean swapped;
         for (int i = 0; i <arr.length ; i++) {
-
+            swapped = false;
             // the current jth element is smaller than previous element then swap
             // for (int j = 1; j <arr.length ; j++)
                 for (int j = 1; j <arr.length-i; j++) {
@@ -22,8 +23,11 @@ public class SAMPLE {
                     int temp = arr[j];
                     arr[j] = arr[j-1];
                     arr[j-1] = temp;
+                swapped = true;
                 }
             }
+                // if the swap value is false then there is no swap is occured so it will break;
+                if(!swapped) break;
         }
     }
 }
