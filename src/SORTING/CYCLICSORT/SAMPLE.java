@@ -18,6 +18,7 @@ public class SAMPLE {
                 arr[i] = arr[correctIndex];
                 arr[correctIndex] = temp;
             }
+            else i++;
         }
     }
 }
