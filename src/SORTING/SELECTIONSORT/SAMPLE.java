@@ -8,8 +8,10 @@ public class SAMPLE {
         insertionSort(arr);
         System.out.println(Arrays.toString(arr));
     }
-    static void insertionSort(int[] arr){
 
+    // it perform well in small list of elements
+
+    static void insertionSort(int[] arr){
         for (int i = 0; i <arr.length ; i++) {
         // find the max element in the remaining array and swap it
         int lastIndex = arr.length - i -1;
