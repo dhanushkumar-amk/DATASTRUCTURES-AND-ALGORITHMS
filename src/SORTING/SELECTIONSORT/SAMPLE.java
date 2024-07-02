@@ -20,7 +20,7 @@ public class SAMPLE {
         // max
             int max = 0;
             for (i = 0; i <= lastIndex ; i++) {
-                if(arr[max] <  arr[i]) max  = arr[i];
+                if(arr[max] <  arr[i]) max  = i;
             }
 
         //swap
