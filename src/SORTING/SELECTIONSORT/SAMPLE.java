@@ -24,7 +24,7 @@ public class SAMPLE {
 
     static int findMaxElement(int[] arr, int start, int end){
         int max = start;
-        for (int i = 0; i <arr.length ; i++) {
+        for (int i = 1; i <arr.length ; i++) {
             if(arr[max] <  arr[i]) max  = arr[i];
         }
     return  max;
