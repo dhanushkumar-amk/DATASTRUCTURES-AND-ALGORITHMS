@@ -11,7 +11,10 @@ public class SAMPLE {
 
     static void bubbleSort(int[] arr){
         for (int i = 0; i <arr.length ; i++) {
-            for (int j = 1; j <arr.length - i ; j++) {
+
+            // the current jth element is smaller than previous element then swap
+            for (int j = 1; j <arr.length ; j++) {
+                // here the arr.length-i is for travel only on the unsorted array the j breaks automatically breaks the loop
 
                 if(arr[j] < arr[j-1]){
                     int temp = arr[j];
