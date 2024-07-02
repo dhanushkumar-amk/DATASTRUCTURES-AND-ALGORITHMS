@@ -14,13 +14,8 @@ public class SAMPLE {
     static void insertionSort(int[] arr){
         for (int i = 0; i <arr.length ; i++) {
         // find the max element in the remaining array and swap it
-        int lastIndex = arr.length -1 -i;
-        // int max = findMaxElement(arr, 0, lastIndex);
-
-        // max
-            int max = 0;
-                if(arr[max] <  arr[i]) max  = i;
-
+        int lastIndex = arr.length-1 -i;
+        int max = findMaxElement(arr, 0, lastIndex);
         //swap
          int temp = arr[max];
          arr[max] = arr[lastIndex];
