@@ -11,9 +11,8 @@ public class SAMPLE {
 
     static void bubbleSort(int[] arr){
         for (int i = 0; i <arr.length ; i++) {
-            // each step  max item will come to the last
-            for (int j = 1; j < arr.length - i ; j++) {
-                //swap if the current element of j is smaller than previous element
+            for (int j = 1; j <arr.length - i ; j++) {
+
                 if(arr[j] < arr[j-1]){
                     int temp = arr[j];
                     arr[j] = arr[j-1];
