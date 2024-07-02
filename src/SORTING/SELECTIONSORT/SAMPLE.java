@@ -15,7 +15,14 @@ public class SAMPLE {
         for (int i = 0; i <arr.length ; i++) {
         // find the max element in the remaining array and swap it
         int lastIndex = arr.length -1 -i;
-        int max = findMaxElement(arr, 0, lastIndex);
+        // int max = findMaxElement(arr, 0, lastIndex);
+
+        // max
+            int max = 0;
+            for (int i = 0; i <= lastIndex ; i++) {
+                if(arr[max] <  arr[i]) max  = i;
+            }
+
         //swap
          int temp = arr[max];
          arr[max] = arr[lastIndex];
