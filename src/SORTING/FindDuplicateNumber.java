@@ -1,6 +1,4 @@
-package SORTING.CYCLICSORT;
-
-import java.util.Arrays;
+package SORTING;
 
 public class FindDuplicateNumber {
 

@@ -1,4 +1,4 @@
-package SORTING.CYCLICSORT;
+package SORTING;
 import  java.util.*;
 class FindAllDisapperingNumber {
 

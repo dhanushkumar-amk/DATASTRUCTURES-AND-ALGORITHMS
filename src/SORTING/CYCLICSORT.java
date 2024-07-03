@@ -1,7 +1,7 @@
-package SORTING.CYCLICSORT;
+package SORTING;
 import java.util.Arrays;
 
-public class SAMPLE {
+public class CYCLICSORT {
     public static void main(String[] args) {
         int[] arr = {3,4,5,2,1};
     cyclicSort(arr);
