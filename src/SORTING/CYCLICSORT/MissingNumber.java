@@ -5,8 +5,9 @@ import java.util.Arrays;
 public class MissingNumber {
     public static void main(String[] args) {
         int[] arr = {0,1,2,4};
-    int ans =  missingNumber(arr);
-        System.out.print(Arrays.toString(ans));
+int ans = missingNumber(arr);
+        System.out.print(ans);
+
     }
         static int missingNumber(int[] arr){
 
