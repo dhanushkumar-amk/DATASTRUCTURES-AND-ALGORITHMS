@@ -21,7 +21,7 @@ public class MergeSort {
             int j = high;
 
             while(i < j){
-                
+                while(arr.get(i) <= pivot && i < high)
             }
         }
     }
