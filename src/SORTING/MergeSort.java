@@ -27,7 +27,7 @@ public class MergeSort {
             if(i < j){
                 int temp = arr.get(low);
                 arr.set(low, arr.get(j));
-                arr.set(j,i);
+                arr.set(j,temp);
 
             }
             }
