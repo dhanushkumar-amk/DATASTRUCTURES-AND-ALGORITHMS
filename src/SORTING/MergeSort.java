@@ -1,11 +1,8 @@
 package SORTING;
-
+import java.util.*;
 import java.util.List;
 
 public class MergeSort {
-    public static void main(String[] args) {
-
-    }
     static void quickSort(List<Integer>arr, int low, int high) {
         while (low < high) {
             int partitionIndex = partition(arr, low, high);
@@ -36,5 +33,20 @@ public class MergeSort {
             return j;
         }
 
-
+    public static void main(String args[]) {
+        List<Integer> arr = new ArrayList<>();
+        arr = Arrays.asList(new Integer[] {4, 6, 2, 5, 7, 9, 1, 3});
+        int n = arr.size();
+        System.out.println("Before Using insertion Sort: ");
+        for (int i = 0; i < n; i++) {
+            System.out.print(arr.get(i) + " ");
+        }
+        System.out.println();
+        arr = Solution.quickSort(arr);
+        System.out.println("After insertion sort: ");
+        for (int i = 0; i < n; i++) {
+            System.out.print(arr.get(i) + " ");
+        }
+        System.out.println();
+    }
     }
