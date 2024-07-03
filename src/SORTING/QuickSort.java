@@ -2,7 +2,7 @@ package SORTING;
 
 import  java.util.*;
 
-public class QuickSort {
+ class QuickSortSolution {
     static int partition(List<Integer> arr, int low, int high) {
         int pivot = arr.get(low);
         int i = low;
@@ -42,7 +42,7 @@ public class QuickSort {
     }
 }
 
-public class tUf {
+public class QuickSort {
     public static void main(String args[]) {
         List<Integer> arr = new ArrayList<>();
         arr = Arrays.asList(new Integer[] {4, 6, 2, 5, 7, 9, 1, 3});
@@ -52,7 +52,7 @@ public class tUf {
             System.out.print(arr.get(i) + " ");
         }
         System.out.println();
-        arr = QuickSort.quickSort(arr);
+        arr = QuickSortSolution.quickSort(arr);
         System.out.println("After insertion sort: ");
         for (int i = 0; i < n; i++) {
             System.out.print(arr.get(i) + " ");
