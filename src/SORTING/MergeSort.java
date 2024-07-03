@@ -28,9 +28,9 @@ public class MergeSort {
                 int temp = arr.get(low);
                 arr.set(low, arr.get(j));
                 arr.set(j,temp);
-                return j;
+              }
             }
-            }
+            
         }
     }
 }
