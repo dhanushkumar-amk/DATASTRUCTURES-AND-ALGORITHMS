@@ -30,7 +30,8 @@ public class MergeSort {
                 arr.set(j,temp);
               }
             }
-            
+            int temp = arr.get(low);
+            arr.set(low, arr.get(high))
         }
     }
 }
