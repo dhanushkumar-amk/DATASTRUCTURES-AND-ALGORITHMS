@@ -60,3 +60,17 @@ public class QuickSort {
         System.out.println();
     }
 }
+
+
+/**
+ *
+ * quick sort is used to sort the arr more efficentely then quick sort is run based on the divide conqre theorem
+ * quick sort is similar to merge sort but it take the constant space don't take any extra space
+ *
+ * Rules for quick sort
+ * 1 => take the pivot point and place it into correct position
+ * 2 => after he placing of pivot point its correct position
+ *      * => init the two pointers low and high the high pointer checks that the element is greater than the pivot point
+ *      * => low pointer check the low pointer smaller than the pivot pointer
+ *      * => then finally swap
+ */
