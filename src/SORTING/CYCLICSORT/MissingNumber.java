@@ -9,7 +9,7 @@ public class MissingNumber {
         System.out.print(Arrays.toString(ans));
     }
         static int missingNumber(int[] arr){
-        
+
         int i = 0;
         while(i < arr.length){
             int correctIndex= arr[i];
@@ -17,7 +17,7 @@ public class MissingNumber {
             if(arr[i] < arr.length && arr[i] != arr[correctIndex]){
                 int temp = arr[i];
                 arr[i] = arr[correctIndex];
-                arr[correctIndex] = temp
+                arr[correctIndex] = temp;
             } else i++;
         }
             // search for first missing number
