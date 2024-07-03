@@ -47,17 +47,16 @@ public class QuickSort {
         List<Integer> arr = new ArrayList<>();
         arr = Arrays.asList(new Integer[] {4, 6, 2, 5, 7, 9, 1, 3});
         int n = arr.size();
-        System.out.println("Before Using insertion Sort: ");
+        System.out.println("Before Using quick Sort: ");
         for (int i = 0; i < n; i++) {
             System.out.print(arr.get(i) + " ");
         }
         System.out.println();
         arr = QuickSortSolution.quickSort(arr);
-        System.out.println("After insertion sort: ");
+        System.out.println("After quick sort: ");
         for (int i = 0; i < n; i++) {
             System.out.print(arr.get(i) + " ");
         }
         System.out.println();
     }
-
 }
