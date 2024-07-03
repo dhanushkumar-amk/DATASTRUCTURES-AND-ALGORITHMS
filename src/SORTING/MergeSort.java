@@ -6,8 +6,8 @@ public class MergeSort {
     static void quickSort(List<Integer>arr, int low, int high) {
         while (low < high) {
             int partitionIndex = partition(arr, low, high);
-            quickSort(arr, low, partionIndex - 1);
-            quickSort(arr, partionIndex + 1, high);
+            quickSort(arr, low, partitionIndex - 1);
+            quickSort(arr, partitionIndex + 1, high);
         }
     }
 
