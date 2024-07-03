@@ -16,7 +16,8 @@ public class MergeSort {
 
         // to find partition
         static int partition(List<Integer> arr, int low, int high){
-            
+            int pivot = arr.get(low);
+            int 
         }
     }
 }
