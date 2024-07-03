@@ -42,7 +42,7 @@ public class MergeSort {
             System.out.print(arr.get(i) + " ");
         }
         System.out.println();
-        arr = MergeSort.quickSort(arr);
+        arr = .quickSort(arr);
         System.out.println("After insertion sort: ");
         for (int i = 0; i < n; i++) {
             System.out.print(arr.get(i) + " ");
