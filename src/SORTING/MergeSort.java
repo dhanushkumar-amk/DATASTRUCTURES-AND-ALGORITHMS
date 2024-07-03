@@ -25,13 +25,15 @@ public class MergeSort {
                 while(arr.get(j) > pivot && j >= low) j++;
 
             if(i < j){
-                int temp = arr.get(low);
-                arr.set(low, arr.get(j));
+                int temp = arr.get(i);
+                arr.set(i, arr.get(j));
                 arr.set(j,temp);
               }
             }
-            int temp = arr.get(low);
-            arr.set(low, arr.get(high))
+            int temp = arr.get(i);
+            arr.set(i, arr.get(j));
+            arr.set(j, temp);
+            return j;
         }
     }
 }
