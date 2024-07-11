@@ -13,18 +13,13 @@ public class SelectionSort {
         for (int i = 0; i < n - 1 ; i++) { // because j is always start with i+1;
             int Currentvalue = i; // store the index value not element
             for (int j = i+1; j < n ; j++) {
-                if(arr[j] < arr[Currentvalue]){ // to check the smallest element
+                if(arr[j] < arr[Currentvalue]) // to check the smallest element
                     Currentvalue = j;
-                }
-
-
             }
             // swap
             int temp = arr[i];
             arr[i] = arr[Currentvalue];
             arr[Currentvalue] = temp;
-
         }
     }
-
 }
