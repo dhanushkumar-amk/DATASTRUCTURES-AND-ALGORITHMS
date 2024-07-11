@@ -1,8 +1,12 @@
 package SORTING;
 
+import java.util.Arrays;
+
 public class BubbleSort1 {
     public static void main(String[] args) {
     int[] arr = {3,6,1,4,2,5};
+    BubbleSort(arr);
+        System.out.print(Arrays.toString(arr));
 
     }
     static void BubbleSort(int[] arr){
