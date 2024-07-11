@@ -17,11 +17,12 @@ public class SelectionSort {
                     Currentvalue = j;
                 }
 
-                // swap
-                int temp = arr[i];
-                arr[i] = arr[Currentvalue];
-                arr[Currentvalue] = temp;
+
             }
+            // swap
+            int temp = arr[i];
+            arr[i] = arr[Currentvalue];
+            arr[Currentvalue] = temp;
 
         }
     }
