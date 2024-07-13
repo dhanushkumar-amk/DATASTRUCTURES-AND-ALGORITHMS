@@ -20,7 +20,7 @@ public class CountSort {
         for(int num : arr) count[num]++;
 
         int index = 0;
-        for (int i = 0; i <max ; i++) {
+        for (int i = 0; i <=max ; i++) {
             while(count[i] > 0) {
                 arr[index] = i;
                 index++;
