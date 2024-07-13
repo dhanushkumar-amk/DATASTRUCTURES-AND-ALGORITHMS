@@ -6,7 +6,7 @@ public class CountSort {
     public static void main(String[] args) {
         int[] arr = {3,4,5,3,2,1};
         countSort(arr);
-        System.out.println("args = " + Arrays.toString(arr));
+        System.out.print( Arrays.toString(arr));
     }
     static void countSort(int[] arr){
         if(arr == null && arr.length <= 1) return;
