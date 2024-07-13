@@ -1,2 +1,4 @@
-package SORTING;public class RadixSort {
+package SORTING;
+
+public class RadixSort {
 }
