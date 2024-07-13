@@ -7,7 +7,7 @@ public class pattern9 {
         pattern(n);
     }
     static  void  pattern(int n){
-        for (int i = 1; i <=n ; i++) {
+        for (int i = n; i >= 1 ; i--) {
             for (int j = i; j <=n ; j++) {
                 System.out.print(i + " ");
             }
