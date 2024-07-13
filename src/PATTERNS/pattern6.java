@@ -13,7 +13,7 @@ public class pattern6 {
                 System.out.print(" ");
             }
             for (int j = 1; j <=i ; j++) {
-                System.out.print(" *");  // same code as pattern 5 just remove the space on the both side of the star
+                System.out.print("*");  // same code as pattern 5 just remove the space on the both side of the star
             }
             System.out.println();
         }
