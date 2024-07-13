@@ -1,6 +1,6 @@
 package SORTING;
 
-import java.util.Arrays
+import java.util.Arrays;
 
 
 // Bucket sort in Java
