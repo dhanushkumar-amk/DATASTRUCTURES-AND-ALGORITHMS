@@ -6,6 +6,21 @@ public class pattern34 {
         pattern(rows);
     }
     static void pattern(int rows){
+        for (int i = 0; i < rows; i++)
+        {
+            for (int j = 0; j < rows; j++)
+            {
+                if(i == j)
+                {
+                    System.out.print(i);
+                }
+                else
+                {
+                    System.out.print(0);
+                }
+            }
 
+            System.out.println();
+        }
     }
 }
