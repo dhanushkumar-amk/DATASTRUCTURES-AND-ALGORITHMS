@@ -1,2 +1,5 @@
-package PATTERNS;public class pattern25 {
+package PATTERNS;
+
+public class pattern25 {
+    
 }
