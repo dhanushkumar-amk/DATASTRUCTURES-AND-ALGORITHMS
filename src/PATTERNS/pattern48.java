@@ -19,6 +19,7 @@ public class pattern48 {
                     System.out.print("  ");
                 }
             }
+            System.out.println();
         }
     }
 }
