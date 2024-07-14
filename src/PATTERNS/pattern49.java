@@ -54,3 +54,17 @@ public class pattern49 {
         }
     }
 }
+
+// complex pattern
+/*
+ * * * * *
+  *     *
+   *   *
+    * *
+     *
+    * *
+   *   *
+  *     *
+ * * * * *
+
+ */
