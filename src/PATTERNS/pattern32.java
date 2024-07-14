@@ -39,3 +39,11 @@ public class pattern32 {
 }
 
 // complex type pattern
+
+/*
+10101
+01010
+10101
+01010
+10101
+ */
