@@ -23,3 +23,11 @@ public class pattern53 {
         }
     }
 }
+
+/*
+Z
+Z Y
+Z Y X
+Z Y X W
+Z Y X W V
+ */
