@@ -2,8 +2,9 @@ package BIT_MANUPULATION;
 
 public class BitwiseOperator {
     public static void main(String[] args) {
-        System.out.println( 5 | 9);
-        System.out.println(5 & 9);
-        System.out.println(5 ^ 9);
+        // basic operator
+        System.out.println( 5 | 9); // 13
+        System.out.println(5 & 9); // 1
+        System.out.println(5 ^ 9); // 12
     }
 }
