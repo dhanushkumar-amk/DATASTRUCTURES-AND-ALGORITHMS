@@ -51,3 +51,16 @@ public class pattern56 {
         }
     }
 }
+
+/*
+C:\Users\hp5cd\.jdks\openjdk-22.0.1\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.1\lib\idea_rt.jar=59304:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.1\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\hp5cd\OneDrive\Documents\DATASTRUCTURES-AND-ALGORITHMS\out\production\DATASTRUCTURES-AND-ALGORITHMS PATTERNS.pattern56
+        A
+      A B
+    A B C
+  A B C D
+A B C D E
+  A B C D
+    A B C
+      A B
+        A
+ */
