@@ -8,7 +8,7 @@ public class findRightMostSetBit {
     static int positionOfRightMostSetBit(int n){
         int mask = 1;
         int position = 0;
-
+         if(n == 0) return -1;
         while((n & mask) == 0 ){
             mask = mask << 1;
             position++;
