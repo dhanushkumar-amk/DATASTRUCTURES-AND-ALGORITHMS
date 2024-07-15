@@ -1,5 +1,7 @@
 package BIT_MANUPULATION;
 
+import static java.lang.Math.log10;
+
 public class findRightMostSetBit {
     public static void main(String[] args) {
         int n = 10;
@@ -20,7 +22,7 @@ public class findRightMostSetBit {
 
     // efficent solution
     static int positionOfRightMostSetBit1(int n){
-        return n ^ (n & (n-1));
+        return(int)Math.log10(n ^ (n & (n - 1 ))) / Math.log10(2);
     }
 
 
