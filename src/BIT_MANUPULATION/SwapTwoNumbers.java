@@ -6,7 +6,7 @@ public class SwapTwoNumbers {
         int b = 10;
 
         a = a ^ b;
-        b = a ^ b;
+        b = b ^ a;
 
         System.out.println("A = " + a);
         System.out.println("B = " + b);
