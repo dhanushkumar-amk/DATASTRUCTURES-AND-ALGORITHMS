@@ -2,7 +2,7 @@ package BIT_MANUPULATION;
 
 public class findRightMostSetBit {
     public static void main(String[] args) {
-        int n = 10;
+        int n = 0;
         System.out.println(positionOfRightMostSetBit(n));
     }
     static int positionOfRightMostSetBit(int n){
