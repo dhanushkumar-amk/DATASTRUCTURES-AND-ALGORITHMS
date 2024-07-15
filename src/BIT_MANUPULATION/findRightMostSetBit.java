@@ -22,7 +22,7 @@ public class findRightMostSetBit {
 
     // efficent solution
     static int positionOfRightMostSetBit1(int n){
-        return(int)Math.log10(n ^ (n & (n - 1 ))) / Math.log10(2);
+        return (int) (Math.log10(n ^ (n & (n - 1 ))) / Math.log10(2));
     }
 
 
