@@ -1,2 +1,5 @@
-package BIT_MANUPULATION;public class ReversingTheBitsOfAnInteger {
+package BIT_MANUPULATION;
+
+public class ReversingTheBitsOfAnInteger {
+    
 }
