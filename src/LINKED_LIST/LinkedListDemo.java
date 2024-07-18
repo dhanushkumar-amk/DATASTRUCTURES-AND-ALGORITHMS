@@ -1,14 +1,12 @@
 package LINKED_LIST;
 
 
-import java.lang.classfile.components.ClassPrinter;
 
 public class LinkedListDemo {
-    public static void main(String[] args) {
 
-    }
-
-    private Node he
+    private Node head;
+    private Node tail;
+    
 
     private class node {
         private int value;
