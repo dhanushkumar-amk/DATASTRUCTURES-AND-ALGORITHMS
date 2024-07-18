@@ -15,6 +15,17 @@ class Node{
     }
 }
 public class LL1 {
+
+    // print the element
+    static void printLinkedList(Node head){
+        Node curr = head;
+
+        while(curr != null){
+            System.out.println(curr.data);
+            curr = curr.next;
+        }
+    }
+    
     public static void main(String[] args) {
         // creating the node
         Node p1 = new Node(10);
@@ -29,5 +40,7 @@ public class LL1 {
         p2.next = p3;
         p3.next = p4;
         Node head = p1;
+
+        printLinkedList(head);
     }
 }
