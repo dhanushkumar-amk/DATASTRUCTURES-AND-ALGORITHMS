@@ -23,6 +23,6 @@ public class LL1 {
         Node p4 = new Node(40);
 
         // connect each other or link each other
-        System.out.println(p1.next);
+        System.out.println(p1.data);
     }
 }
