@@ -6,7 +6,12 @@ public class LinkedListDemo {
 
     private Node head;
     private Node tail;
-    
+
+    private  int size;
+
+    public LinkedListDemo(){
+        this.size = 0;
+    }
 
     private class node {
         private int value;
