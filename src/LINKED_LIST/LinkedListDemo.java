@@ -1,6 +1,7 @@
 package LINKED_LIST;
 
 
+import org.w3c.dom.Node;
 
 public class LinkedListDemo {
 
@@ -9,8 +10,19 @@ public class LinkedListDemo {
 
     private  int size;
 
+
+
     public LinkedListDemo(){
         this.size = 0;
+    }
+    public void insertFirstElement(int val){
+        Node node = new Node(val);
+        node.next = head;
+        head = node;
+        if(tail == null){
+            tail = head;
+        }
+        size += 1;
     }
 
     private class node {
