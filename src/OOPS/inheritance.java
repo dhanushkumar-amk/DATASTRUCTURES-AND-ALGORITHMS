@@ -25,11 +25,12 @@ class  call{
     public static void main(String[] args) {
         animal obj = new animal();
         System.out.println(obj.noLegs);
-        
+
     }
 }
 
-
+// METHOD overriding
+//
 
 
 // inheritance is the idea of reusability
