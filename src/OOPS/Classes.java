@@ -32,6 +32,12 @@ class main{
         // calling the function using object instance
         person.display();
 
+        // creating the another object
+        Classes user = new Classes();
+        user.name = "sanjay";
+        user.rollNo = 20;
+        user.display();
+
 
     }
 }
