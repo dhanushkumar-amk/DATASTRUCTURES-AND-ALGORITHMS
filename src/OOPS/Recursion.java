@@ -7,11 +7,11 @@ public class Recursion {
     }
     public static  void naturalNumber(int n){
         // base case
-        if(n == 1) System.out.println(1);
+        if(n == 10) System.out.println(1);
         else {
             System.out.println(n);
             // recursive case
-            naturalNumber(n-1);
+            naturalNumber(n+1);
         }
     }
 }
