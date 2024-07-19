@@ -57,3 +57,8 @@ class main{
 // if we give private modifier to the function that function can be only access by inside the particular class
 // the variable or method that can be private that only accessed inside he particular class
 
+// 3 => protected
+//the variable and methods can be accessed by within the particular file but can't be access by another file
+
+// 4 => default
+// it give access to the all the file but the condition is package should be private
