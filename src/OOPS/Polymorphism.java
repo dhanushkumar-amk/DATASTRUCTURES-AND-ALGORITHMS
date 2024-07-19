@@ -3,12 +3,9 @@ public class Polymorphism {
     void display(){
         System.out.println("I am a void function");
     }
-
     void display(int n){
         System.out.println(n);
     }
-
-
     void display(int n, int m){
         System.out.println(n);
         System.out.println(m);
@@ -30,5 +27,4 @@ class print{
 
 // same function has different parameters or different task
 // here example is display function
-
-//
+//both method has same name but it has signature element
