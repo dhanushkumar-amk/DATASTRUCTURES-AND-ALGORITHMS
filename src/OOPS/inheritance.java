@@ -19,9 +19,19 @@ class dog extends animal{
     Boolean canBark = true;
 }
 
+
 class  call{
     public static void main(String[] args) {
         animal obj = new animal();
         System.out.println(obj.noLegs);
+
     }
 }
+
+
+
+
+// inheritance is the idea of reusability
+// it means we can reuse the code from different classes
+
+// we can get the value from one class o another using extends keyword
