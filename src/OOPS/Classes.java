@@ -1,7 +1,6 @@
 package OOPS;
 
 // classes is a collection variables , identifiers and methods
-
 // object is a instance of an object => copy of an classes
 
 // creating a class
@@ -41,7 +40,20 @@ class main{
         user.name = "sanjay";
         user.rollNo = 20;
         user.display();
-
     }
 }
+
+
+
+// access modifier
+
+// 1 > public
+// this method can be access by any file or any where in this package
+// the main function can must be public
+// public modifier is used to get the value to the compiler that is a another seprate software
+
+
+// 2 > private
+// if we give private modifier to the function that function can be only access by inside the particular class
+// the variable or method that can be private that only accessed inside he particular class
 
