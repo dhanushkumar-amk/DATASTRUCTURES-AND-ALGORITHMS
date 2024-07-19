@@ -17,6 +17,7 @@ class animal{
 
 class dog extends animal{
     Boolean canBark = true;
+    int noLegs = 5;
 }
 
 
@@ -24,7 +25,7 @@ class  call{
     public static void main(String[] args) {
         animal obj = new animal();
         System.out.println(obj.noLegs);
-
+        
     }
 }
 
