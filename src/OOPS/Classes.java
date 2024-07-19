@@ -15,7 +15,9 @@ public class Classes {
              System.out.println(name);
              System.out.println(rollNo);
          }
+}
 
+class main{
     public static void main(String[] args) {
 
         // creating an object
@@ -23,11 +25,14 @@ public class Classes {
         // Classes is a class name
         // new keyword is used to allocate memory space
 
+        // we can assign the value using object instance
         person.name = "Dhanush";
         person.rollNo = 10;
+
+        // calling the function using object instance
         person.display();
 
-    }
 
     }
+}
 
