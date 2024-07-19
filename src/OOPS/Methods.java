@@ -10,8 +10,9 @@ public class Methods {
      // function calling
      add(); // non - parameterized function with void
      add1(10,30);  // parameterized function with void
-        System.out.println(add2(100,100));
 
+        System.out.println(add2(100,100));
+       // parameterized function with non void function
     }
 
     // function definition
@@ -34,7 +35,7 @@ public class Methods {
     // non void function
     public  static  int add2(int a, int b){
         int c  = a + b;
-     return  c;
+     return  c; // to return the value of c that is int date type
     }
 
 }
