@@ -8,8 +8,10 @@ package OOPS;
 public class Methods {
     public static void main(String[] args) {
      // function calling
-     add();
-     add1(10,30);
+     add(); // non - parameterized function with void
+     add1(10,30);  // parameterized function with void
+        System.out.println(add2(100,100));
+
     }
 
     // function definition
@@ -26,6 +28,15 @@ public class Methods {
         int c = a + b;
         System.out.println(c);
     }
+
+
+
+    // non void function
+    public  static  int add2(int a, int b){
+        int c  = a + b;
+     return  c;
+    }
+
 }
 
 
