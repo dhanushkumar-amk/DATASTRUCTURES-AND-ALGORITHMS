@@ -26,7 +26,7 @@ public class SinglyLinkedList {
         list.insertLast(6);
        //        5 -> 4 -> 3 -> 2 -> 1 -> 6 -> End
 
-        // insert the element in the particular index of an linked list
+        // insert the element in the particular index of a linked list
         list.insert(7,3);
        //        5 -> 4 -> 3 -> 7 -> 2 -> 1 -> 6 -> End
         // to print the element in linked list
@@ -51,6 +51,5 @@ public class SinglyLinkedList {
         list.display();
 
 
-        System.out.println(list);
     }
 }
