@@ -21,5 +21,7 @@ public class SAMPLE {
         queue.remove();
 
         System.out.println(queue);
+
+        
     }
 }
