@@ -69,6 +69,27 @@ public class CustomLinkedList {
         size--;
         return  val;
     }
+    // delete the last element
+    public int deleteLast(){
+        if(size <= 1){
+            return  deleteFirst();
+        }
+         Node secondLast = get( size - 2);
+   int val = tail.value;
+   tail = secondLast;
+   tail.next = null;
+   return  val;
+    }
+
+
+    // get the index
+    public Node get(int index){
+    Node node = head;
+        for (int i = 0; i <index ; i++) {
+            node = node.next;
+        }
+        return node;
+    }
 
     // display
     public void display(){
