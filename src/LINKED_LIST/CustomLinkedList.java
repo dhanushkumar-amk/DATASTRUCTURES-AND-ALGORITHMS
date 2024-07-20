@@ -75,12 +75,30 @@ public class CustomLinkedList {
             return  deleteFirst();
         }
          Node secondLast = get( size - 2);
-   int val = tail.value;
-   tail = secondLast;
-   tail.next = null;
-   return  val;
+       int val = tail.value;
+       tail = secondLast;
+       tail.next = null;
+       return  val;
     }
 
+
+    // delete the particular value in an linkedlist
+    public int deleteIndex(int index){
+        if(index == 0)
+            return deleteFirst();
+
+        if(index == size-1)
+            return  deleteLast();
+
+        Node previous = get(index -1);
+        int val = previous.next.value;
+
+        previous.next = previous.next.next;
+
+        return  val;
+
+
+    }
 
     // get the index
     public Node get(int index){
