@@ -20,17 +20,25 @@ public class SinglyLinkedList {
         list.insertFirst(3);
         list.insertFirst(4);
         list.insertFirst(5);
+//        5 -> 4 -> 3 -> 7 -> 2 -> 1 -> End
 
         // custom insert method used to insert the element in the last
         list.insertLast(6);
-
+//        5 -> 4 -> 3 -> 2 -> 1 -> 6 -> End
 
         // insert the element in the particular index of an linked list
         list.insert(7,3);
+//        5 -> 4 -> 3 -> 7 -> 2 -> 1 -> 6 -> End
         // to print the element in linked list
+
+
+
+        // delete the firs element
+        System.out.println(list.deleteFirst());
+
+
+
+
         list.display();
-
-
     }
-
 }

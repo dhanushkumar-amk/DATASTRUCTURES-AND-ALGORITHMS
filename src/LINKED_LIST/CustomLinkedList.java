@@ -58,6 +58,18 @@ public class CustomLinkedList {
         size++;
     }
 
+    // delete the first element
+    public int deleteFirst(){
+        int val = head.value;
+        head = head.next;
+
+        if(head == null){
+            tail = null;
+        }
+        size--;
+        return  val;
+    }
+
     // display
     public void display(){
         Node temp = head;
