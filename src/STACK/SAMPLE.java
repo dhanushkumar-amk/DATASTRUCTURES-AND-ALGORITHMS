@@ -17,7 +17,7 @@ public class SAMPLE {
         stack.push(5);
 
         // remove the element in stack
-        stack.pop();
+        stack.pop();  // pop method removes the last element in stack
 
         System.out.println(stack);
     }
