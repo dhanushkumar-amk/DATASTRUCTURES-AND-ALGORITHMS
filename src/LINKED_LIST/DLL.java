@@ -16,7 +16,28 @@ public class DLL {
          head = node;
      }
 
-     // display function
+
+    // insert last
+
+    public void  insertLast(int val){
+         Node node = new Node(val);
+         Node last = head;
+         node.next = null;
+
+         if(head == null){
+             node.previous = null;
+             head = node;
+             return;
+         }
+         while(last.next != null){
+             last = last.next;
+         }
+         last.next = node;
+         node.previous = last;
+    }
+
+
+    // display function
      public  void display(){
          Node node = head;
          Node last = null;
@@ -35,8 +56,7 @@ public class DLL {
          System.out.println("Start");
      }
 
-     // insert last
-    
+
 
 // display reverse
 //    public  void displayRev(){
