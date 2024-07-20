@@ -13,6 +13,7 @@ public class SinglyLinkedList {
          // list.add(34);
          CustomLinkedList list = new CustomLinkedList();
 
+        // custom insert method using custom liked list
 
         list.insertFirst(1);
         list.insertFirst(2);
@@ -21,6 +22,8 @@ public class SinglyLinkedList {
         list.insertFirst(5);
 
         list.display();
+        
+
     }
 
 }
