@@ -42,7 +42,7 @@ public class SinglyLinkedList {
 
         // to delete the last element
         System.out.println(list.deleteLast());
-
+// 4 -> 3 -> 7 -> 2 -> 1 -> End
         list.display();
     }
 }
