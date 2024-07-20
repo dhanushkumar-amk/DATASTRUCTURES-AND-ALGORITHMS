@@ -51,6 +51,6 @@ public class SinglyLinkedList {
         list.display();
 
 
-        System.out.println(list.find(7));
+        System.out.println(list);
     }
 }
