@@ -14,8 +14,11 @@ public class SAMPLE {
         queue.add(4);
         queue.add(5);
 
+        // to get the first element in an queue
+        System.out.println(queue.peek());
+
         // to remove the first element in queue
-        queue.peek();
+        queue.remove();
 
         System.out.println(queue);
     }
