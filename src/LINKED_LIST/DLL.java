@@ -35,6 +35,9 @@ public class DLL {
          System.out.println("Start");
      }
 
+     // insert last
+    
+
 // display reverse
 //    public  void displayRev(){
 //        Node node = head;
