@@ -1,7 +1,9 @@
+package ARRAYS;
+
 Package.Arrays;
 import java.io.*;
  
-class CountVally {
+public class CountVally {
     static int countValleys(int n, int arr[]){
    int count = 0; 
    int temp = 0;
