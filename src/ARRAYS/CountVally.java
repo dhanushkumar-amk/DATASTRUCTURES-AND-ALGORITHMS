@@ -1,6 +1,5 @@
 package ARRAYS;
 
-Package.Arrays;
 import java.io.*;
  
 public class CountVally {
