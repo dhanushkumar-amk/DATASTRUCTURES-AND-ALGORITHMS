@@ -37,6 +37,27 @@ public class CustomLinkedList {
         size +=1;
     }
 
+    // insert the value at the particular index
+    public void insert(int val, int index){
+        if(index == 0){
+            insertFirst(0);
+            return;
+        }
+
+        if(index == size){
+            insertLast(val);
+            return;
+        }
+
+        Node temp =  head;
+        for (int i = 1; i < index ; i++) {
+            temp = temp.next;
+        }
+        Node node  = new Node(val, temp.next);
+        temp.next = node;
+        size++;
+    }
+
     // display
     public void display(){
         Node temp = head;
