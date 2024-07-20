@@ -1,6 +1,8 @@
-# Data Structures and Algorithms (DSA)
+# Data Structures and Algorithms (DSA) 🌐🖥
 
 Data Structures and Algorithms (DSA) is a vast field encompassing a wide array of topics. Here is a comprehensive list of topics commonly covered in DSA:
+
+
 
 ## Data Structures
 
@@ -63,6 +65,8 @@ Data Structures and Algorithms (DSA) is a vast field encompassing a wide array o
   - Merge Sort
   - Quick Sort
   - Heap Sort
+  - Cyclic sort
+  - Shell sort
 - Non-Comparison-based Sorting
   - Counting Sort
   - Radial Sort
@@ -127,6 +131,7 @@ Data Structures and Algorithms (DSA) is a vast field encompassing a wide array o
 - KMP Algorithm
 - Aho-Corasick Algorithm
 
+---
 ## Important Concepts
 
 - Time Complexity Analysis
@@ -141,3 +146,24 @@ Data Structures and Algorithms (DSA) is a vast field encompassing a wide array o
 - Approximation Algorithms
 - Online Algorithms
 - NP-completeness and P vs NP problem
+- OOPS Concepts
+- Java Collections
+
+---
+## Company wise Coding Problems
+
+- Google
+- Microsoft
+- Facebook
+- Apple
+- Amazon
+- Flipkart
+- Uber
+- Twitter
+- Zoho
+- Tcs
+- Accenture
+- and more...
+
+---
+# Add more topics related to DataStructure and Algorithms and also Contribute the code  
