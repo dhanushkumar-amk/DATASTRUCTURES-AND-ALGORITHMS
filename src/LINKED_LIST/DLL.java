@@ -3,6 +3,8 @@ package LINKED_LIST;
 public class DLL {
 
   private Node head;
+
+// insert first function in dll
      public void insertFirst(int val){
          Node node = new Node(val);
          node.next = head;
@@ -14,6 +16,7 @@ public class DLL {
          head = node;
      }
 
+     // display function
      public  void display(){
          Node node = head;
          while(node != null) {
@@ -23,6 +26,15 @@ public class DLL {
          System.out.println("End");
      }
 
+// display reverse
+    public  void displayRev(){
+        Node node = head;
+        while(node != null) {
+            System.out.print(node.val +" -> ");
+            node = node.next;
+        }
+        System.out.println("End");
+    }
 
 
 
