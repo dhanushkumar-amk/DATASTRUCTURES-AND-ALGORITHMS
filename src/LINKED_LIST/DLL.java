@@ -14,6 +14,15 @@ public class DLL {
          head = node;
      }
 
+     public  void display(){
+         Node node = head;
+         while(node != null) {
+             System.out.print(node.val +" -> ");
+            node = node.next;
+         }
+         System.out.println();
+     }
+
 
 
 
