@@ -11,6 +11,9 @@ public class DoubleLinkedList {
         list.insertFirst(40);
         list.insertFirst(50);
 
+        list.insertLast(99);
+
+
         // display the value
         list.display();
     }
