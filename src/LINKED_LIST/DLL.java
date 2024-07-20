@@ -37,6 +37,8 @@ public class DLL {
     }
 
 
+
+
     // display function
      public  void display(){
          Node node = head;
