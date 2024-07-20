@@ -100,6 +100,18 @@ public class CustomLinkedList {
 
     }
 
+    // find the index
+    public  Node find(int value){
+        Node node = head;
+        while( node !=  null){
+            if(node.value == value){
+                return node;
+            }
+            node = node.next;
+        }
+        return  node;
+    }
+
     // get the index
     public Node get(int index){
     Node node = head;

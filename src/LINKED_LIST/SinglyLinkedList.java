@@ -20,7 +20,7 @@ public class SinglyLinkedList {
         list.insertFirst(3);
         list.insertFirst(4);
         list.insertFirst(5);
-//        5 -> 4 -> 3 -> 7 -> 2 -> 1 -> End
+       // 5 -> 4 -> 3 -> 7 -> 2 -> 1 -> End
 
         // custom insert method used to insert the element in the last
         list.insertLast(6);
@@ -42,9 +42,15 @@ public class SinglyLinkedList {
 
         // delete the particular value
         System.out.println(list.deleteIndex(3));
+        //4 -> 3 -> 7 -> 1 -> 6 -> End
+        // 2 has been deleted
+
         // to delete the last element
         System.out.println(list.deleteLast());
        // 4 -> 3 -> 7 -> 2 -> 1 -> End
         list.display();
+
+
+        System.out.println(list.find(7));
     }
 }
