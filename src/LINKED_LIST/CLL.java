@@ -29,7 +29,7 @@ public class CLL {
 
         if(head != null){
             do {
-                System.out.println(node.val + "  -> ");
+                System.out.print(node.val + "  -> ");
                 node = node.next;
             }while(node != head);
         }
