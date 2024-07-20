@@ -9,6 +9,18 @@ public class CustomLinkedList {
     public  CustomLinkedList() {
         this.size = 0;
     }
+    public void insertLast(int val){
+
+        if(tail == null){
+            insertFirst(val);
+            return;
+        }
+
+        Node node  = new Node(val);
+        tail.next = node;
+         tail = node ;
+         size++;
+    }
 
     public void insertFirst(int val){
         Node node  = new Node(val);
