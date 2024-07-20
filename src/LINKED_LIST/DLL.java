@@ -32,7 +32,7 @@ public class DLL {
              System.out.print(last.val + " -> ");
              last = last.previous;
          }
-         System.out.println();
+         System.out.println("Start");
      }
 
 // display reverse
