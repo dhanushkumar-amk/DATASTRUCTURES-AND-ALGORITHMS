@@ -1,4 +1,4 @@
-package QUEUE;
+package STACK_AND_QUEUE;
 
 import java.util.PriorityQueue;
 
