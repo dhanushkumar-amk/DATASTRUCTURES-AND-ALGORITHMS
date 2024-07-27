@@ -14,7 +14,7 @@ public class MAXIMUMPOINTOBTAINEDFROMCARDS {
         int maxSum = 0;
         int rightIndex = n-1;
 
-        for (int i = 0; i < k-1 ; i++) {
+        for (int i = 0; i <= k-1 ; i++) {
             leftSum += nums[i];
             maxSum = leftSum;
         }
@@ -23,10 +23,7 @@ public class MAXIMUMPOINTOBTAINEDFROMCARDS {
             rightSum += nums[rightIndex];
             rightIndex--;
             maxSum = Math.max(maxSum, leftSum+rightSum);
-            
         }
-
-
         return maxSum;
     }
 }
