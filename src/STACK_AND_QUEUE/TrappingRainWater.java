@@ -2,12 +2,6 @@ package STACK_AND_QUEUE;
 
 public class TrappingRainWater {
 
-
-
-
-    
-    // efficient solution but some tricks
-
     static int trap1(int[] arr) {
         int n = arr.length;
         int prefix[] = new int[n];
@@ -28,6 +22,10 @@ public class TrappingRainWater {
     }
 
 
+
+
+
+// efficient solution little  bit harder
     static int trap(int[] height) {
         int n = height.length;
         int left = 0, right = n - 1;
