@@ -12,19 +12,20 @@ public class MAXIMUMPOINTOBTAINEDFROMCARDS {
         int leftSum = 0;
         int rightSum = 0;
         int maxSum = 0;
+        int rightIndex = n-1;
 
         for (int i = 0; i < k-1 ; i++) {
             leftSum += nums[i];
             maxSum = leftSum;
         }
-        int rightIndex = n-1;
         for (int i = k-1; i >= 0 ; i--) {
             leftSum -= nums[i];
             rightSum += nums[rightIndex];
             rightIndex--;
+            maxSum = Math.max(maxSum, leftSum+rightSum);
+            
         }
 
-        maxSum = Math.max(maxSum, leftSum+rightSum);
 
         return maxSum;
     }
