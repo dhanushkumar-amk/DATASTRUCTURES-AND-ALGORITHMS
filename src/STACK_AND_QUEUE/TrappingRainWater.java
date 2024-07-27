@@ -2,7 +2,12 @@ package STACK_AND_QUEUE;
 
 public class TrappingRainWater {
 
-    // better solution but easy apporouch
+
+
+
+    
+    // efficient solution but some tricks
+
     static int trap1(int[] arr) {
         int n = arr.length;
         int prefix[] = new int[n];
@@ -22,7 +27,6 @@ public class TrappingRainWater {
         return waterTrapped;
     }
 
-    // efficient solution but some tricks
 
     static int trap(int[] height) {
         int n = height.length;
