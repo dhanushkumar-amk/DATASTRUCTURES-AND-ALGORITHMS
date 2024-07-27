@@ -1,2 +1,4 @@
-package SLIDINGWINDOW_TWOPOINTERS;public class sample {
+package SLIDINGWINDOW_TWOPOINTERS;
+
+public class sample {
 }
