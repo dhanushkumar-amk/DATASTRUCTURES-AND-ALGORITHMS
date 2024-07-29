@@ -29,7 +29,7 @@ public class MaximumConsecutiveOnes3 {
             }
                 if(zeros <= k){
                     length = right - left + 1;
-                    maxLength = Math.max(maxLength, length);
+                    maxLength = Math.max(length, maxLength);
                 }
                 right++;
             }
