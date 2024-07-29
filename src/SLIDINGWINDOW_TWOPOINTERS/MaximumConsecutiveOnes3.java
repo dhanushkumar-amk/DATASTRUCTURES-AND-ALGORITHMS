@@ -36,6 +36,5 @@ public class MaximumConsecutiveOnes3 {
         }
 
         return  maxLength;
-        return maxLength;
     }
 }
