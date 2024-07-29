@@ -7,7 +7,7 @@ public class MaximumConsecutiveOnes3 {
         System.out.println("The maximum Consecutive element is : " + maximumConsecutive(nums, k));
 
     }
-    public static int maximumConsecutive(int[] nums, int k){
+    static int maximumConsecutive(int[] nums, int k){
 
         // init points
 
