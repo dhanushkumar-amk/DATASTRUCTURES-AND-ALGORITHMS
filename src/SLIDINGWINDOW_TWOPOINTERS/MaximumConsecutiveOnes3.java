@@ -17,7 +17,7 @@ public class MaximumConsecutiveOnes3 {
         int length = 0;
         int maxLength = 0;
 
-        while(right < nums.length){
+        while(right <= nums.length){
             if(nums[right] == 0)
                 zeros++;
 
