@@ -17,7 +17,7 @@ public class MaximumConsecutiveOnes3 {
         int length = 0;
         int maxLength = 0;
 
-        while(right <= nums.length){
+        while(right < nums.length){
             if(nums[right] == 0)
                 zeros++;
 
@@ -27,7 +27,7 @@ public class MaximumConsecutiveOnes3 {
                     left++;
                 }
             }
-                if(zeros <= k){
+                if(zeros < k){
                     length = right - left + 1;
                     maxLength = Math.max(maxLength, length);
                 }
