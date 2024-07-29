@@ -21,20 +21,18 @@ public class MaximumConsecutiveOnes3 {
             if(nums[right] == 0)
                 zeros++;
 
-            if(zeros > k){
-                if(nums[left] == 0){
+            if(zeros > k) {
+                if (nums[left] == 0) {
                     zeros--;
                     left++;
                 }
-
+            }
                 if(zeros <= k){
                     length = right - left + 1;
                     maxLength = Math.max(maxLength, length);
                 }
                 right++;
             }
-        }
-
         return  maxLength;
     }
 }
