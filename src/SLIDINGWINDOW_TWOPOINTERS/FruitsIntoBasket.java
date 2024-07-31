@@ -35,7 +35,5 @@ public class FruitsIntoBasket {
             maxFruit = Math.max(maxFruit, right - left + 1);
         }
         return  maxFruit;
-
-        return  maxFruit;
     };
 }
