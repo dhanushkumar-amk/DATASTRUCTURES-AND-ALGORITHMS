@@ -17,7 +17,7 @@ public class FruitsIntoBasket {
         int right = 0;
         int maxFruit = 0;
 
-        for (int i = 0; i <fruits.length ; i++) {
+        for (right = 0; right <fruits.length ; right++) {
             int currentCount = basket.getOrDefault(fruits[right], 0); // getOrDefault function returns get the particular function and also set the default value
             basket.put(fruits[right], currentCount + 1);
 
