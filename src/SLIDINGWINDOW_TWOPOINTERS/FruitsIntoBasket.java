@@ -21,15 +21,12 @@ public class FruitsIntoBasket {
             int currentCount = basket.getOrDefault(fruits[right], 0); // getOrDefault function returns get the particular function and also set the default value
             basket.put(fruits[right], currentCount + 1);
 
-
             while(basket.size() > 2){
                 int fruitCount = basket.get(fruits[left]);
-
                 if(fruitCount == 1)
                     basket.remove(fruits[left]);
                 else
                     basket.put(fruits[left], fruitCount - 1);
-
                 left++;
             }
             maxFruit = Math.max(maxFruit, right - left + 1);
