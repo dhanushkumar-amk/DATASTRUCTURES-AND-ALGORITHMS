@@ -1,5 +1,7 @@
 package ZZZZZ.Accenture;
 
+//gfg
+
 public class TrailingZeros {
     public static void main(String[] args) {
         int n = 100;
