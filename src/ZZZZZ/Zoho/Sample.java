@@ -1,2 +1,4 @@
-package ZZZZZ.Accenture.Zoho;public class Sample {
+package ZZZZZ.Zoho;
+
+public class Sample {
 }
