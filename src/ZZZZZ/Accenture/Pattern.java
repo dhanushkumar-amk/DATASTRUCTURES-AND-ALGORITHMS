@@ -2,7 +2,7 @@ package ZZZZZ.Accenture;
 
 public class Pattern {
     public static void main(String[] args) {
-       int n = 4;
+       int n = 8;
        pattern(n);
     }
     static  void pattern(int n){
