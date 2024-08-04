@@ -17,6 +17,6 @@ public class StringAndNumberBitManupulation {
             else
                 ans = ans ^ s.charAt(i+1);
         }
-        return  ans;
+        return  ans - 48;
     }
 }
