@@ -7,7 +7,7 @@ public class StringAndNumberBitManupulation {
     }
     static  int Manipulation(String s){
         int n = s.length();
-        int ans  = (int) s.charAt(0);
+        int ans  =  s.charAt(0)-48;
 
         for (int i = 1; i <n; i=i+2){
             if(s.charAt(i) == 'A')
