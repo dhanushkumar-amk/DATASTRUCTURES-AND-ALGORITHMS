@@ -2,7 +2,7 @@ package ZZZZZ.Accenture;
 
 public class StringAndNumberBitManupulation {
     public static void main(String[] args) {
-        String s = "1C0C1C1A0B1";
+        String s = "1C0C1C1A1B1";
         System.out.println(Manipulation(s));
     }
     static  int Manipulation(String s){
