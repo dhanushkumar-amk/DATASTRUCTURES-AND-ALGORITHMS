@@ -19,9 +19,9 @@ public class MatrixSearch {
             if(arr[i][j] == target)
                 return  1;
             else if(arr[i][j] > target)
-                j--;
+                j++;
             else
-                i++;
+                j--;
         }
 
         return -1;
