@@ -9,13 +9,13 @@ public class Pattern {
         int spaces = 2*n- 2;
         for (int i = 1; i <= n ; i++) {
             for (int j = 0; j <i ; j++)
-                System.out.println(i);
+                System.out.print(i);
 
             for (int j = 0; j < spaces ; j++)
-                System.out.println(" ");
+                System.out.print(" ");
 
             for (int j = 0; j <i ; j++)
-                System.out.println(i);
+                System.out.print(i);
 
             spaces = spaces - 2;
             System.out.println();
