@@ -13,6 +13,12 @@ public class Pattern {
 
             for (int j = 0; j < spaces ; j++)
                 System.out.println(" ");
+
+            for (int j = 0; j <i ; j++)
+                System.out.println(i);
+
+            spaces = spaces - 2;
+            System.out.println();
         }
     }
 }
