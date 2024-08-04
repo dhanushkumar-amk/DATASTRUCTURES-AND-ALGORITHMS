@@ -12,7 +12,7 @@ public class MatrixSearch {
         System.out.println(search(arr,n,m,target));
     }
     static  int search(int[][] arr, int n, int m, int target){
-        int i = 0;
+        int i = 1;
         int j = m-1;
 
         while(i < j && j >= 0){
