@@ -1,6 +1,6 @@
 package ZZZZZ.Accenture;
 
-public class CountStringPremutation {
+public class CountStringPermutation {
     public static void main(String[] args) {
         String s = "aab";
         System.out.println(CountString(s));
