@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 public class SocksMerchant {
     public static void main(String[] args) {
-        int[] arr = {1, 2, 1, 2, 1, 3, 2}; // Example array of socks
+        int[] arr = {1, 2, 1, 3, 1, 3, 2,1}; // Example array of socks
         int n = arr.length;
         int pairs = sock(arr, n);
         System.out.println("Number of pairs: " + pairs);
