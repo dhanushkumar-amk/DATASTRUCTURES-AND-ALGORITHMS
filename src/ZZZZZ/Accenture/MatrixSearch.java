@@ -9,7 +9,7 @@ public class MatrixSearch {
         int n = 2;
         int m = 3;
         int target = 8;
-        System.out.println(search(arr,n,m,));
+        System.out.println(search(arr,n,m,target));
     }
     static  int search(int[][] arr, int n, int m, int target){
         int i = 0;
