@@ -12,7 +12,10 @@ int  n = 10;
         if(n > 12 || n < 2) return  0;
 
         for (int i = 1; i <= 6 ; i++) {
-            
+            if((n - i) <= 6){
+                System.out.println("(" + i + " , "+ n-i + ")");
+                count++;
+            }
         }
 
         return  count;
