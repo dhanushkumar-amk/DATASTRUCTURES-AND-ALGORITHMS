@@ -5,7 +5,7 @@ public class RatCountHouse {
         int r = 7;
         int unit = 2;
         int n = 8;
-        int[] arr = {2,8,5,7,4,1,2};
+        int[] arr = {2,8,3,5,7,4,1,2};
         System.out.println(houseCount(r, unit,n,arr));
     }
     static  int houseCount(int r, int unit, int n, int[] arr){
