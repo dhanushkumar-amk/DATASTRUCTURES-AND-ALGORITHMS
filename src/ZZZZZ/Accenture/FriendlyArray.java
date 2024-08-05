@@ -10,7 +10,7 @@ public class FriendlyArray {
     static  int friendlyElement(int[] arr) {
         int n = arr.length;
         Arrays.sort(arr);
-        int sum = (arr[1] - arr[0]) - (arr[n-1] - arr[n-2]);
+        int sum = (arr[1] - arr[0]) + (arr[n-1] - arr[n-2]);
 
         int abs1;
         int abs2;
