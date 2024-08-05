@@ -13,11 +13,11 @@ int  n = 10;
 
         for (int i = 1; i <= 6 ; i++) {
             if((n - i) <= 6){
+                // n - i is lesser than n then it is a  valid pairs
                 System.out.println("(" + i + " , " + (n-i)+ ")");
                 count++;
             }
         }
-
         return  count;
     }
 }
