@@ -13,7 +13,7 @@ int  n = 10;
 
         for (int i = 1; i <= 6 ; i++) {
             if((n - i) <= 6){
-                System.out.println("(" + i + " , "+ ")");
+                System.out.println("(" + i + " , " + (n-i)+ ")");
                 count++;
             }
         }
