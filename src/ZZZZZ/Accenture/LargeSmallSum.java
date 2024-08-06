@@ -24,7 +24,7 @@ public class LargeSmallSum {
         int secondOddMax = Integer.MIN_VALUE;
 
 
-        for (int i = 1; i <=n ; i += 2) {
+        for (int i = 1; i <n ; i += 2) {
             if(arr[i] > oddMax){
                 secondOddMax = oddMax;
                 oddMax = arr[i];
