@@ -23,7 +23,7 @@ public class DivideArray {
 
       Arrays.sort(even, even.getFirst(), even.getLast());
       Arrays.sort(odd, odd.getFirst(), odd.getLast());
-              
+
 
         return  even.get(even.size()-2) + odd.get(odd.size()-2);
 
