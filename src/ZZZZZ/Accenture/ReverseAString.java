@@ -11,8 +11,8 @@ public class ReverseAString {
         char temp;
         int j = n-1;
 
-         for (int i = 0; i <n/2 ; i++) {
-           
+         for (int i = 0; i < str.charAt(n/2) ; i++) {
+
              temp = str.charAt(i);
              str.charAt(i) = str.charAt(j);
              str.charAt(j) = temp;
