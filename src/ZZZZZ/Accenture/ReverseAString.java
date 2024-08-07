@@ -5,21 +5,24 @@ public class ReverseAString {
         String str = "Hello";
         System.out.println(reverse(str));
     }
-   static   String reverse(String str){
 
-        int n = str.length();
-        char temp;
-        int j = n-1;
+    static String reverse(String str) {
+        char[] charArray = str.toCharArray();
+        int left = 0;
+        int right = str.length() - 1;
 
-         for (int i = 0; i < str.charAt(n/2) ; i++) {
+        while (left < right) {
+            // Swap characters at left and right indices
+            char temp = charArray[left];
+            charArray[left] = charArray[right];
+            charArray[right] = temp;
 
-             temp = str.charAt(i);
-             str.charAt(i) = str.charAt(j);
-             str.charAt(j) = temp;
-             i++;
-             j--;
-         }
+            // Move towards the center
+            left++;
+            right--;
+        }
 
-         return  str;
+        // Convert char array back to string
+        return new String(charArray);
     }
 }
