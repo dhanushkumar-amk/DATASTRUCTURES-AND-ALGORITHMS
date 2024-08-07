@@ -2,7 +2,7 @@ package ZZZZZ.Accenture;
 
 public class MaxExpotential {
     public static void main(String[] args) {
-        int a = 7;
+        int a = 12;
         int b = 12;
         System.out.println(exp(a,b));
     }
