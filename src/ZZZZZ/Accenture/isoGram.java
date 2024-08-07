@@ -2,7 +2,7 @@ package ZZZZZ.Accenture;
 
 import java.util.HashMap;
 
-public class IsoGram {
+class IsoGram {
     public static void main(String[] args) {
         String s = "machine";
         System.out.println(isGram(s));
