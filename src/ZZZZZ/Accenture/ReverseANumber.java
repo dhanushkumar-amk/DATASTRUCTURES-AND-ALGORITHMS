@@ -8,8 +8,9 @@ public class ReverseANumber {
         while (n != 0) {
 
             int digit = n % 10;
-reverseNumber = reverseNumber * 10 + digit;
-
+           reverseNumber = reverseNumber * 10 + digit;
+            n = n/10;
         }
+        System.out.println(reverseNumber);
     }
 }
