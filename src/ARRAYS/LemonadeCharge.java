@@ -1,2 +1,4 @@
-package ARRAYS;public class LemonadeCharge {
+package ARRAYS;
+
+public class LemonadeCharge {
 }
