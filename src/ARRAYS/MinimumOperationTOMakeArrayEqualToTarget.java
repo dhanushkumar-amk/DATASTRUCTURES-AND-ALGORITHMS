@@ -1,7 +1,7 @@
 package ARRAYS;
 
 public class MinimumOperationTOMakeArrayEqualToTarget {
-    public long minimumOperations(int[] nums, int[] target) {
+    public static  long minimumOperations(int[] nums, int[] target) {
         int n = nums.length;
         int[] diff = new int[n];
 
@@ -43,10 +43,7 @@ public class MinimumOperationTOMakeArrayEqualToTarget {
         int[] nums = {3, 1, 5, 7};
         int[] target = {1, 2, 3, 4};
 
-        Solution solution = new Solution();
-        long result = solution.minimumOperations(nums, target);
-
-        System.out.println("Minimum operations required: " + result);
+        System.out.println(minimumOperations(nums, target));
     }
 
 }
