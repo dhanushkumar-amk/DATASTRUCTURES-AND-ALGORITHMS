@@ -2,7 +2,7 @@ package ARRAYS;
 
 public class LemonadeCharge {
     public static void main(String[] args) {
-        int[] bills = {5,5,5,10,20};
+        int[] bills = {5,5,5,10,30};
         System.out.println(change(bills));
     }
     static  boolean change(int[] bills){
