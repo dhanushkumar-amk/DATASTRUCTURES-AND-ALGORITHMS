@@ -5,7 +5,7 @@ public class CanopyArea {
         int n = 7;
         System.out.println(canopyAreaCalculation(n));
     }
-    static  float canopyAreaCalculation(int n){
+    static  int canopyAreaCalculation(int n){
 
         float area = (float) (3.14 * n * n);
          return (int) Math.round(area);
