@@ -2,7 +2,7 @@ package ZZZZZ.Accenture;
 
 public class CanopyArea {
     public static void main(String[] args) {
-        int n = 6;
+        int n = 7;
         System.out.println(canopyAreaCalculation(n));
     }
     static  int canopyAreaCalculation(int n){
