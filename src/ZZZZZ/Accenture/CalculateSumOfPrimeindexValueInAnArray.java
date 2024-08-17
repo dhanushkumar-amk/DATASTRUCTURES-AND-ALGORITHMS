@@ -24,7 +24,7 @@ public class CalculateSumOfPrimeindexValueInAnArray {
 
         for (int i = 0; i <arr.length ; i++) {
             if(isPrime(i))
-                totalSum = arr[i];
+                totalSum += arr[i];
         }
         return  totalSum;
     }
