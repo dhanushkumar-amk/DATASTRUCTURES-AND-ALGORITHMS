@@ -5,7 +5,7 @@ public class CalculateSumOfPrimeindexValueInAnArray {
     int[] arr = {10,20,30,40,50};
         System.out.println(SumOfPrime(arr));
     }
- public    static  boolean isPrime(int num){
+ public static  boolean isPrime(int num){
         if(num <= 1 || num == 2)
             return  false;
 
@@ -20,7 +20,7 @@ public class CalculateSumOfPrimeindexValueInAnArray {
         int totalSum = 0;
 
         for (int i = 0; i <=arr.length; i++) {
-            if(isPrime(i))
+            if(isPrime(arr[i]))
                 totalSum += arr[i];
         }
         return  totalSum;
