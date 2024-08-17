@@ -6,10 +6,10 @@ public class CalculateSumOfPrimeindexValueInAnArray {
         System.out.println(SumOfPrime(arr));
     }
  public static  boolean isPrime(int num){
-        if(num <= 1 || num == 2)
+        if(num <= 1)
             return  false;
 
-        for (int i = 1; i < num ; i++) {
+        for (int i = 2; i < num ; i++) {
             if(num % i == 0)
                 return  false;
         }
