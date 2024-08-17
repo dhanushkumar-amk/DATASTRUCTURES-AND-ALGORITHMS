@@ -8,6 +8,6 @@ public class CanopyArea {
     static  int canopyAreaCalculation(int n){
 
 
-         return (int) Math.abs( 3.14 *( n * n));
+         return (int) ( 3.14 * n * n);
     }
 }
