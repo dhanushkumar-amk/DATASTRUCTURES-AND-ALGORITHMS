@@ -8,6 +8,6 @@ public class CanopyArea {
     static  float canopyAreaCalculation(int n){
 
         float area = (float) (3.14 * n * n);
-         return (int) Math.abs(area);
+         return (int) Math.round(area);
     }
 }
