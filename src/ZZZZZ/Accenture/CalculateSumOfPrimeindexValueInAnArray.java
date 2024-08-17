@@ -11,14 +11,14 @@ public class CalculateSumOfPrimeindexValueInAnArray {
         if(num == 2)
             return false;
 
-        for (int i = 2; i < num ; i++) {
+        for (int i = 2; i <= num/2 ; i++) {
             if(num % i == 0)
                 return  false;
         }
         return  true;
     }
 
-    static  int SumOfPrime(int[] arr){
+   public static  int SumOfPrime(int[] arr){
         int totalSum = 0;
 
         for (int i = 0; i <arr.length ; i++) {
