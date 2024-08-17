@@ -5,9 +5,9 @@ public class CanopyArea {
         int n = 7;
         System.out.println(canopyAreaCalculation(n));
     }
-    static  int canopyAreaCalculation(int n){
+    static  float canopyAreaCalculation(int n){
 
 
-         return (int) ( 3.14 * n * n);
+         return (float) ( 3.14 * n * n);
     }
 }
