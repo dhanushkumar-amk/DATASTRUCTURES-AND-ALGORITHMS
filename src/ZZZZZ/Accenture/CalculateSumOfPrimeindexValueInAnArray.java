@@ -19,7 +19,7 @@ public class CalculateSumOfPrimeindexValueInAnArray {
    public static  int SumOfPrime(int[] arr){
         int totalSum = 0;
 
-        for (int i = 0; i <=arr.length; i++) {
+        for (int i = 0; i <arr.length; i++) {
             if(isPrime(arr[i]))
                 totalSum += arr[i];
         }
