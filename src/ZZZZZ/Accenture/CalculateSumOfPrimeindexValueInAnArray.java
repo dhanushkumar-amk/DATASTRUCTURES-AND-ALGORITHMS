@@ -11,7 +11,7 @@ public class CalculateSumOfPrimeindexValueInAnArray {
         if(num == 2)
             return false;
 
-        for (int i = 2; i <num ; i++) {
+        for (int i = 2; i <=num/2 ; i++) {
             if(num % i == 0)
                 return  false;
         }
@@ -21,7 +21,7 @@ public class CalculateSumOfPrimeindexValueInAnArray {
     static  int SumOfPrime(int[] arr){
         int totalSum = 0;
 
-        for (int i = 0; i <=arr.length ; i++) {
+        for (int i = 0; i <arr.length ; i++) {
             if(isPrime(i))
                 totalSum += arr[i];
         }
