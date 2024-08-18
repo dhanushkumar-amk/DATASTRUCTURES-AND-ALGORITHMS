@@ -2,7 +2,7 @@ package MATHEMATICALS;
 
 public class GivenNumberIsPrimeOrnot {
     public static void main(String[] args) {
-        int n = 13;
+        int n = 14;
         System.out.println(isPrime(n));
     }
     static  boolean isPrime(int n){
