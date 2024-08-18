@@ -13,11 +13,11 @@ public class PrintAllPrimeFactorsOfANumbers {
     static ArrayList<Integer> primeFactors(int n){
         ArrayList<Integer> list = new ArrayList<>();
 
-        for (int i = 2; i * i <= n ; i++) {
-            if( n % i == 0){
-                int ans = i;
-                if(n % ans != 1)
-                list.add(ans);
+        for (int i = 2; i* i <=n ; i++) {
+            if(n / i == 0){
+                if(n % i != 0){
+                    list.add(i);
+                }
             }
         }
 
