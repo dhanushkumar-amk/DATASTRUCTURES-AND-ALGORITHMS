@@ -7,7 +7,7 @@ public class PrintAllTheDivisorOfN {
         int n = 36;
         ArrayList<Integer> ans = divisor(n);
         for (int i = 0; i <ans.size() ; i++) {
-            System.out.println(ans.get(i));
+            System.out.print(ans.get(i) + " ");
         }
     }
     static ArrayList<Integer> divisor (int n){
