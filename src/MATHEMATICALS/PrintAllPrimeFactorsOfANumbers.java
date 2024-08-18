@@ -16,7 +16,7 @@ public class PrintAllPrimeFactorsOfANumbers {
         for (int i = 2; i * i <= n ; i++) {
             if( n % i == 0){
                 int ans = i;
-                if(ans % n != 0)
+                if(n % ans != 0)
                 list.add(ans);
             }
         }
