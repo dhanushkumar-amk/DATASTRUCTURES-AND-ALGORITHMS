@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class PrintAllPrimeFactorsOfANumbers {
     public static void main(String[] args) {
-      int n = 60;
+      int n = 1;
       ArrayList<Integer> ans = primeFactors(n);
         for (int i = 0; i <ans.size() ; i++) {
             System.out.print(ans.get(i));
@@ -13,13 +13,9 @@ public class PrintAllPrimeFactorsOfANumbers {
     static ArrayList<Integer> primeFactors(int n){
         ArrayList<Integer> list = new ArrayList<>();
 
-        for (int i = 2; i < n ; i++) {
-            if(n / i == 0){
-                if(n % i == 0){
-                    list.add(i);
-                }
-            }
-        }
+        if(n == 1)
+            list.add(0);
+
 
         return  list;
     }
