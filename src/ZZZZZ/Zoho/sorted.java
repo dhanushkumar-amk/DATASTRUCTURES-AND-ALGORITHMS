@@ -2,7 +2,7 @@ package ZZZZZ.Zoho;
 
 public class sorted {
     public static void main(String[] args) {
-        int[]  arr= {12,13,14,15,16};
+        int[]  arr= {12,13,14,15,12};
         System.out.println(arrayIsSorted(arr));
     }
     static  boolean arrayIsSorted(int[] arr){
