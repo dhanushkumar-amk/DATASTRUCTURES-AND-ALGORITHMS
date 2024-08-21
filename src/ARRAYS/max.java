@@ -2,7 +2,7 @@ package ARRAYS;
 
 public class max {
     public static void main(String[] args) {
-        int[] arr = {2,3,45,7,8,90};
+        int[] arr = {244,3,45,7,8,90};
         System.out.println(maxNumber(arr));
     }
     static  int maxNumber(int[] arr){
