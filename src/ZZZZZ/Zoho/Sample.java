@@ -17,6 +17,7 @@ public class Sample {
         avg = total / 5;
         if(avg > 70)
             System.out.println("eligible");
-        else System.out.println("not eligible");
+        else
+            System.out.println("not eligible");
     }
 }
