@@ -7,10 +7,19 @@ public class Fibonnci_Series {
     }
     static  int  fibo(int n){
 
-        
-        if(n <= 1)
-            return n;
-        return  fibo(n - 1) + fibo(n -2);
+     if(n <= 1)
+         return  n;
+
+
+     int[] map = new int[n + 1];
+
+     map[0] = 0;
+     map[1] = 1;
+
+        for (int i = 2; i < ; i++) {
+
+        }
+
 
     }
 }
