@@ -3,7 +3,7 @@ package MATHEMATICALS;
 public class Fibonnci_Series {
     public static void main(String[] args) {
         int n = 5;
-        System.out.println(fibo(n));
+     System.out.println(fibo(n));
     }
     static  int  fibo(int n){
 
@@ -20,7 +20,7 @@ public class Fibonnci_Series {
             map[i] = map[i -1] + map[i-2];
         }
 
-        return (int) map[n];
+        return map[n];
 
     }
 }
