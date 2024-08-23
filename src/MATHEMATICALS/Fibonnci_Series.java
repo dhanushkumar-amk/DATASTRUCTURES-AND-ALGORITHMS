@@ -3,13 +3,10 @@ package MATHEMATICALS;
 public class Fibonnci_Series {
     public static void main(String[] args) {
         int n = 5;
-     System.out.println(fibo(n));
-    }
-    static  int  fibo(int n){
+
 
      if(n <= 1)
-         return  n;
-
+         System.out.println(n);
 
      int[] map = new int[n + 1];
 
@@ -18,9 +15,9 @@ public class Fibonnci_Series {
 
         for (int i = 2; i <= n ; i++) {
             map[i] = map[i -1] + map[i-2];
+            System.out.println(map[i]);
         }
-
-        return map[n];
-
     }
 }
+
+
