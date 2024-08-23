@@ -12,11 +12,10 @@ public class Fibonnci_Series {
 
      map[0] = 0;
      map[1] = 1;
-
+        System.out.println(   map[0] + " " + map[1] + " " )
         for (int i = 2; i <= n ; i++) {
             map[i] = map[i -1] + map[i-2];
             System.out.println(
-                map[0] + " " + map[1] + " " +
                     map[i]);
         }
     }
