@@ -4,7 +4,7 @@ public class NewtonRapsonMethodForSquareRoot {
     public static void main(String[] args) {
         System.out.println(Square(40));
     }
-    static  int Square(double n){
+    static  double Square(double n){
         double x = n;
         double root;
 
@@ -16,6 +16,6 @@ public class NewtonRapsonMethodForSquareRoot {
 
             x = root;
         }
-        return (int) root;
+        return  root;
     }
 }
