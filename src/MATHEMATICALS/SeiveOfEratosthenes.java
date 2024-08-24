@@ -19,7 +19,7 @@ public class SeiveOfEratosthenes {
 
         for (int i = 2; i <=n ; i++) {
             if(arr[i] == false)
-                System.out.print(i);
+                System.out.print(i + " ");
         }
     }
 }
