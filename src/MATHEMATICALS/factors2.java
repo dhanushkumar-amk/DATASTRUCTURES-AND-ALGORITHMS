@@ -2,7 +2,8 @@ package MATHEMATICALS;
 
 public class factors2 {
     public static void main(String[] args) {
-        System.out.println(factors(n));
+        int n = 40;
+        factors(n);
     }
     static  void factors(int n){
         for (int i = 1; i * i <= n  ; i++) {
