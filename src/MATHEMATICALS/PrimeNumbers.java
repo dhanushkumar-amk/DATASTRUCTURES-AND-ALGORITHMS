@@ -2,7 +2,7 @@ package MATHEMATICALS;
 
 public class PrimeNumbers {
     public static void main(String[] args) {
-        int n = 20;
+        int n = 2;
         System.out.println(n + " is a prime " +isPrime(n));
     }
     static boolean isPrime(int n){
@@ -12,7 +12,7 @@ public class PrimeNumbers {
 
         int c = 2;
 
-        while( c* c <= n){
+        while( c * c <= n){
             if(n % c == 0)
                 return  false;
             c++;
