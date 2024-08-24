@@ -11,7 +11,7 @@ public class factors2 {
                 if(n / i == i)
                     System.out.print( i + " ");
                 else
-                    System.out.print( i + " " + n/i);
+                    System.out.print( i + " " + n/i + " ");
             }
         }
     }
