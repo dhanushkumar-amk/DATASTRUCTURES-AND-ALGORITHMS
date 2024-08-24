@@ -9,7 +9,6 @@ public class SeiveOfEratosthenes {
     static  void seive(int n, boolean[] arr){
 
         for (int i = 2; i <= n ; i++) {
-
             if(arr[i] == false){
                 for (int j = i * 2; j <=n ; j+= i) {
                     arr[j] = true;
