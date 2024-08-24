@@ -12,7 +12,7 @@ public class PrimeNumbers {
 
         int c = 2;
 
-        while( c*  c <= n){
+        while( c* c <= n){
             if(n % c == 0)
                 return  false;
             c++;
