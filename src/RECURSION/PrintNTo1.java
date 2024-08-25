@@ -6,10 +6,12 @@ public class PrintNTo1 {
         print(n);
     }
     static  void  print(int n){
+        // base case
         if(n == 0)
             return;
 
         System.out.println(n);
+        // recursive case
         print(n - 1);
     }
 }
