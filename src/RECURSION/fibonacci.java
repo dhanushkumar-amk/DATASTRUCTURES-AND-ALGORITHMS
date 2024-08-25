@@ -11,6 +11,7 @@ public class fibonacci {
         if( n < 2)
             return n;
 
+        // recursive case
         return  fibo(n - 1) + fibo(n - 2);
     }
 }
