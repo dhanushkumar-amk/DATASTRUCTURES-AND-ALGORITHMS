@@ -2,8 +2,8 @@ package MATHEMATICALS;
 
 public class LCM {
     public static void main(String[] args) {
-        int a = 9;
-        int b = 18;
+        int a = 2;
+        int b = 7;
         System.out.println(lcm(a,b));
     }
     static int gcd(int a, int b){
