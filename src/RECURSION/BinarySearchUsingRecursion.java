@@ -17,6 +17,7 @@ public class BinarySearchUsingRecursion {
         if(arr[mid] == target)
             return  mid;
 
+
         if(target > arr[mid])
             return binarySearch(arr, target, mid + 1, end);
         else
