@@ -11,6 +11,7 @@ static  void printBoth(int n){
 
     System.out.println(n); // for n to 1
     printBoth(n - 1);
+    System.out.println("-----------------");
     System.out.println(n); // for 1 to n
 
     }
