@@ -2,7 +2,7 @@ package RECURSION;
 
 public class NumbersExampleInRecursion {
     public static void main(String[] args) {
-        numbers(5);
+        numbers(1);
     }
     static  void  numbers(int n){
 
