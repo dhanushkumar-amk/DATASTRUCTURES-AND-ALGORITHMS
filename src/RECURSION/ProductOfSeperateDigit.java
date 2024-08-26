@@ -2,7 +2,7 @@ package RECURSION;
 
 public class ProductOfSeperateDigit {
     public static void main(String[] args) {
-        int n = 1111;
+        int n = 55;
         System.out.println(product(n));
     }
     static  int product(int n){
