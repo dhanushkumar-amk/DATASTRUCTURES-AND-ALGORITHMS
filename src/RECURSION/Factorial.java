@@ -1,2 +1,4 @@
-package RECURSION;public class Factorial {
+package RECURSION;
+
+public class Factorial {
 }
