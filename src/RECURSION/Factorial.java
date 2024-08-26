@@ -2,7 +2,7 @@ package RECURSION;
 
 public class Factorial {
     public static void main(String[] args) {
-        int n = 0;
+        int n = 5;
         System.out.println(fact(n));
     }
     static  int fact(int n){
