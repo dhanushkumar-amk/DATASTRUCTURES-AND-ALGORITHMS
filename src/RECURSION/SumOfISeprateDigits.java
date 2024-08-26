@@ -2,7 +2,7 @@ package RECURSION;
 
 public class SumOfISeprateDigits {
     public static void main(String[] args) {
-        int n = 1342;
+        int n = 111111;
         System.out.println(sum(n));
     }
     static  int sum(int n){
