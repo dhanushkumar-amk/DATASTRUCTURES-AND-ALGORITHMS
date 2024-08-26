@@ -8,15 +8,13 @@ public class ReverseANumber1 {
     }
     static  int sum = 0;
     static  void reverse(int n){
-
         // base case
         if(n == 0)
             return;
-
         int rem = n % 10;
-
         sum = sum * 10 + rem;
 
+        // recursive cse
         reverse(n/10);
     }
 }
