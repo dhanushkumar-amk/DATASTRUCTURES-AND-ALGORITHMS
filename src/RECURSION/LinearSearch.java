@@ -10,6 +10,6 @@ public class LinearSearch {
         if( index == arr.length)
             return false;
 
-        return  arr[index] == target || linerarSearch(arr,target, index = 1);
+        return  arr[index] == target || linerarSearch(arr,target, index + 1);
     }
 }
