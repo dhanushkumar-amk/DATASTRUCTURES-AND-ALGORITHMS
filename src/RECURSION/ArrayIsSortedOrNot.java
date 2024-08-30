@@ -2,7 +2,7 @@ package RECURSION;
 
 public class ArrayIsSortedOrNot {
     public static void main(String[] args) {
-        int[] arr = {1,2,3,4,5,5};
+        int[] arr = {1,2,3,41,5,5};
         System.out.println(ArrayIsSorted(arr, 0));
     }
     static  boolean ArrayIsSorted(int[] arr, int index){
