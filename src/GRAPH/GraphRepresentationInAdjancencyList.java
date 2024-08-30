@@ -18,7 +18,7 @@ public class GraphRepresentationInAdjancencyList{
 
         public  void printAdjList(){
             for (int i = 0; i <adjlist.size() ; i++) {
-                System.out.print("Adj of list " + i );
+                System.out.println("Adj of list " + i );
                 for (int j = 0; j <adjlist.get(i).size() ; j++) {
                     System.out.println(" " + adjlist.get(i).get(j));
                 }
