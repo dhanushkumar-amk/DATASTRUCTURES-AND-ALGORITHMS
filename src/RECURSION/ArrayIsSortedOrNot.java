@@ -12,7 +12,7 @@ public class ArrayIsSortedOrNot {
             return  true;
 
         // recursive case
-        return arr[index] < arr[index + 1] && ArrayIsSorted(arr, index + 1);
+        return arr[index] <= arr[index + 1] && ArrayIsSorted(arr, index + 1);
 
     }
 }
