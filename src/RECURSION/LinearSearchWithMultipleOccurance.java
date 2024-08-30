@@ -6,10 +6,8 @@ public class LinearSearchWithMultipleOccurance {
     public static void main(String[] args) {
         int[] arr = {1,2,3,4,56,56,7};
         int target = 56;
-        ArrayList<Integer> ans = new ArrayList<>();
-        for (int i = 0; i <ans.size()-1 ;i++) {
-            System.out.print(ans.get(i));
-        }
+        findAllOccurrance(arr, target,0);
+        System.out.println(list);
 //        System.out.println(findAllOccurrance(arr, target, 0));
     }
     static  ArrayList<Integer> list = new ArrayList<>();
