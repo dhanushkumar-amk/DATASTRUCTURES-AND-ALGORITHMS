@@ -7,9 +7,21 @@ public class LinearSearch {
         System.out.println(linerarSearch(arr, target, 0));
     }
     static boolean linerarSearch(int[] arr, int target, int index){
+
+        // base case
         if( index == arr.length)
             return false;
 
+        // recursive case
         return  arr[index] == target || linerarSearch(arr,target, index + 1);
+    }
+    static  int findIndex(int[] arr, int target, int index){
+        if(index == arr.length)
+            return  -1;
+
+        if(index == target)
+            return  index;
+        else
+            return findIndex(arr, target, index + 1);
     }
 }
