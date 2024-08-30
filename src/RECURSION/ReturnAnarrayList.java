@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class ReturnAnarrayList {
     public static void main(String[] args) {
-        int[] arr = {1,2,3,4,56,56,7};
+        int[] arr = {1,2,3,4,56,56,,56,56,56,56,56,56,56,56,6,7};
         int target = 56;
 
         System.out.println(findAllIndex(arr, target, 0, new ArrayList<>()));
