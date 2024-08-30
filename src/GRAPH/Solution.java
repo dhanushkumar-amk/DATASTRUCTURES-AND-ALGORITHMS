@@ -1,2 +1,4 @@
-package GRAPH;public class Solution {
+package GRAPH;
+
+public class Solution {
 }
