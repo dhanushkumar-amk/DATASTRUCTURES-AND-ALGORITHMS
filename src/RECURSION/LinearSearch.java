@@ -20,7 +20,7 @@ public class LinearSearch {
         if(index == arr.length)
             return  -1;
 
-        if(index == target)
+        if(arr[index] == target)
             return  index;
         else
             return findIndex(arr, target, index + 1);
