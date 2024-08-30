@@ -5,6 +5,7 @@ public class LinearSearch {
         int[] arr = {1,3,6,3,45,8};
         int target = 45;
         System.out.println(linerarSearch(arr, target, 0));
+        System.out.println(findIndex(arr, target, 0));
     }
     static boolean linerarSearch(int[] arr, int target, int index){
 
