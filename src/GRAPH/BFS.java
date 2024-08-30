@@ -5,7 +5,7 @@ import java.util.*;
 public class BFS {
 
 
-    
+
 
     public static void main(String args[]) {
 
@@ -22,7 +22,7 @@ public class BFS {
         adj.get(1).add(3);
         adj.get(3).add(1);
 
-        Solution sl = new Solution();
+        BFSREPRESENTATION sl = new BFSREPRESENTATION();
         ArrayList < Integer > ans = sl.bfsOfGraph(5, adj);
         int n = ans.size();
         for(int i = 0;i<n;i++) {

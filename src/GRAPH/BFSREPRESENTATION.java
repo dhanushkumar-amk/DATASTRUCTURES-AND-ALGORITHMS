@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class Solution {
+public class BFSREPRESENTATION {
     public ArrayList<Integer> bfsOfGraph(int V,
                                          ArrayList<ArrayList<Integer>> adj) {
 
