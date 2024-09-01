@@ -10,7 +10,7 @@ public class UtopianTree
 
     static  int treeHeight(int n, int Height){
 
-        for (int i = 1; i <=n ; i++) {
+        for (int i = 0; i <=n ; i++) {
 
             if(i % 2 == 0)
                 Height *= 2;
