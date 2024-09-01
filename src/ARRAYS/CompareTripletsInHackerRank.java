@@ -12,18 +12,17 @@ public class CompareTripletsInHackerRank {
     }
     static int[] Triplets(int[] alice, int[] bob){
 
-        int[] result = new int[2];
+        int[] result = new int[];
         int Alice = 0;
         int Bob = 0;
 
         for (int i = 0; i < 3 ; i++) {
             if (alice[i] > bob[i]) {
                 result[Alice]++;
-                i++;
+
             }
             else if (alice[i] < bob[i]) {
                 result[Bob]++;
-            i++;
             }
         }
     return result;
