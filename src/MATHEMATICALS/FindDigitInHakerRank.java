@@ -2,7 +2,7 @@ package MATHEMATICALS;
 
 public class FindDigitInHakerRank {
     public static void main(String[] args) {
-        int n = 111;
+        int n = 104;
         System.out.println(digit(n));
     }
 
