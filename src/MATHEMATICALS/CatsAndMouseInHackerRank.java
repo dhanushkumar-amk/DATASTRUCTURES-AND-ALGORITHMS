@@ -11,13 +11,15 @@ public class CatsAndMouseInHackerRank {
         int distance1 = 0; // distance between x and y
         int distance2 = 0; // distance between y and z
 
-
+        distance1 = Math.abs(z - x);
+        distance2 = Math.abs(z - y);
         // it is alternative for abs build in function
-
+/*
         if (x <= z)
             distance1 = z - x;
         else
             distance1 = x - z;
+
 
 
         if (y <= z)
@@ -25,7 +27,7 @@ public class CatsAndMouseInHackerRank {
         else
             distance2 = y - z;
 
-
+*/
         if (distance1 == distance2)
             return "Mouse c";
         else if(distance1 < distance2)
