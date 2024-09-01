@@ -12,7 +12,7 @@ public class CompareTripletsInHackerRank {
     }
     static int[] Triplets(int[] alice, int[] bob){
 
-        int[] result = new int[];
+        int[] result = new int[2];
         int Alice = 0;
         int Bob = result.length;
 
