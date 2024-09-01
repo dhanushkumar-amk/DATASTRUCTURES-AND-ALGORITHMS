@@ -22,6 +22,6 @@ public class ChocolateFestInHackerRank {
 
 
 
-        return  choco;
+        return  chocalate;
     }
 }
