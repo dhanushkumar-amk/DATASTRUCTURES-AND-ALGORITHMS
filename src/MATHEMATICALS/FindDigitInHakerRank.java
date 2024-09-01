@@ -14,6 +14,8 @@ public class FindDigitInHakerRank {
 
         while (temp > 0){
             lastDigit = temp % 10;
+            if (lastDigit == 0)
+                continue;
 
             if (n % lastDigit == 0)
                 count++;
