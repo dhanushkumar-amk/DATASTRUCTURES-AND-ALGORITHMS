@@ -14,12 +14,13 @@ public class FindDigitInHakerRank {
 
         while (temp > 0){
             lastDigit = temp % 10;
-            if (lastDigit == 0)
-                return 0;
+
+
 
             if (n % lastDigit == 0)
                 count++;
-
+            if (lastDigit == 0)
+                continue;
             temp = temp / 10;
         }
         return count;
