@@ -17,10 +17,14 @@ public class CompareTripletsInHackerRank {
         int Bob = 0;
 
         for (int i = 0; i < 3 ; i++) {
-            if (alice[i] > bob[i])
+            if (alice[i] > bob[i]) {
                 result[Alice]++;
-            else if (alice[i] < bob[i])
+                i++;
+            }
+            else if (alice[i] < bob[i]) {
                 result[Bob]++;
+            i++;
+            }
         }
     return result;
     }
