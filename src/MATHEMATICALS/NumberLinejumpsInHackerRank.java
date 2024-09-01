@@ -2,10 +2,10 @@ package MATHEMATICALS;
 
 public class NumberLinejumpsInHackerRank {
     public static void main(String[] args) {
-        int kangaroo1 = 2;
-        int distance1 = 1;
-        int kangaroo2 = 5;
-        int distance2 = 3;
+        int kangaroo1 = 0;
+        int distance1 = 3;
+        int kangaroo2 = 2;
+        int distance2 = 1;
         System.out.println(Kangaroo(kangaroo1, kangaroo2, distance1, distance2));
     }
     public static String Kangaroo(int kangaroo1, int distance1, int kangaroo2, int distance2){
