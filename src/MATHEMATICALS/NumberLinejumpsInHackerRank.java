@@ -3,8 +3,8 @@ package MATHEMATICALS;
 public class NumberLinejumpsInHackerRank {
     public static void main(String[] args) {
         int kangaroo1 = 0;
-        int distance1 = 3;
-        int kangaroo2 = 4;
+        int distance1 = 4;
+        int kangaroo2 = 3;
         int distance2 = 2;
         System.out.println(Kangaroo(kangaroo1, kangaroo2, distance1, distance2));
     }
