@@ -1,2 +1,7 @@
-package MATHEMATICALS;public class ChocolateFestInHackerRank {
+package MATHEMATICALS;
+
+public class ChocolateFestInHackerRank {
+    public static void main(String[] args) {
+        
+    }
 }
