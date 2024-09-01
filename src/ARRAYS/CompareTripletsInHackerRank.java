@@ -6,7 +6,7 @@ import java.util.Arrays;
 
 public class CompareTripletsInHackerRank {
     public static void main(String[] args) {
-        int[] alice = {3,1,10};
+        int[] alice = {3,6,10};
         int[] bob = {3,6,10};
         System.out.println(Arrays.toString(Triplets(alice, bob)));
     }
