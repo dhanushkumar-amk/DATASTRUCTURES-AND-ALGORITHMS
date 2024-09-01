@@ -19,9 +19,6 @@ public class ChocolateFestInHackerRank {
             chocalate += newChocalate;
             wrapper = (wrapper % m) + newChocalate;
         }
-
-
-
         return  chocalate;
     }
 }

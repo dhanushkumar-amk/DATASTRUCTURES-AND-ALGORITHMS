@@ -1,2 +1,8 @@
-package MATHEMATICALS;public class NumberLinejumpsInHackerRank {
+package MATHEMATICALS;
+
+public class NumberLinejumpsInHackerRank {
+    public static void main(String[] args) {
+
+    }
+    
 }
