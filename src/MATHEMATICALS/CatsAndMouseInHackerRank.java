@@ -28,7 +28,7 @@ public class CatsAndMouseInHackerRank {
 
         if (distance1 == distance2)
             return "Mouse c";
-        else if(distance1 > distance2)
+        else if(distance1 < distance2)
             return "Cat A";
         else
             return "Cat B";
