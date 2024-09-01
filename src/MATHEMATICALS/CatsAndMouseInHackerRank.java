@@ -3,7 +3,7 @@ package MATHEMATICALS;
 public class CatsAndMouseInHackerRank {
     public static void main(String[] args) {
         int x = 2;
-        int y = 4;
+        int y = 2;
         int z = 6;
         System.out.println(catsAndMouse(x,y,z));
     }
