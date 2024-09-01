@@ -4,8 +4,8 @@ public class NumberLinejumpsInHackerRank {
     public static void main(String[] args) {
         int kangaroo1 = 0;
         int distance1 = 3;
-        int kangaroo2 = 2;
-        int distance2 = 1;
+        int kangaroo2 = 4;
+        int distance2 = 2;
         System.out.println(Kangaroo(kangaroo1, kangaroo2, distance1, distance2));
     }
     public static String Kangaroo(int kangaroo1, int distance1, int kangaroo2, int distance2){
@@ -22,8 +22,8 @@ public class NumberLinejumpsInHackerRank {
             newKangaroo2Position += distance2;
 
             if (newKangaroo1Position == newKangaroo2Position)
-                return "yes";
+                return "Yes";
         }
-        return  "no";
+        return  "No";
     }
 }
