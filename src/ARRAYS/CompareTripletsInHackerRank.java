@@ -14,7 +14,7 @@ public class CompareTripletsInHackerRank {
 
         int[] result = new int[2];
         int Alice = 0;
-        int Bob = result.length;
+        int Bob = result.length-1;
 
         for (int i = 0; i < 3 ; i++) {
             if (alice[i] > bob[i]) {
