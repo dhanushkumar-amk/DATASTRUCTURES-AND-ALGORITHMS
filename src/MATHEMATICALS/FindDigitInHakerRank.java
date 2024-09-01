@@ -12,19 +12,15 @@ public class FindDigitInHakerRank {
         int count = 0;
         int lastDigit = 0;
 
-      try {
-          while (temp > 0) {
-              lastDigit = temp % 10;
 
-              if (n % lastDigit == 0)
-                  count++;
-
-              temp = temp / 10;
-          }
-      }catch (ArithmeticException){
-          System.out.println("Error");
-      }
+        while (temp > 0){
+            lastDigit = temp % 10;
+            if (lastDigit != 0) {
+                if (n % lastDigit == 0)
+                    count++;
+            }
+            temp = temp / 10;
+        }
         return count;
     }
-
 }
