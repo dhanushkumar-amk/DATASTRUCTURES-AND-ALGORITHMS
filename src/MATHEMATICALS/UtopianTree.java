@@ -3,7 +3,7 @@ package MATHEMATICALS;
 public class UtopianTree
 {
     public static void main(String[] args) {
-        int n = 6;
+        int n = 7;
         int Height = 1;
         System.out.println(treeHeight(n,Height));
     }
