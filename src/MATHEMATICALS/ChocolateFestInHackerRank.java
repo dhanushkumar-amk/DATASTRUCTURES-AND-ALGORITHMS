@@ -17,7 +17,7 @@ public class ChocolateFestInHackerRank {
         while(wrap >= m){
             new_Choco = wrap / m;
             choco += new_Choco;
-            wrap %= m + new_Choco;
+            wrap = (wrap % m) + new_Choco;
         }
         return  choco;
     }
