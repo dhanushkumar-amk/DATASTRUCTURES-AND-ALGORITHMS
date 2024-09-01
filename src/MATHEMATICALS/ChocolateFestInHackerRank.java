@@ -9,16 +9,19 @@ public class ChocolateFestInHackerRank {
     }
     static  int chocalateFeast(int n, int c, int m){
 
-        int choco = n/c;
-        int wrap = choco;
+        int chocalate = n / c;
+        int wrapper = chocalate;
 
-        int new_Choco = 0;
+        int newChocalate = 0;
 
-        while(wrap >= m){
-            new_Choco = wrap / m;
-            choco += new_Choco;
-            wrap = (wrap % m) + new_Choco;
+        while (wrapper >= m){
+            newChocalate = wrapper / m;
+            chocalate += newChocalate;
+            wrapper = (wrapper % m) + newChocalate;
         }
+
+
+
         return  choco;
     }
 }
