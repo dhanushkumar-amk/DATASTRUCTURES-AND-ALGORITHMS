@@ -5,6 +5,5 @@ public class GameOfThroneInHackerRank {
     String s = "adamm";
     }
     static String got(String s){
-    
-    }
+    D    }
 }
