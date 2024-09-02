@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class GameOfThroneInHackerRank {
     public static void main(String[] args) {
-    String s = "adamm";
+    String s = "adamma";
         System.out.println(got(s));
     }
     static String got(String s){
