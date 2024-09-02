@@ -6,8 +6,8 @@ public class IceCreamParlourProblemInHackerRank {
     public static void main(String[] args) {
         int m = 6;
         int[] arr = {1,3,4,5,6};
-        ArrayList<Integer> ans = iceCream(m, arr);
-        System.out.println(ans);
+//        ArrayList<Integer> ans = iceCream(m, arr);
+        System.out.println(iceCream(m,arr));
     }
    static ArrayList<Integer> iceCream(int m, int[] arr){
 
