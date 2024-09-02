@@ -17,8 +17,7 @@ public class IceCreamParlourProblemInHackerRank {
                if (arr[i] + arr[j] == m) {
                    res.add(i + 1);
                    res.add(j + 1);
-               }
-               break;
+               break;               }
            }
        }
         return res;
