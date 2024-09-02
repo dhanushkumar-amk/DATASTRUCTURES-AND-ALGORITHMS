@@ -2,7 +2,8 @@ package STRINGS;
 
 public class LoveLetterMystreInhackerRank {
     public static void main(String[] args) {
-        String
+        String s = "abcd";
+        System.out.println(loveLetter(s));
     }
     static  int loveLetter(String s){
         int count = 0;
