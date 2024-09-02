@@ -7,5 +7,10 @@ public class OperatorPrecedencyExample1 {
         int n = 10;
         int res = m++ / (++n * n--) / --m;
         System.out.println(res);
+
+        int k = 5;
+        int j = 9;
+         k+= k++ - ++j + k;
+        System.out.println(k + " " + j);
     }
 }
