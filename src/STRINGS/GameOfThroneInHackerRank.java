@@ -17,7 +17,7 @@ public class GameOfThroneInHackerRank {
         int i= 0;
         int nonPairCount = 0;
         while(i <arr.length){
-            if (arr[i] == arr[i+1])
+            if ( i <arr.length-1 && arr[i] == arr[i+1])
                 i = i + 2;
             else {
                 i++;
