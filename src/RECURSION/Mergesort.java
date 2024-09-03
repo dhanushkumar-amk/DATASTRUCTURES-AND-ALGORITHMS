@@ -54,7 +54,7 @@ public class Mergesort {
             k++;
         }
 
-        while (i < right.length){
+        while (j < right.length){
             sorted[k] = right[i];
             j++;
             k++;
