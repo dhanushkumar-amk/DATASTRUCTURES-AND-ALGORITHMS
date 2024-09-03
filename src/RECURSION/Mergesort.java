@@ -53,7 +53,7 @@ public class Mergesort {
         }
 
         while(j < right.length){
-            mix[k] = left[j];
+            mix[k] = right[j];
             j++;
             k++;
         }
