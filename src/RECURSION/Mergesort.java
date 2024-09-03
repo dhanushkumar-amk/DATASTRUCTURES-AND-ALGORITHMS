@@ -46,13 +46,13 @@ public class Mergesort {
 
         // it may possible if one of an array remains the element
 
-        while(i < left.length){
+        while(i <= left.length){
             mix[k] = left[i];
             i++;
             k++;
         }
 
-        while(j < right.length){
+        while(j <= right.length){
             mix[k] = left[j];
             j++;
             k++;
