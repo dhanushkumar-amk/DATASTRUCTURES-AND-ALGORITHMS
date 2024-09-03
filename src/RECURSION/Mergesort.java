@@ -6,8 +6,8 @@ public class Mergesort {
 
     public static void main(String[] args) {
         int[] arr  = {3,2,6,5,8,7};
-        merge(arr);
-        System.out.println(arr);
+
+        System.out.println(merge(arr));
     }
     static  int[] merge(int[] arr){
 
