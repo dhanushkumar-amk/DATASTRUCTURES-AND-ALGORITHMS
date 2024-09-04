@@ -1,10 +1,12 @@
 package RECURSION;
 
+import java.util.Arrays;
+
 public class QuickSortUsingRecursion {
     public static void main(String[] args) {
     int[] arr = {5,4,3,2,1};
     sort(arr, 0, arr.length);
-        System.out.println(arr);
+        System.out.println(Arrays.toString(arr));
     }
     static  void sort(int[] arr, int low, int high){
         // base case
@@ -16,7 +18,7 @@ public class QuickSortUsingRecursion {
 
         // assuming the pivot point as middle element
         int mid = start + (end -start)/2;
-        int pivot =arr[mid];
+        int pivot = arr[mid];
 
         while (start <= end){
 
@@ -34,7 +36,6 @@ public class QuickSortUsingRecursion {
                 start++;
                 end--;
             }
-
         }
         sort(arr, low, end);
         sort(arr, start, high);
