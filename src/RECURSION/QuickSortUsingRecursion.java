@@ -2,7 +2,9 @@ package RECURSION;
 
 public class QuickSortUsingRecursion {
     public static void main(String[] args) {
-
+    int[] arr = {5,4,3,2,1};
+    sort(arr, 0, arr.length);
+        System.out.println(arr);
     }
     static  void sort(int[] arr, int low, int high){
         // base case
@@ -35,6 +37,6 @@ public class QuickSortUsingRecursion {
 
         }
         sort(arr, low, end);
-        sort(arr,start, hoi);
+        sort(arr, start, high);
     }
 }
