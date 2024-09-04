@@ -7,7 +7,7 @@ public class QuickSortUsingRecursion {
     int[] arr = {5,4,3,2,1};
     sort(arr, 0, arr.length);
 
-//        System.out.println(Arrays.toString(arr));
+        System.out.println(Arrays.toString(arr));
     }
     static  void sort(int[] arr, int low, int high){
         // base case
