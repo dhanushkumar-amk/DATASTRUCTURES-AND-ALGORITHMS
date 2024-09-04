@@ -17,7 +17,7 @@ public class QuickSortUsingRecursion {
         int end = high;
 
         // assuming the pivot point as middle element
-        int mid = start + (end -start)/2;
+        int mid = start + (end - start) / 2;
         int pivot = arr[mid];
 
         while (start <= end){
