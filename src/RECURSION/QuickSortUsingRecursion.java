@@ -20,7 +20,7 @@ public class QuickSortUsingRecursion {
 
         while (start <= end){
 
-            while (arr[start] < pivot){
+            while (arr[start] <= pivot){
                 start++;
             }
             while (arr[end] >= pivot){
