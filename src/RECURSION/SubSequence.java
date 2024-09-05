@@ -7,7 +7,7 @@ public class SubSequence {
     static  void sequence(String p, String up){
         if(up.isEmpty())
         {
-            System.out.println(p);
+            System.out.print(p + " ");
             return;
         }
       char ch = up.charAt(0);
