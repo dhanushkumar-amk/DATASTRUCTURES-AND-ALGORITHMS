@@ -18,7 +18,7 @@ public class BalancedParenthesisUisngRecursion {
             paren(arr,n,i+1,opening+1, closing);
         }
 
-        if(closing < n){
+        if(closing < opening){
             arr[i] = ')';
             paren(arr,n,i+1, opening, closing+1);
         }
