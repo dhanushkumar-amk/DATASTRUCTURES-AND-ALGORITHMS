@@ -12,8 +12,9 @@ public class PhoneNumberCombinations {
     static  void combination(String s, String ans){
         // base case
         if(s.length()== 0){
-            System.out.println(ans);
+            System.out.print(ans + " ");
             return;
+            System.out.println();
         }
 
         String key= keypad[s.charAt(0) - 48];
