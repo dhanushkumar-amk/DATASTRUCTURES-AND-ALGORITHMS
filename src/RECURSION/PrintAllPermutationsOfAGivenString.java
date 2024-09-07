@@ -14,7 +14,7 @@ public class PrintAllPermutationsOfAGivenString {
 
         // base case
         if (fixedIndex == arr.length) {
-            System.out.println(Arrays.toString(arr));
+            System.out.println(arr);
             return;
         }
 
