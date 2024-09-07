@@ -1,5 +1,6 @@
 package RECURSION;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class PrintAllPermutationsOfAGivenString {
@@ -13,7 +14,7 @@ public class PrintAllPermutationsOfAGivenString {
 
         // base case
         if (fixedIndex == arr.length) {
-            System.out.print(arr + "" );
+            System.out.println(Arrays.toString(arr));
             return;
         }
 
