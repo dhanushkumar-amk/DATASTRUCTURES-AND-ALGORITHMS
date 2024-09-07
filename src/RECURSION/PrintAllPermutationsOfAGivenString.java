@@ -6,8 +6,8 @@ public class PrintAllPermutationsOfAGivenString {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String s = scanner.next();
-        String S = s.toLowerCase();
-        permutations(S.toCharArray(), 0);
+//        String S = s.toLowerCase();
+        permutations(s.toCharArray(), 0);
     }
     static  void permutations(char[] arr,int fixedIndex){
 
