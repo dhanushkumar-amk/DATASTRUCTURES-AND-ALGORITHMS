@@ -12,7 +12,7 @@ public class PrintAllPermutationsOfAGivenString {
 
         // base case
         if (fixedIndex == arr.length) {
-            System.out.println(arr);
+            System.out.print(arr + " ");
             return;
         }
 
