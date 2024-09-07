@@ -13,8 +13,6 @@ public class PhoneNumberCombinations {
         // base case
         if(s.length()== 0){
             System.out.print(ans + " ");
-            System.out.println();
-            
             return;
         }
 
