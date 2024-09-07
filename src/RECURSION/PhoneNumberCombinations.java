@@ -17,8 +17,8 @@ public class PhoneNumberCombinations {
         }
 
         String key= keypad[s.charAt(0) - 48];
-        for (int i = 0; i <key.length() ; i++) {
-            combination(s.substring(1), ans + s.charAt(i));
+        for (int i = 0; i < key.length() ; i++) {
+            combination(s.substring(1), ans + key.charAt(i));
         }
     }
 }
