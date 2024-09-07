@@ -4,7 +4,7 @@ public class SubSetSumUsingRecursion {
     public static void main(String[] args) {
         int[] arr = {10,20,15,5};
         int sum = 25;
-        countSubSet(arr,sum, 0);
+        System.out.println(countSubSet(arr,sum, 0));
 
     }
     static  int countSubSet(int[] arr, int sum, int index){
