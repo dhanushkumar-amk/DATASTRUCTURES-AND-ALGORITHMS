@@ -20,6 +20,9 @@ public class SubSetSumUsingRecursion {
             return 0;
 
 
-        return countSubSet(arr, sum - arr[index], index + 1) + countSubSet(arr, sum, index + 1);
+        int pickElement =  countSubSet(arr, sum - arr[index], index + 1);
+        int ignoreElement = countSubSet(arr, sum, index + 1);
+
+        return pickElement + ignoreElement;
     }
 }
