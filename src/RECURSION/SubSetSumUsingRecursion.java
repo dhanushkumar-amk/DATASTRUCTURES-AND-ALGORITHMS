@@ -2,8 +2,8 @@ package RECURSION;
 
 public class SubSetSumUsingRecursion {
     public static void main(String[] args) {
-        int[] arr = {10,20,15,5};
-        int sum = 30;
+        int[] arr = {10,20,15,5,12, 8};
+        int sum = 20;
         System.out.println(countSubSet(arr,sum, 0));
 
     }
