@@ -2,7 +2,7 @@ package RECURSION;
 
 public class PhoneNumberCombinations {
     public static void main(String[] args) {
-        String s = "";
+        String s = "46";
         String ans = " ";
         combination(s,ans );
     }
