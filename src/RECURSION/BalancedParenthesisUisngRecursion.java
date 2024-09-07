@@ -2,7 +2,7 @@ package RECURSION;
 
 public class BalancedParenthesisUisngRecursion {
     public static void main(String[] args) {
-        int n = 100;
+        int n = 2;
         char[] arr = new char[n * 2];
         paren(arr, n, 0,0,0);
     }
