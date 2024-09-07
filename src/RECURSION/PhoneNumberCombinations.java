@@ -12,7 +12,7 @@ public class PhoneNumberCombinations {
     static  void combination(String s, String ans){
         // base case
         if(s.length()== 0){
-            System.out.print(ans + " " + " \n ");
+            System.out.print(ans + " " + ans.length());
             return;
         }
 
