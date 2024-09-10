@@ -6,9 +6,11 @@ public class powerOfNumber {
     }
     static  long power(int x, int y){
 
+        // base case
         if(y == 0)
             return 1;
 
+        // if y is even number
         if(y % 2 == 0){
             long result = power(x, y/2);
             return result * result;
