@@ -2,7 +2,7 @@ package RECURSION;
 
 public class powerOfNumber {
     public static void main(String[] args) {
-        System.out.println(power(8,3));
+        System.out.println(power(5,8));
     }
     static  long power(int x, int y){
 
