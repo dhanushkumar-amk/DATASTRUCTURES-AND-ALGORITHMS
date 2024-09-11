@@ -1,4 +1,4 @@
-package BACKTRACKING;
+package RECURSION.BACKTRACKING;
 
 public class BACKTRACKING {
 }
