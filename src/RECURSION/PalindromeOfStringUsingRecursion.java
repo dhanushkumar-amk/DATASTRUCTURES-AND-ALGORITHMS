@@ -1,6 +1,6 @@
 package RECURSION;
 
-public class PalindromeNumberUsingRecursion {
+public class PalindromeOfStringUsingRecursion {
     public static void main(String[] args) {
 
     }
