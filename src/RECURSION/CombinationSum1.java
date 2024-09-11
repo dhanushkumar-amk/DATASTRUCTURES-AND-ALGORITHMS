@@ -12,19 +12,21 @@ public class CombinationSum1 {
     }
 
     private static void findCombination(int ind, int[] arr, int target, List<List<Integer>> ans, List<Integer> ds ){
+
+        /// base case
         if (ind == arr.length){
             if (target == 0)
                 ans.add(new ArrayList<>(ds));
             return;
         }
 
+        // every thing has two chance one is taken or ignore
         if(arr[ind] <= target){
             ds.add(arr[ind]);
             findCombination(ind,arr,target - arr[ind],ans, ds);
             ds.remove(ds.size() - 1);
         }
         findCombination(ind + 1, arr, target,ans, ds);
-
     }
 
     public static  List<List<Integer>>combinationSum(int[] candidates,int target){
