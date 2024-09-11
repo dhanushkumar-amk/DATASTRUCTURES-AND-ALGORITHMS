@@ -2,7 +2,7 @@ package RECURSION;
 
 public class PalindromeOfStringUsingRecursion {
     public static void main(String[] args) {
-        String s = "madadam";
+        String s = "madafddam";
         boolean ans = isPalindrome(s,0, s.length()-1);
 
         if ( ans == true)
