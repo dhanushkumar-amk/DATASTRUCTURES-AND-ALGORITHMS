@@ -33,7 +33,8 @@ public class PrintAllPathInMaze {
 //            return ;
 
         // if the path is not false then it is my path so i will changes it to false
-        maze[row][column] = false;
+        else
+            maze[row][column] = false;
 
         // for moving down
         if (row < maze.length - 1)
