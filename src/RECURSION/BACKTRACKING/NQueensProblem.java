@@ -7,7 +7,8 @@ public class NQueensProblem {
 
         int n = 4;
         boolean[][] board = new boolean[n][n];
-        queens(board, 0);
+        System.out.println("The total of ways to place " + queens(board, 0));
+
     }
     static  int queens(boolean[][] board, int row){
         if (row == board.length){
