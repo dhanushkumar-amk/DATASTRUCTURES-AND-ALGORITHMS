@@ -5,7 +5,7 @@ package RECURSION.BACKTRACKING;
 public class NQueensProblem {
     public static void main(String[] args) {
 
-        int n = 4;
+        int n = 20;
         boolean[][] board = new boolean[n][n];
         System.out.println("The total of ways to place " + queens(board, 0));
 
