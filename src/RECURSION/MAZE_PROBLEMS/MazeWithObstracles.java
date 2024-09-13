@@ -14,7 +14,7 @@ public class MazeWithObstracles {
     static void path(String p, boolean[][] maze, int row, int column){
 
         // base case
-        if (row == maze.length - 1 && column == maze[0].length - 1){
+        if (row == 0 && column == 0){
             System.out.println(p);
             return;
         }
