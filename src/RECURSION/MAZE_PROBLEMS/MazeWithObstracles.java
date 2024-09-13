@@ -24,10 +24,10 @@ public class MazeWithObstracles {
 
 
         if ( row < 0)
-          path( p + 'U', maze, row - 1, column);
+          path( p + 'U', maze, row , column - 1);
 
         if (column < 0)
-          path(p + 'L', maze, row, column - 1);
+          path(p + 'L', maze, row - 1, column);
 
 
     }
