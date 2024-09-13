@@ -23,11 +23,11 @@ public class MazeWithObstracles {
             return;
 
 
-        if ( row < maze.length - 1)
-          path( p + 'D', maze, row - 1, column);
+        if ( row < 0)
+          path( p + 'U', maze, row - 1, column);
 
-        if (column < maze[0].length - 1)
-          path(p + 'R', maze, row, column - 1);
+        if (column < 0)
+          path(p + 'L', maze, row, column - 1);
 
 
     }
