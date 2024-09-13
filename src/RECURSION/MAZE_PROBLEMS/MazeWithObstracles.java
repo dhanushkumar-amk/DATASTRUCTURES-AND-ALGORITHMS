@@ -23,8 +23,11 @@ public class MazeWithObstracles {
             return;
 
 
-        path( p + 'D', maze, row + 1, column);
-        path(p + 'R', maze, row, column + 1);
+        if ( row < maze.length - 1)
+          path( p + 'D', maze, row + 1, column);
+
+        if (column < maze[0].length - 1)
+          path(p + 'R', maze, row, column + 1);
 
 
     }
