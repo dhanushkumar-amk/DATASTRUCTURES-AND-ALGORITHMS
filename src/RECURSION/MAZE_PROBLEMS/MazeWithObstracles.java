@@ -19,7 +19,7 @@ public class MazeWithObstracles {
             return;
         }
 
-        if (maze[row][column] == false)
+        if (!maze[row][column])
             return;
 
 
