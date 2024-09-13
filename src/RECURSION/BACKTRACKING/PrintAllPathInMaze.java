@@ -9,7 +9,7 @@ public class PrintAllPathInMaze {
                 {true, true, true},
         };
 
-        path("", maze, 2, 2);
+        path("", maze, 0, 0);
     }
 
     private static void path(String p, boolean[][] maze, int row, int column) {
