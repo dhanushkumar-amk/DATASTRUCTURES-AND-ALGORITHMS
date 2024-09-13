@@ -12,6 +12,7 @@ public class NQueensProblem {
     static  int queens(boolean[][] board, int row){
         if (row == board.length){
             Display(board);
+            System.out.println();
             return 1;
         }
 
