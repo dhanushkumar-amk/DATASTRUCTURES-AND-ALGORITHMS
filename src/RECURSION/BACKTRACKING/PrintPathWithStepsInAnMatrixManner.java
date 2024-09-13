@@ -14,6 +14,7 @@ public class PrintPathWithStepsInAnMatrixManner {
 
     int[][] path = new int[maze.length][maze[0].length];
 
+    print("", maze,0,0,path,1);
 
         }
 
