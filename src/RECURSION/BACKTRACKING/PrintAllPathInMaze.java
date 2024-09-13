@@ -30,8 +30,6 @@ public class PrintAllPathInMaze {
         ArrayList<String> list  = new ArrayList<>();
         if (maze[row][column] == false)
             return list;
-//            return ;
-
         // if the path is not false then it is my path so i will changes it to false
         else
             maze[row][column] = false;
