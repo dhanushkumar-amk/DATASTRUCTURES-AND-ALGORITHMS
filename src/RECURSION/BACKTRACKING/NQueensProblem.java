@@ -1,10 +1,7 @@
 package RECURSION.BACKTRACKING;
 
-
-
 public class NQueensProblem {
     public static void main(String[] args) {
-
         int n = 4;
         boolean[][] board = new boolean[n][n];
         System.out.println("The total of ways to place " + queens(board, 0));
@@ -54,14 +51,14 @@ public class NQueensProblem {
                 return false;
             }
         }
-
         return  true;
     }
 
     private static void Display(boolean[][] board) {
         for (boolean[] row : board){
             for (boolean element : row){
-                if (element == true)
+//                if (element == true)
+                if (element)
                     System.out.print("Q ");
                 else
                     System.out.print("X ");
