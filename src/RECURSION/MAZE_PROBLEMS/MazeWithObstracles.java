@@ -1,2 +1,5 @@
-package RECURSION.MAZE_PROBLEMS;public class MazeWithObstracles {
+package RECURSION.MAZE_PROBLEMS;
+
+public class MazeWithObstracles {
+    
 }
