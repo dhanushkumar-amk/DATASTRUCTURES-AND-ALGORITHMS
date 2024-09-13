@@ -62,7 +62,7 @@ public class NQueensProblem {
                 if (element == true)
                     System.out.print("Q ");
                 else
-                    System.out.print(" ");
+                    System.out.print("X ");
             }
             System.out.println();
         }
