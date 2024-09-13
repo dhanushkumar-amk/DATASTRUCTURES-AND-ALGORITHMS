@@ -32,11 +32,10 @@ public class PrintPathWithStepsInAnMatrixManner {
 
         if (maze[row][column] == false)
             return;
-        else
+        else {
             maze[row][column] = false;
-
-        path[row][column] = steps;
-
+            path[row][column] = steps;
+        }
             if (row < maze.length - 1)
                 print(p + 'D', maze,row + 1,column,path,steps + 1);
 
@@ -51,7 +50,9 @@ public class PrintPathWithStepsInAnMatrixManner {
             if (column > 0)
                 print(p + 'L', maze,row ,column - 1,path,steps + 1);
 
+            // backtracking concepts
             maze[row][column] = true;
+            //  make it as 0
             path[row][column] = 0;
 
     }
