@@ -28,11 +28,11 @@ public class PrintPathWithStepsInAnMatrixManner {
                 System.out.println(Arrays.toString(i));
             System.out.println(p);
             System.out.println();
-    return;
+
         }
 
-//        if (!maze[row][column])
-//            return;
+        if (!maze[row][column])
+            return;
 
             maze[row][column] = false;
             path[row][column] = steps;
