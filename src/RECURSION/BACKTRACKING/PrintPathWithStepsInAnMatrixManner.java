@@ -24,7 +24,9 @@ public class PrintPathWithStepsInAnMatrixManner {
 
             for (int[] i : path)
                 System.out.println(Arrays.toString(i));
+            System.out.println(p);
             System.out.println();
+
         }
 
         if (maze[row][column] == false)
