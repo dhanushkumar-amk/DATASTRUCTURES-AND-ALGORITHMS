@@ -9,7 +9,7 @@ public class MazeWithObstracles {
                 {true, true, true},
         };
 
-        path("", maze,0,0);
+        path("", maze,3,3);
     }
     static void path(String p, boolean[][] maze, int row, int column){
 
@@ -24,10 +24,10 @@ public class MazeWithObstracles {
 
 
         if ( row < maze.length - 1)
-          path( p + 'D', maze, row + 1, column);
+          path( p + 'D', maze, row - 1, column);
 
         if (column < maze[0].length - 1)
-          path(p + 'R', maze, row, column + 1);
+          path(p + 'R', maze, row, column - 1);
 
 
     }
