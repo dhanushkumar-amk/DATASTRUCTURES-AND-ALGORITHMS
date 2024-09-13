@@ -22,6 +22,7 @@ public class PrintPathWithStepsInAnMatrixManner {
 
         if (row == maze.length - 1 && column ==maze[0].length - 1){
 
+            // the base condition is also a path
             path[row][column] = steps;
             for (int[] i : path)
                 System.out.println(Arrays.toString(i));
@@ -30,12 +31,12 @@ public class PrintPathWithStepsInAnMatrixManner {
 
         }
 
-        if (maze[row][column] == false)
+        if (!maze[row][column])
             return;
-        else {
+
             maze[row][column] = false;
             path[row][column] = steps;
-        }
+
             if (row < maze.length - 1)
                 print(p + 'D', maze,row + 1,column,path,steps + 1);
 
@@ -45,10 +46,10 @@ public class PrintPathWithStepsInAnMatrixManner {
 
 
             if (row > 0 )
-                print(p + 'U', maze,row - 1,column,path,steps + 1);
+                print(p + 'U', maze,row - 1, column ,path,steps + 1);
 
             if (column > 0)
-                print(p + 'L', maze,row ,column - 1,path,steps + 1);
+                print(p + 'L', maze, row ,column - 1, path,steps + 1);
 
             // backtracking concepts
             maze[row][column] = true;
