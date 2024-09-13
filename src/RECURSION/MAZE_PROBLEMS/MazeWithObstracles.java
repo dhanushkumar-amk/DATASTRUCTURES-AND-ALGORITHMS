@@ -9,7 +9,7 @@ public class MazeWithObstracles {
                 {true, true, true},
         };
 
-        path("", maze,3,3);
+        path("", maze,2,2);
     }
     static void path(String p, boolean[][] maze, int row, int column){
 
