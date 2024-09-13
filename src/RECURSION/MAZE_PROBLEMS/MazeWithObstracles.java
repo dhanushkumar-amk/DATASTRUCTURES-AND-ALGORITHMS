@@ -23,10 +23,10 @@ public class MazeWithObstracles {
             return;
 
 
-        if ( row < 0)
+        if ( row <= 0)
           path( p + 'U', maze, row , column - 1);
 
-        if (column < 0)
+        if (column <= 0)
           path(p + 'L', maze, row - 1, column);
 
 
