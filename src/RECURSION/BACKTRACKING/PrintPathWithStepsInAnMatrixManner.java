@@ -4,17 +4,17 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class PrintPathWithStepsInAnMatrixManner {
-    public static void main(String[] args) {
+        public static void main(String[] args) {
 
-    boolean[][] maze =  {
-          {true, true, true},
-        {true, true, true},
-        {true, true, true},
-        };
+        boolean[][] maze =  {
+              {true, true, true},
+            {true, true, true},
+            {true, true, true},
+            };
 
-    int[][] path = new int[maze.length][maze[0].length];
+        int[][] path = new int[maze.length][maze[0].length];
 
-    print("", maze,0,0,path,1);
+        print("", maze,0,0,path,1);
 
         }
 
@@ -46,7 +46,7 @@ public class PrintPathWithStepsInAnMatrixManner {
                 print(p + 'U', maze,row - 1,column,path,steps + 1);
 
             if (column > 0)
-                print(p + 'L', maze,row ,column + 1,path,steps + 1);
+                print(p + 'L', maze,row ,column - 1,path,steps + 1);
 
             maze[row][column] = true;
             path[row][column] = 0;
