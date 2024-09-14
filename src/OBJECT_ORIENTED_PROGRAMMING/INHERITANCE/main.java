@@ -40,8 +40,10 @@ public class main {
     }
  */
 
-        BOX box1 = new BOX(5,6,7);
 
+        // copy constructor
+
+        BOX box1 = new BOX(5,6,7);
         BOX box2 = box1;
 
 
