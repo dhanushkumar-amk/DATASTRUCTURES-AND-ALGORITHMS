@@ -46,6 +46,20 @@ class  human {
     }
 
 
+    class  main{
+        public static void main(String[] args) {
+
+        }
 
 
-//}
+        // we cnn't access the no static method inside the static method
+        // static method isn't belongs to object
+        static  void  fun(){
+            greeding();
+        }
+
+        // it id belong to the object
+        void greeding(){
+            System.out.println("hello world");
+        }
+}
