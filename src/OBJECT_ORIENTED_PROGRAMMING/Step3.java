@@ -55,7 +55,7 @@ class  human {
         // we cnn't access the no static method inside the static method
         // static method isn't belongs to object
         static  void  fun(){
-            greeding();
+//            greeding();
         }
 
         // it id belong to the object
