@@ -6,7 +6,12 @@ public class WrapperClass_Step2 {
 
         // wrapper class
 
+
+        // treated like an object
         Integer num = 5;
+//        num.toString()
+//        it has to many functions
+
 
         System.out.println(num);
     }
