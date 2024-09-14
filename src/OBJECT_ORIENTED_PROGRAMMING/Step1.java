@@ -77,7 +77,7 @@ class Student{
     }
 
 void greeting(){
-    System.out.println(name);
+    System.out.println(this.name);
 }
 
     // this keyword simply replaces the dhanush.name dhanush.roll, dhanush.mark
