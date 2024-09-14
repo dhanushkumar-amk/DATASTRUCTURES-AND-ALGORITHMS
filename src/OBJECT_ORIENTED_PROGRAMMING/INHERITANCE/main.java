@@ -15,7 +15,23 @@ public class main {
 
 
         // all side
-        BOX box = new BOX(4);
+//        BOX box = new BOX(4);
+
+        /*
+
+    // cube
+    // one arguments
+    BOX(double side){
+        this.width = side;
+        this.height = side;
+        this.length = side;
+    }
+         */
+
+        BOX box = new BOX(4,5,8);
+
+
+
 
         System.out.println(box.height + " " +  box.length + " " + box.width);
     }
