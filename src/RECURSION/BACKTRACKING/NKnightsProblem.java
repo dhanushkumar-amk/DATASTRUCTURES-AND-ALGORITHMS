@@ -21,9 +21,11 @@ public class NKnightsProblem {
          return;
 
      // if one column reaches the end then go to the next row and start with column 0
-     if (column == board.length)
+     if (column == board.length) {
          knight(board, row + 1, 0, knightCount);
 
+         return;
+     }
      // if that current cell is safe ten place the knight and decrease knightCount by 1 and check the next column again place it as true and backtrack again
 
      if (isSafe(board, row, column)){
