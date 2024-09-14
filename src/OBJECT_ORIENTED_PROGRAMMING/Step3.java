@@ -12,6 +12,9 @@ public class Step3 {
 //        message();
 
 
+    human dhanush = new human(20,"dhanushkumar",1000000);
+    human jack = new human(10,"jack sparrow",10000);
+
 
     }
 
@@ -20,7 +23,21 @@ public class Step3 {
 
 
 class  human {
-    public static void main(String[] args) {
-        System.out.println("hello world");
+//    public static void main(String[] args) {
+        int age;
+        String name;
+        int salary;
+
+        public  human(int age, String name, int salary){
+            this.age = age;
+            this.name = name;
+            this.salary = salary;
+        }
+
+
     }
-}
+
+
+
+
+//}
