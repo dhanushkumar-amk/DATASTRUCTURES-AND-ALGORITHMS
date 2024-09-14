@@ -11,5 +11,18 @@ public class ProblemsMeets {
 
         // data of 5 students that consists of name roll no,marks within an single data structure
 //        here will be used objected oriented programming
+
+        //we can create a own  own data type using class
+        Student[] students = new Student[5];
+
+        Student dhanush;
+    }
+
+
+    // create a class
+    class Student{
+        int[] roll = new int[5];
+        String[] name = new String[5];
+        float[] marks = new float[5];
     }
 }
