@@ -2,7 +2,7 @@ package OBJECT_ORIENTED_PROGRAMMING;
 
 import java.util.Arrays;
 
-public class ProblemsMeets {
+public class Step1 {
     public static void main(String[] args) {
 
         // store 5 rollno
@@ -20,10 +20,7 @@ public class ProblemsMeets {
         // just declaring
         Student dhanush;
 
-
-        System.out.println(Arrays.toString(students));
-
-
+//  System.out.println(Arrays.toString(students));
 
 
     }
