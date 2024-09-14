@@ -57,3 +57,14 @@ public class Step2 {
 
 
 }
+
+
+class A{
+    final int num = 10;
+
+    String name;
+
+
+
+
+}
