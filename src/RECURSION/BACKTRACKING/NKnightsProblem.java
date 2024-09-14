@@ -16,6 +16,8 @@ public class NKnightsProblem {
         return;
         }
 
+     // completed
+
      // if row and column become out of bounds then just return
      if (row == board.length - 1 && column == board.length)
          return;
