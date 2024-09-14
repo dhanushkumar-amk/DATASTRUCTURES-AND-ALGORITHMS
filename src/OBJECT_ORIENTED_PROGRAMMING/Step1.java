@@ -31,9 +31,9 @@ public class Step1 {
 
 
         // dhanush details will be fixed
-        dhanush.roll = 10;
-        dhanush.name = "dhaushkumar";
-//        dhanush.marks = 90.6f;
+//        dhanush.roll = 10;
+//        dhanush.name = "dhaushkumar";
+////        dhanush.marks = 90.6f;
 
         System.out.println(dhanush.roll);
         System.out.println(dhanush.name);
@@ -56,4 +56,20 @@ class Student{
     String name;
 //    float marks;
     float marks = 80.5f;  // we can also set default value
+
+
+
+
+// constructor
+
+    // return type is a class
+    // no need any return type
+
+    Student(){
+        this.roll = 10;
+        this.name = "dhaushkumar";
+        this.marks = 90.6f;
+    }
+
+
 }
