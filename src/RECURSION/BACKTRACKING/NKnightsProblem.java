@@ -13,7 +13,7 @@ public class NKnightsProblem {
      if (knightCount == 0){
          Display(board);
          System.out.println();
-
+        return;
         }
 
      // if row and column become out of bounds then just return
