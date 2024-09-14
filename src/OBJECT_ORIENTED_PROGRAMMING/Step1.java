@@ -21,12 +21,9 @@ public class Step1 {
         Student dhanush;
 
 //  System.out.println(Arrays.toString(students));
-
+        // default value of an object is a null
 
     }
-
-
-
 }
 
 
