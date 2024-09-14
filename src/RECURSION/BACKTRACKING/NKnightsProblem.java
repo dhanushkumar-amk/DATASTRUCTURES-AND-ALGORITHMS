@@ -3,6 +3,9 @@ package RECURSION.BACKTRACKING;
 public class NKnightsProblem {
     public static void main(String[] args) {
 
+        int n = 4;
+        boolean[][] board = new boolean[n][n];
+        knight(board,0,0,4);
     }
     static  void knight(boolean[][] board, int row, int column, int knightCount){
 
@@ -35,6 +38,28 @@ public class NKnightsProblem {
 
     private static boolean isSafe(boolean[][] board, int row, int column) {
 
+        // four condition t check
+        if (isValid(board, row - 2, column + 1)){
+            if (board[row - 2][column + 1])
+                return false;
+        }
+
+        if (isValid(board, row - 2, column - 1)){
+            if (board[row - 2][column - 1])
+                return false;
+        }
+
+        if (isValid(board, row - 1, column + 2)){
+            if (board[row - 1] [column + 2])
+                return false;
+        }
+
+        if (isValid(board, row - 1, column - 2)){
+            if (board[row - 1][column - 2])
+                return false;
+        }
+
+        return true;
     }
 
 
