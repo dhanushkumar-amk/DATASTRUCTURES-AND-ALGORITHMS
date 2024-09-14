@@ -50,7 +50,7 @@ public class Step2 {
       */
 
         A obj;
-        for (int i = 0; i < 10000 ; i++) {
+        for (int i = 0; i < 100000 ; i++) {
             obj = new A("random name");
         }
     }
@@ -72,7 +72,7 @@ class A{
     String name;
 
     A(String name){
-        System.out.println("object is created");
+//        System.out.println("object is created");
         this.name = name;
     }
 
