@@ -5,37 +5,37 @@ import java.util.Arrays;
 public class Step1 {
     public static void main(String[] args) {
 
-        // store 5 rollno
+        // store 5 rollNo
         int[] roll = new int[5];
 
         // store 5 names
         String[] names = new String[5];
 
         // data of 5 students that consists of name roll no,marks within an single data structure
-//        here will be used objected oriented programming
+        // here will be used objected oriented programming
 
         //we can create a own  own data type using class
         Student[] students = new Student[5];
 
         // just declaring
-//        Student dhanush;
+        //Student dhanush;
 
-//  System.out.println(Arrays.toString(students));
-        // default value of an object is a null
+        // System.out.println(Arrays.toString(students));
+         //default value of an object is a null
 
-//        dhanush = new Student();
+        //dhanush = new Student();
 
-        // one line expression
-//        Student dhanush = new Student();
-        Student dhanush = new Student(10, "arun",45.6f);
+         //one line expression
+       // Student dhanush = new Student();
+        //Student dhanush = new Student(10, "arun",45.6f);
         //System.out.println(dhanush);  // it provide some random value
 
-        Student ram = new Student(12,"Ram",34.5f);
+       // Student ram = new Student(12,"Ram",34.5f);
 
 
-        System.out.println(ram.name);
-        System.out.println(ram.roll);
-        System.out.println(ram.marks);
+        //System.out.println(ram.name);
+        //System.out.println(ram.roll);
+        //System.out.println(ram.marks);
 
 
         // dhanush details will be fixed
@@ -43,11 +43,11 @@ public class Step1 {
 //        dhanush.name = "dhaushkumar";
 ////        dhanush.marks = 90.6f;
 
-        System.out.println(dhanush.roll);
-        System.out.println(dhanush.name);
-        System.out.println(dhanush.marks);
+        //System.out.println(dhanush.roll);
+        //System.out.println(dhanush.name);
+      //  System.out.println(dhanush.marks);
 
-        dhanush.greeting();
+       // dhanush.greeting();
 /*
           default values
 
@@ -95,6 +95,17 @@ void greeting(){
         this.roll = roll;
         this.marks = marks;
     }
+
+
+    // now we can create n number of objects using this
+//    ex
+
+//    Student ram = new Student(12,"Ram",34.5f);
+//
+//
+//        System.out.println(ram.name);
+//        System.out.println(ram.roll);
+//        System.out.println(ram.marks);
 
 
 }
