@@ -38,6 +38,8 @@ public class Step1 {
         System.out.println(dhanush.roll);
         System.out.println(dhanush.name);
         System.out.println(dhanush.marks);
+
+        dhanush.greeting();
 /*
           default values
 
@@ -69,6 +71,9 @@ class Student{
         this.roll = 10;
         this.name = "dhaushkumar";
         this.marks = 90.6f;
+
+
+
     }
 
 void greeting(){
