@@ -15,6 +15,8 @@ public class Step3 {
     human dhanush = new human(20,"dhanushkumar",1000000);
     human jack = new human(10,"jack sparrow",10000);
 
+        System.out.println(dhanush.population);
+        System.out.println(jack.population);
 
     }
 
@@ -28,10 +30,17 @@ class  human {
         String name;
         int salary;
 
+    // static means it is common to all the objects within a class
+    static  long population;
+
         public  human(int age, String name, int salary){
+
             this.age = age;
             this.name = name;
             this.salary = salary;
+
+            // we can access the static variable only by class name in an object
+            human.population += 1;
         }
 
 
