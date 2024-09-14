@@ -34,6 +34,8 @@ public class Step1 {
 
 
         System.out.println(ram.name);
+        System.out.println(ram.roll);
+        System.out.println(ram.marks);
 
 
         // dhanush details will be fixed
