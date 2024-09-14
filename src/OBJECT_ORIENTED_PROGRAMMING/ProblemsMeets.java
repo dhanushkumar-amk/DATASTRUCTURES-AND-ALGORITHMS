@@ -1,5 +1,7 @@
 package OBJECT_ORIENTED_PROGRAMMING;
 
+import java.util.Arrays;
+
 public class ProblemsMeets {
     public static void main(String[] args) {
 
@@ -15,17 +17,25 @@ public class ProblemsMeets {
         //we can create a own  own data type using class
         Student[] students = new Student[5];
 
+        // just declaring
         Student dhanush;
 
-        System.out.println();
+
+        System.out.println(Arrays.toString(students));
+
+
+
 
     }
 
 
-    // create a class
-    class Student{
-        int[] roll = new int[5];
-        String[] name = new String[5];
-        float[] marks = new float[5];
-    }
+
+}
+
+
+// create a class
+class Student{
+    int roll;
+    String name;
+    float marks;
 }
