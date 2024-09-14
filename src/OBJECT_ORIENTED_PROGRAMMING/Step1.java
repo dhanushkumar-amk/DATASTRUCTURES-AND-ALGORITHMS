@@ -71,5 +71,9 @@ class Student{
         this.marks = 90.6f;
     }
 
+void greeting(){
+    System.out.println(name);
+}
 
+    // this keyword simply replaces the dhanush.name dhanush.roll, dhanush.mark
 }
