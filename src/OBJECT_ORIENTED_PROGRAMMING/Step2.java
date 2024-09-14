@@ -49,6 +49,10 @@ public class Step2 {
 
       */
 
+        A obj;
+        for (int i = 0; i < 100000000 ; i++) {
+            obj = new A("random name");
+        }
     }
 
     static  void swap(Integer a, Integer b){
@@ -59,6 +63,8 @@ public class Step2 {
 
         System.out.println(a + " " +  b);
     }
+
+
 }
 
 class A{
@@ -66,8 +72,17 @@ class A{
     String name;
 
     A(String name){
+        System.out.println("object is created");
         this.name = name;
     }
+
+    @Override
+    protected void finalize() throws Throwable {
+        System.out.println("Object is destroyed");
+    }
+
 }
+
+
 
 
