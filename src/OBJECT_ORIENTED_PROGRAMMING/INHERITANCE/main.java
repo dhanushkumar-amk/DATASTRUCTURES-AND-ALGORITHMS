@@ -54,6 +54,6 @@ public class main {
         }
          */
 
-        System.out.println(box.length + " " +  box.height + " " + box.width);
+        System.out.println(box1.length + " " +  box1.height + " " + box1.width);
     }
 }
