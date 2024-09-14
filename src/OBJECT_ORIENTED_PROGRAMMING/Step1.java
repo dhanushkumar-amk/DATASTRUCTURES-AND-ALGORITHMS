@@ -30,6 +30,11 @@ public class Step1 {
         Student dhanush = new Student(10, "arun",45.6f);
         //System.out.println(dhanush);  // it provide some random value
 
+        Student ram = new Student(12,"Ram",34.5f);
+
+
+        System.out.println(ram.name);
+
 
         // dhanush details will be fixed
 //        dhanush.roll = 10;
