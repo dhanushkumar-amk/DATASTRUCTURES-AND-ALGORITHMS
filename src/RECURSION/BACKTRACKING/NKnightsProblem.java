@@ -64,7 +64,7 @@ public class NKnightsProblem {
 
 
     private  static boolean  isValid(boolean[][] board, int row, int column){
-        if (row >= 0 && row < board.length && column >= 0 && column < board.length)
+        if (row >= 0 && row < board.length - 1 && column >= 0 && column < board.length)
             return true;
 
         return false;
