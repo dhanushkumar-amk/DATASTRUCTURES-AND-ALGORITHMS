@@ -75,9 +75,9 @@ public class NKnightsProblem {
             for (boolean element : row){
 //                if (element == true)
                 if (element)
-                    System.out.print("Q ");
+                    System.out.print("K ");
                 else
-                    System.out.print("X ");
+                    System.out.print("0 ");
             }
             System.out.println();
         }
