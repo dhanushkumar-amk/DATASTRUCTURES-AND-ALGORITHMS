@@ -18,11 +18,16 @@ public class Step1 {
         Student[] students = new Student[5];
 
         // just declaring
-        Student dhanush;
+//        Student dhanush;
 
 //  System.out.println(Arrays.toString(students));
         // default value of an object is a null
 
+//        dhanush = new Student();
+
+        // one line expression
+        Student dhanush = new Student();
+        System.out.println(dhanush);
     }
 }
 
