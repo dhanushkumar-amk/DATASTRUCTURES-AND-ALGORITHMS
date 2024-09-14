@@ -1,5 +1,7 @@
 package OBJECT_ORIENTED_PROGRAMMING.INHERITANCE;
 
+import javax.swing.*;
+
 public class main {
     public static void main(String[] args) {
 
@@ -28,11 +30,30 @@ public class main {
     }
          */
 
-        BOX box = new BOX(4,5,8);
+//        BOX box = new BOX(4,5,8);
+/*
+// three arguments
+     BOX(double length, double height, double width){
+        this.width =  width;
+        this.height = height;
+        this.length = length;
+    }
+ */
+
+        BOX box1 = new BOX(5,6,7);
+
+        BOX box2 = box1;
 
 
 
+        /*
+        BOX(BOX old){
+            this.width = old.width;
+            this.length = old.length;
+            this.height  = old.height;
+        }
+         */
 
-        System.out.println(box.height + " " +  box.length + " " + box.width);
+        System.out.println(box.length + " " +  box.height + " " + box.width);
     }
 }
