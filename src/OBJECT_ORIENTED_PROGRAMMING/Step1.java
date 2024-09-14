@@ -30,15 +30,17 @@ public class Step1 {
         //System.out.println(dhanush);  // it provide some random value
 
 
+        // dhanush details will be fixed
         dhanush.roll = 10;
         dhanush.name = "dhaushkumar";
-        dhanush.marks = 90.6f;
+//        dhanush.marks = 90.6f;
 
-            // default values
         System.out.println(dhanush.roll);
         System.out.println(dhanush.name);
         System.out.println(dhanush.marks);
 /*
+          default values
+
         int , long short, byte = 0
         String = null;
         float = 0.0;
@@ -52,5 +54,6 @@ public class Step1 {
 class Student{
     int roll;
     String name;
-    float marks;
+//    float marks;
+    float marks = 80.5f;  // we can also set default value
 }
