@@ -50,7 +50,7 @@ public class Step2 {
       */
 
         A obj;
-        for (int i = 0; i < 100000000 ; i++) {
+        for (int i = 0; i < 10 ; i++) {
             obj = new A("random name");
         }
     }
