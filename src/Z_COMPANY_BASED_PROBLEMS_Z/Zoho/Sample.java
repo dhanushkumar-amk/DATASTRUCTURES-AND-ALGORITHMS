@@ -1,4 +1,4 @@
-package ZZZZZ.Zoho;
+package Z_COMPANY_BASED_PROBLEMS_Z.Zoho;
 
 public class Sample {
     public static void main(String[] args) {

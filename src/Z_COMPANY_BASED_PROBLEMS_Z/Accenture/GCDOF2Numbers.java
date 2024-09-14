@@ -1,4 +1,4 @@
-package ZZZZZ.Accenture;
+package Z_COMPANY_BASED_PROBLEMS_Z.Accenture;
 
 public class GCDOF2Numbers {
     public static void main(String[] args) {
