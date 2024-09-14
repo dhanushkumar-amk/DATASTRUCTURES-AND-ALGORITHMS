@@ -4,6 +4,14 @@ public class Step2 {
     public static void main(String[] args) {
         int n = 5;
 
+
+       final A dhanush = new A("Dhanushkumar");
+       // we can modify in an final keyword on reference type
+       dhanush.name = "Hulk";
+
+       // but we can't assign the new objet
+//        dhanush = new A("jacK");
+
         // wrapper class
 
 
@@ -51,21 +59,15 @@ public class Step2 {
 
         System.out.println(a + " " +  b);
     }
-
-
-
-
-
 }
-
 
 class A{
     final int num = 10;
-
     String name;
 
-
-
-
-
+    A(String name){
+        this.name = name;
+    }
 }
+
+
