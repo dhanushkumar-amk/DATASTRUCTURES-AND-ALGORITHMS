@@ -39,7 +39,7 @@ public class Step1 {
 
 // create a class
 class Student{
-    long roll;
+    short roll;
     String name;
     float marks;
 }
