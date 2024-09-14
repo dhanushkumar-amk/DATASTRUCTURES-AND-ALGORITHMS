@@ -26,7 +26,8 @@ public class Step1 {
 //        dhanush = new Student();
 
         // one line expression
-        Student dhanush = new Student();
+//        Student dhanush = new Student();
+        Student dhanush = new Student(10, "arun",45.6f);
         //System.out.println(dhanush);  // it provide some random value
 
 
@@ -79,6 +80,14 @@ class Student{
 void greeting(){
     System.out.println(this.name);
 }
-
     // this keyword simply replaces the dhanush.name dhanush.roll, dhanush.mark
+
+
+    Student( int roll, String name, float marks){
+        this.name = name;
+        this.roll = roll;
+        this.marks = marks;
+    }
+
+
 }
