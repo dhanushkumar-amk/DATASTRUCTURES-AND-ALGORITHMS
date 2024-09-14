@@ -5,6 +5,7 @@ public class BOX {
     double height;
     double width;
 
+    // zero arguments
     BOX(){
         this.height = -1;
         this.length = -1;
@@ -12,7 +13,7 @@ public class BOX {
     }
 
     // cube
-    //
+    // one arguments
     BOX(double side){
         this.width = side;
         this.height = side;
