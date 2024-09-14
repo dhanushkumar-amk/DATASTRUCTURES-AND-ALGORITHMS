@@ -27,14 +27,19 @@ public class Step1 {
 
         // one line expression
         Student dhanush = new Student();
-        System.out.println(dhanush);
+        //System.out.println(dhanush);  // it provide some random value
+
+
+            // default values
+        System.out.println(dhanush.roll);
+
     }
 }
 
 
 // create a class
 class Student{
-    int roll;
+    long roll;
     String name;
     float marks;
 }
