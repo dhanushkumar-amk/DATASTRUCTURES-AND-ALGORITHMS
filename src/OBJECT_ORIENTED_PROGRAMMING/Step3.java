@@ -15,12 +15,11 @@ public class Step3 {
     human dhanush = new human(20,"dhanushkumar",1000000);
     human jack = new human(10,"jack sparrow",10000);
 
+    // so population is common to all
         System.out.println(dhanush.population);
         System.out.println(jack.population);
 
     }
-
-
 }
 
 
@@ -33,7 +32,7 @@ class  human {
     // static means it is common to all the objects within a class
     static  long population;
 
-        public  human(int age, String name, int salary){
+    human(int age, String name, int salary){
 
             this.age = age;
             this.name = name;
