@@ -54,6 +54,9 @@ public class main {
         System.out.println(box3.weight);
 
 
+        BOX box5 = new BoxWeight(1,2,3,4);
+        System.out.println(box5.length);
+
         /*
         BOX(BOX old){
             this.width = old.width;
