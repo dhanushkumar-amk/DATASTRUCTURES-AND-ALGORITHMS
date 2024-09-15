@@ -6,4 +6,6 @@ public class BoxWeight extends BOX {
     public BoxWeight(){
         this.weight =-1;
     }
+
+
 }

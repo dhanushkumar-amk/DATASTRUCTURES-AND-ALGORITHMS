@@ -48,6 +48,8 @@ public class main {
 
         BoxWeight box3 = new BoxWeight();
 
+//        BoxWeight box4 = new BoxWeight(1,2,3,4);
+
         System.out.println(box3.height);
         System.out.println(box3.weight);
 
