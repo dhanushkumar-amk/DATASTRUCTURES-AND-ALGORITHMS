@@ -9,8 +9,9 @@ public class BoxWeight extends BOX {
 
     public BoxWeight(double l, double w, double h, double weight){
 
-      //
-        super(l,w,h);
+      //super define the get the element from parent class
+
+        super(l,w,h); // call the parent class constructor
         this.weight = weight;
     }
 }
