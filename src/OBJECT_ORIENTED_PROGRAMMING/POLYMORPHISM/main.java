@@ -9,6 +9,6 @@ public class main {
 
         sp.area();
         cir.area();
-        sq
+        sq.area();
     }
 }
