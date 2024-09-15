@@ -8,6 +8,7 @@ public class main {
         square sq = new square();
 
         sp.area();
-        
+        cir.area();
+        sq
     }
 }
