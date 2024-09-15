@@ -43,9 +43,13 @@ public class main {
 
         // copy constructor
 
-        BOX box1 = new BOX(5,6,7);
-        BOX box2 = box1;
+//        BOX box1 = new BOX(5,6,7);
+//        BOX box2 = box1;
 
+        BoxWeight box3 = new BoxWeight();
+
+        System.out.println(box3.height);
+        System.out.println(box3.weight);
 
 
         /*
@@ -56,6 +60,6 @@ public class main {
         }
          */
 
-        System.out.println(box1.length + " " +  box1.height + " " + box1.width);
+//        System.out.println(box1.length + " " +  box1.height + " " + box1.width);
     }
 }
