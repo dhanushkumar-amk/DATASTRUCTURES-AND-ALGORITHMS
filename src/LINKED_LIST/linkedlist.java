@@ -22,6 +22,18 @@ public class linkedlist {
             tail = head; // if tail is a empty then head is equal to tail
 
         size += 1;    // else size+=1
+
+    }
+
+    // display function
+    public  void display(){
+        Node temp = head;
+
+        while (temp != null){
+            System.out.println(temp + " -> ");
+            temp = temp.next;
+        }
+
     }
 
 
