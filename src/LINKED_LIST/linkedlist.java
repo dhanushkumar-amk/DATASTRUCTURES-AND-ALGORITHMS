@@ -30,9 +30,10 @@ public class linkedlist {
         Node temp = head;
 
         while (temp != null){
-            System.out.println(temp + " -> ");
+            System.out.println(temp.value + " -> ");
             temp = temp.next;
         }
+        System.out.println("end");
 
     }
 
