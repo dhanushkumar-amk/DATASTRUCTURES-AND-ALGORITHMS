@@ -1,13 +1,13 @@
 package LINKED_LIST;
 
-public class linkedlist {
+public class ll {
 
     private  Node head;
     private Node tail;
 
     private int size;
 
-    public linkedlist(){
+    public ll (){
         this.size = 0;
     }
 
