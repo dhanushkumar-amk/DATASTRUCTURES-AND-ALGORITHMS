@@ -24,6 +24,22 @@ public class ll {
 
     }
 
+
+    // insert the value in last index
+    public  void insertLast(int val){
+
+        if (tail == null){
+            insertFirst(val);
+            return;
+        }
+        else {
+            Node node = new Node(val);
+            tail.next = node;
+            tail = node;
+            size += 1;
+        }
+    }
+
     // display function
     public  void display(){
         Node temp = head;
@@ -35,6 +51,8 @@ public class ll {
         System.out.print("end");
 
     }
+
+
 
 
 
