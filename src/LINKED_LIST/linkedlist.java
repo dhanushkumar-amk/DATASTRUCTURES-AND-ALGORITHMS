@@ -11,7 +11,7 @@ public class linkedlist {
     public linkedlist(){
         this.size = 0;
     }
-    
+
 
    private  class Node{
        private int value;
