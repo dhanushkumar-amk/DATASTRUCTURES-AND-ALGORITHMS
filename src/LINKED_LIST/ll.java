@@ -29,10 +29,10 @@ public class ll {
         Node temp = head;
 
         while (temp != null){
-            System.out.println(temp.value + " -> ");
+            System.out.print(temp.value + " -> ");
             temp = temp.next;
         }
-        System.out.println("end");
+        System.out.print("end");
 
     }
 
