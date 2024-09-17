@@ -67,6 +67,10 @@ public class ll {
     }
 
 
+    // delete the first element
+
+
+
     // display function
     public  void display(){
         Node temp = head;
