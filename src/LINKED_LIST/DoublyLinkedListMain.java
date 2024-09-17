@@ -35,6 +35,7 @@ public class DoublyLinkedListMain {
             System.out.print( " <- " + last.val );
             last = last.prev;
         }
+        System.out.println("null");
 
     }
 
