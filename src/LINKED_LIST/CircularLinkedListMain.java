@@ -34,6 +34,7 @@ public class CircularLinkedListMain {
                 node = node.next;
             }while (node != head);
         }
+        System.out.println("Head");
     }
 
 
