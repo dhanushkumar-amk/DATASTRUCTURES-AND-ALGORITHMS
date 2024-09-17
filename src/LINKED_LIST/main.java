@@ -16,10 +16,12 @@ public class main {
 
         list.display();
 
-
         System.out.println();
+
         list.deleteFirst();
 
         list.display();
+
+
     }
 }
