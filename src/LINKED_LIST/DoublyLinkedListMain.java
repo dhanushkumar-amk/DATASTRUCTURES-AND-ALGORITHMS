@@ -28,7 +28,7 @@ public class DoublyLinkedListMain {
             last = node;
             node = node.next;
         }
-        System.out.println("null");
+        System.out.println("end");
 
         System.out.println("print in reverse : ");
 
@@ -36,7 +36,7 @@ public class DoublyLinkedListMain {
             System.out.print( last.val + " -> " );
             last = last.prev;
         }
-        System.out.println("null");
+        System.out.println("start");
     }
 
 
