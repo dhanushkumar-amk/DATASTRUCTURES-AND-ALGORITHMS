@@ -47,19 +47,20 @@ public class ll {
             insertFirst(val);
             return;
         }
-
         if (index == size) {
             insertLast(val);
             return;
         }
-
         Node temp = head;
         for (int i = 1; i < index ; i++) {
             temp  =  temp.next;
         }
 
+        // insert the new node on current.next current equals to temp
+
         Node node = new Node(val, temp.next);
 
+        // connect the previous node to nw node the previous node is an temp so temp.next == current node
         temp.next = node;
         size++;
 
