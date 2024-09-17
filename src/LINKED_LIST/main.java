@@ -39,7 +39,7 @@ public class main {
         list.insertLast(6);
 //        list.display();
 
-        list.insertAfterNode(3,30);
+        list.insertAfterNode(4,30);
         list.display();
 
     }
