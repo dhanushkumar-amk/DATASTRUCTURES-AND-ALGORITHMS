@@ -27,6 +27,8 @@ public class main {
 
         list.getNodeOfvalue(4);
 */
+
+  /*
         DoublyLinkedListMain list = new DoublyLinkedListMain();
 
         list.insertFirst(1);
@@ -37,9 +39,19 @@ public class main {
 
         list.insertLast(5);
         list.insertLast(6);
-//        list.display();
 
         list.insertAfterNode(4,30);
+        list.display();
+
+
+   */
+        CircularLinkedListMain list = new CircularLinkedListMain();
+        list.insert(5);
+        list.insert(4);
+        list.insert(3);
+        list.insert(2);
+        list.insert(1);
+
         list.display();
 
     }
