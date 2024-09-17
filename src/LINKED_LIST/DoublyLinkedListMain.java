@@ -24,7 +24,7 @@ public class DoublyLinkedListMain {
         Node node = head;
 
         while (node != null){
-            System.out.print(node.val + " -> " );
+            System.out.print(node.val + " -> " + "null" );
             node = node.next;
         }
         System.out.println();
