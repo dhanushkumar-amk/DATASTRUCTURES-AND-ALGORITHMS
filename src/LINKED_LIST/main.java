@@ -20,7 +20,7 @@ public class main {
 
 //        list.deleteLast();
 //        list.deleteFirst();
-        list.delete(4);
+        list.delete(3);
 
         list.display();
 
