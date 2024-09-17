@@ -46,6 +46,10 @@ public class DoublyLinkedListMain {
     }
 
 
+    // insert the node after the given node
+    
+
+
     // display function
     public  void display(){
         Node node = head;
