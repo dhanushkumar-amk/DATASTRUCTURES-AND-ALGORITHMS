@@ -3,14 +3,14 @@ package LINKED_LIST;
 
 // All detail Explanation in note
 
-public class ll {
+public class SingleLikedListMain {
 
     private  Node head;
     private Node tail;
 
     private int size;
 
-    public ll (){
+    public SingleLikedListMain(){
         this.size = 0;
     }
 
