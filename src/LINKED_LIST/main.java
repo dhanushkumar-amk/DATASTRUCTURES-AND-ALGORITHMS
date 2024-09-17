@@ -54,5 +54,8 @@ public class main {
 
         list.display();
 
+        list.delete(4);
+        list.display();
+
     }
 }
