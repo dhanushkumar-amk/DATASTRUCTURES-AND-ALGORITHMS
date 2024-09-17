@@ -26,6 +26,7 @@ public class main {
 
         list.getNodeOfvalue(4);
 
+        System.out.println(ll.list.getNodeOfvalue(5));
 
     }
 }
