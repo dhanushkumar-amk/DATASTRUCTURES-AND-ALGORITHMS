@@ -1,5 +1,8 @@
 package LINKED_LIST;
 
+
+// All detail Explanation in note
+
 public class ll {
 
     private  Node head;
@@ -105,6 +108,22 @@ public class ll {
         Node previous = get(index - 1);
 
         previous.next = previous.next.next;
+    }
+
+
+    // get the node of the particular value
+    public Node getNodeOfvalue(int value){
+
+        Node node = head;
+
+        while (node != null){
+            if (node.value == value)
+                return node;
+
+            node = node.next;
+        }
+        // can't find return null
+        return  null;
     }
 
 
