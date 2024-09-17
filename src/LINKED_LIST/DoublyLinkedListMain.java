@@ -23,7 +23,6 @@ public class DoublyLinkedListMain {
         Node node = new Node(val);
 
         Node last = head;
-
         node.next = null;
 
         if (head == null){
