@@ -32,7 +32,7 @@ public class DoublyLinkedListMain {
 
         System.out.println("print in reverse : ");
         while (last != null){
-            System.out.println(last.val +" <- "  );
+            System.out.print(last.val +" <- "  );
             last = last.prev;
         }
 
