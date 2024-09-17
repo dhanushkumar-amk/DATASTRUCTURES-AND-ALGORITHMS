@@ -79,6 +79,9 @@ public class ll {
 
         }
 
+//        delete a last element
+    
+
 
     // display function
     public  void display(){
