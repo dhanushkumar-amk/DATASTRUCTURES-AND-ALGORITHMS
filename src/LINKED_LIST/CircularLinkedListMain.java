@@ -1,5 +1,2 @@
-package LINKED_LIST;
-
-public class CircularLinkedListMain {
-
+package PACKAGE_NAME;public class CircularLinkedListMain {
 }
