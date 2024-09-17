@@ -156,7 +156,7 @@ public class ll {
 
 
 
-    private  class Node{
+    class Node{
         private int value;
         private Node next;
 
