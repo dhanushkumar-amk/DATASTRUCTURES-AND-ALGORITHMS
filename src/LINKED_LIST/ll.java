@@ -80,7 +80,31 @@ public class ll {
         }
 
 //        delete a last element
-    
+    public void deleteLast(){
+        if ( size <= 1) {
+            deleteFirst();
+            return;
+        }
+
+        Node secondLast = get(size - 2);
+
+        tail = secondLast;
+        tail.next = null;
+
+    }
+
+
+    // get the size function to a reference
+
+    public Node get(int index){
+
+        Node node = head;
+        for (int i = 0; i < index ; i++) {
+            node = node.next;
+        }
+
+        return  node;
+    }
 
 
     // display function
