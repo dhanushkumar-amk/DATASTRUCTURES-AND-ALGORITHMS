@@ -13,6 +13,8 @@ public class main {
 
         list.insert(5,3);
 
+        list.deleteFirst();
+
         list.display();
     }
 }
