@@ -33,8 +33,13 @@ public class DoublyLinkedListMain {
         }
 
         while (last.next != null){
-            last = last.next;
+//            last = last.next;
+        if (last.next == null){
+            last = node;
+            }
+        last = last.next;
         }
+
 
         last.next = node;
         node.prev = last;
