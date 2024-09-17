@@ -46,8 +46,36 @@ public class DoublyLinkedListMain {
     }
 
 
+    // get the size function to a reference
+
+    public Node get(int index){
+
+        Node node = head;
+        for (int i = 0; i < index ; i++) {
+            node = node.next;
+        }
+
+        return  node;
+    }
+
     // insert the node after the given node
-    
+    public  void insertAfterNode(int after, int val) {
+        Node p = get(after);
+
+        if (p == null){
+            System.out.println("doesn't exit");
+        return;
+        }
+
+        Node node = new Node(val);
+        node.next = p.next;
+        p.next = node;
+        node.prev = p;
+
+        if (node.next != null)
+            node.next.prev = node;
+
+    }
 
 
     // display function

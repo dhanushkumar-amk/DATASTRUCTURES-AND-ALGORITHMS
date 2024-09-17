@@ -37,7 +37,10 @@ public class main {
 
         list.insertLast(5);
         list.insertLast(6);
-
         list.display();
+
+        list.insertAfterNode(3,300);
+        list.display();
+
     }
 }
