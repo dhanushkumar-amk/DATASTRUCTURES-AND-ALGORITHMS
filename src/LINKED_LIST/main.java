@@ -15,8 +15,9 @@ public class main {
         list.insert(5,3);
 
         list.display();
-        
 
+
+        System.out.println();
         list.deleteFirst();
 
         list.display();
