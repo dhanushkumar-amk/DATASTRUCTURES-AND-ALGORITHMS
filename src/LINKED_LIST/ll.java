@@ -93,6 +93,20 @@ public class ll {
 
     }
 
+    // delete the particular index
+
+    public  void delete(int index){
+        if (index == 0)
+            deleteFirst();
+
+        if (index == size-1)
+            deleteLast();
+
+        Node previous = get(index - 1);
+
+        previous.next = previous.next.next;
+    }
+
 
     // get the size function to a reference
 
