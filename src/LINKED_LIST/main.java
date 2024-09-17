@@ -24,8 +24,8 @@ public class main {
 
         list.display();
 
-        ll.Node node =  list.getNodeOfvalue(4);
-        System.out.println(node);
+        list.getNodeOfvalue(4);
+
 
     }
 }
