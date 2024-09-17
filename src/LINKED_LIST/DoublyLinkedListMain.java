@@ -31,11 +31,12 @@ public class DoublyLinkedListMain {
         System.out.println("null");
 
         System.out.println("print in reverse : ");
+        System.out.println(" null ");
+
         while (last != null){
             System.out.print( " <- " + last.val );
             last = last.prev;
         }
-        System.out.println("null");
 
     }
 
