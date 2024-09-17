@@ -2,6 +2,7 @@ package LINKED_LIST;
 
 public class main {
     public static void main(String[] args) {
+/*
         SingleLikedListMain list = new SingleLikedListMain();
 
 
@@ -25,7 +26,14 @@ public class main {
         list.display();
 
         list.getNodeOfvalue(4);
+*/
+        DoublyLinkedListMain list = new DoublyLinkedListMain();
 
+        list.insertFirst(1);
+        list.insertFirst(2);
+        list.insertFirst(3);
+        list.insertFirst(4);
 
+        list.display();
     }
 }
