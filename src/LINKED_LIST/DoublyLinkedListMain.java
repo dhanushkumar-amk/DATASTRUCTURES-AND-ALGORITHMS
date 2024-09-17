@@ -51,7 +51,7 @@ public class DoublyLinkedListMain {
     public Node get(int index){
 
         Node node = head;
-        for (int i = 0; i < index ; i++) {
+        for (int i = 1; i < index ; i++) {
             node = node.next;
         }
 
@@ -64,7 +64,7 @@ public class DoublyLinkedListMain {
 
         if (p == null){
             System.out.println("doesn't exit");
-        return;
+            return;
         }
 
         Node node = new Node(val);
