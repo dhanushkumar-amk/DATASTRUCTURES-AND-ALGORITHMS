@@ -31,7 +31,7 @@ public class DoublyLinkedListMain {
         System.out.println("null");
 
         System.out.println("print in reverse : ");
-        System.out.print(" null ");
+        System.out.print(" null");
 
         while (last != null){
             System.out.print( " <- " + last.val );
