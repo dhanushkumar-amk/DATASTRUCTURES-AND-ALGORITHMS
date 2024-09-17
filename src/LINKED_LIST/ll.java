@@ -68,7 +68,16 @@ public class ll {
 
 
     // delete the first element
+        public void deleteFirst(){
 
+        head = head.next;
+
+        if (head == null)
+            tail = null;
+
+        size--;
+
+        }
 
 
     // display function
