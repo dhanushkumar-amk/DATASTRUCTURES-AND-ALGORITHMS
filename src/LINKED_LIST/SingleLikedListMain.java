@@ -142,11 +142,11 @@ public class SingleLikedListMain {
 
     // display function
     public  void display(){
-        Node temp = head;
+        Node node = head;
 
-        while (temp != null){
-            System.out.print(temp.value + " -> ");
-            temp = temp.next;
+        while (node != null){
+            System.out.print(node.value + " -> ");
+            node = node.next;
         }
         System.out.print("end");
 

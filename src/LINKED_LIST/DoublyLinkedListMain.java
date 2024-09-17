@@ -22,12 +22,19 @@ public class DoublyLinkedListMain {
     // display function
     public  void display(){
         Node node = head;
-
+        Node last = null;
         while (node != null){
             System.out.print(node.val + " -> " );
+            last = node;
             node = node.next;
         }
         System.out.println("null");
+
+        System.out.println("print in reverse : ");
+        while (last != null){
+            System.out.println(last.val +" <- "  );
+            last = last.prev;
+        }
 
     }
 
