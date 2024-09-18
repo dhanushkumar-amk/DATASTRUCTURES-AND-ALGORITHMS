@@ -13,6 +13,19 @@ public class RemoveDuplicatesFomSortedList {
     }
 
     public static void main(String[] args) {
+        RemoveDuplicatesFomSortedList list = new RemoveDuplicatesFomSortedList();
+        list.insertFirst(5);
+        list.insertFirst(5);
+        list.insertFirst(2);
+        list.insertFirst(3);
+        list.insertFirst(3);
+
+        list.display();
+
+        list.removeDuplicates();
+
+        list.display();
+
     }
 
 
@@ -32,6 +45,33 @@ public class RemoveDuplicatesFomSortedList {
         }
         tail = node;
         tail.next = null;
+
+    }
+
+
+    public void insertFirst(int val){
+        Node node = new Node(val);   // create a nwe node;
+        node.next = head;  //  node => next = head
+        head = node; // then this node will be first head
+
+        if (tail == null)
+            tail = head; // if tail is a empty then head is equal to tail
+
+        size += 1;    // else size+=1
+
+    }
+
+
+
+    // display function
+    public  void display(){
+        Node node = head;
+
+        while (node != null){
+            System.out.print(node.value + " -> ");
+            node = node.next;
+        }
+        System.out.print("end");
 
     }
 
