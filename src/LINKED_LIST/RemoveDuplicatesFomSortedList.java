@@ -23,7 +23,7 @@ public class RemoveDuplicatesFomSortedList {
         list.add(3);
         list.add(3);
 
-        removeDuplicates();
+
 
         System.out.println(list);
 
@@ -63,17 +63,18 @@ public class RemoveDuplicatesFomSortedList {
 
     }
 
-    private  class Node{
-        private int value;
-        private Node next;
 
-        public  Node(int value){
-            this.value = value;
-        }
+}
+private  class Node{
+    private int value;
+    private Node next;
 
-        public  Node(int value, Node next){
-            this.value = value;
-            this.next = next;
-        }
+    public  Node(int value){
+        this.value = value;
+    }
+
+    public  Node(int value, Node next){
+        this.value = value;
+        this.next = next;
     }
 }
