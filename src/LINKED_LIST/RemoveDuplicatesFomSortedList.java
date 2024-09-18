@@ -22,6 +22,7 @@ public class RemoveDuplicatesFomSortedList {
 
         list.display();
 
+        System.out.println();
         list.removeDuplicates();
 
         list.display();
