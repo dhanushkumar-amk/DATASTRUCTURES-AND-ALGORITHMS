@@ -28,6 +28,8 @@ public class SingleLikedListMain {
     }
 
 
+
+
     // insert the value in last index
     public  void insertLast(int val){
 
