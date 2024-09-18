@@ -23,8 +23,10 @@ public class RemoveDuplicatesFomSortedList {
         list.add(3);
         list.add(3);
 
+        ll.removeDuplicates();
+
         System.out.println(list);
-        
+
 
 
     }
