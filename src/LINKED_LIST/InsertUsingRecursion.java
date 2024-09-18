@@ -12,7 +12,21 @@ public class InsertUsingRecursion {
 
 //     // insert the value using recursion
     public  void insertRecursion(int val, int index){
-        
+
+    }
+
+    private  Node insertRecursion(int val, int index, Node node){
+
+        // base case
+        if ( index == 0){
+            Node temp  = new Node(val, node);
+            size++;
+            return  temp;
+        }
+
+        insertRecursion(val, index--);
+
+
     }
 
 
