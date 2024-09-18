@@ -1,6 +1,5 @@
 package LINKED_LIST;
 
-import java.util.LinkedList;
 
 public class RemoveDuplicatesFomSortedList {
     private Node head;
@@ -31,7 +30,7 @@ public class RemoveDuplicatesFomSortedList {
 
 
 
-
+// main function
     public void removeDuplicates(){
         Node node = head;
 
@@ -50,6 +49,8 @@ public class RemoveDuplicatesFomSortedList {
     }
 
 
+
+    // insert function from sll
     public void insertFirst(int val){
         Node node = new Node(val);   // create a nwe node;
         node.next = head;  //  node => next = head
