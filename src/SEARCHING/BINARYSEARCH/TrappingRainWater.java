@@ -1,4 +1,4 @@
-package LINKED_LIST;
+package SEARCHING.BINARYSEARCH;
 
 public class TrappingRainWater {
     static int trap(int[] height) {
