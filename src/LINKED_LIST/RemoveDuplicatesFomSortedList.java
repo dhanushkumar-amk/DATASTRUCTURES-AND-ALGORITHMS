@@ -3,10 +3,10 @@ package LINKED_LIST;
 import java.util.LinkedList;
 
 public class RemoveDuplicatesFomSortedList {
-    private Node head;
-    private Node tail;
+    private static Node head;
+    private static Node tail;
 
-    private int size;
+    private static int size;
 
     public RemoveDuplicatesFomSortedList(){
         this.size = 0;
@@ -15,7 +15,7 @@ public class RemoveDuplicatesFomSortedList {
     public static void main(String[] args) {
         LinkedList<Integer> list = new LinkedList<>();
 
-        RemoveDuplicatesFomSortedList ll = new RemoveDuplicatesFomSortedList();
+//        RemoveDuplicatesFomSortedList ll = new RemoveDuplicatesFomSortedList();
 
         list.add(5);
         list.add(5);
@@ -23,7 +23,7 @@ public class RemoveDuplicatesFomSortedList {
         list.add(3);
         list.add(3);
 
-        ll.removeDuplicates();
+        removeDuplicates();
 
         System.out.println(list);
 
@@ -34,7 +34,7 @@ public class RemoveDuplicatesFomSortedList {
 
 
 
-    public void removeDuplicates(){
+    public static void removeDuplicates(){
         Node node = head;
 
         while (node.next != null){
