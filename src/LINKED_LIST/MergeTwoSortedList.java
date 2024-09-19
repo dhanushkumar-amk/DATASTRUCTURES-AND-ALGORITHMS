@@ -54,6 +54,9 @@ public class MergeTwoSortedList {
 
     }
 
+
+    // main code
+
 //     merge teo Sorted array
     public  static  MergeTwoSortedList merge(MergeTwoSortedList first, MergeTwoSortedList second){
         Node f = first.head;
@@ -105,7 +108,6 @@ public class MergeTwoSortedList {
 
       MergeTwoSortedList ans =  MergeTwoSortedList.merge(first, second);
       ans.display();
-
 
     }
 
