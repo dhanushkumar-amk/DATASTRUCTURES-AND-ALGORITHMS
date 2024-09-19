@@ -2,10 +2,10 @@ package LINKED_LIST;
 
 public class MergeTwoSortedList {
     public static void main(String[] args) {
-         Node head;
-         Node tail;
+        private Node head;
+        private Node tail;
 
-        int size;
+        private int size;
 
     public MergeTwoSortedList(){
             this.size = 0;
@@ -26,8 +26,8 @@ public class MergeTwoSortedList {
 
 
 
-}
 
+}
     private  class Node{
         private int value;
         private Node next;
@@ -41,4 +41,3 @@ public class MergeTwoSortedList {
             this.next = next;
         }
     }
-
