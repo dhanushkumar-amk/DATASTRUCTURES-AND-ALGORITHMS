@@ -1,8 +1,6 @@
 package LINKED_LIST;
 
 
-import java.lang.classfile.components.ClassPrinter;
-
 public class LinkedListCycle2 {
     private LinkedListCycle2 next;
 
@@ -20,18 +18,26 @@ public class LinkedListCycle2 {
                 break;
             }
         }
+
+        if (length == 0){
+            return null;
+        }
         // find the start
         LinkedListCycle2 first = head;
         LinkedListCycle2 second = head;
 
         while (length > 0){
-            s = second.next;
+            second = second.next;
             length--;
         }
 
         // keep moving both forward
-        while (fast!= slow)
+        while (first!= second){
+            first = first.next;
+            second = second.next;
+        }
 
+        return  second;
     }
 
 
@@ -39,8 +45,8 @@ public class LinkedListCycle2 {
 
 
     public int LengthCycle(LinkedListCycle2 head) {
-        LengthOfTheLinkedListCycle fast = head;
-        LengthOfTheLinkedListCycle slow = head;
+        LinkedListCycle2 fast = head;
+        LinkedListCycle2 slow = head;
 
         while (fast != null && fast.next != null) {
             fast = fast.next.next;
@@ -49,7 +55,7 @@ public class LinkedListCycle2 {
             if (fast == slow) {
                 // calculate the length
 
-                LengthOfTheLinkedListCycle temp = slow;
+                LinkedListCycle2 temp = slow;
                 int length = 0;
 
                 do{
