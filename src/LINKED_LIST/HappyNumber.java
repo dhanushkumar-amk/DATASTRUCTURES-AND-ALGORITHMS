@@ -24,7 +24,7 @@ public class HappyNumber {
 
     }
 
-    private static  int findSquare(int number){
+    public static  int findSquare(int number){
         int answer = 0;
 
         while (number > 0){
