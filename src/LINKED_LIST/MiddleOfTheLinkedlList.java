@@ -77,7 +77,7 @@ public class MiddleOfTheLinkedlList {
         list.insertFirst(4);
         list.insertFirst(5);
 
-     
+
 
         list.display();
     }
