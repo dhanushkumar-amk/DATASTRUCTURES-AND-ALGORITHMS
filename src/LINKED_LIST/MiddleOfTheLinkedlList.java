@@ -34,7 +34,11 @@ public class MiddleOfTheLinkedlList {
         Node fast = head;
         Node slow = head;
 
-        while
+        while(fast != null && fast.next != null){
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        return  slow;
     }
 
     // display function
@@ -61,5 +65,20 @@ public class MiddleOfTheLinkedlList {
             this.value = value;
             this.next = next;
         }
+    }
+
+
+    public static void main(String[] args) {
+        MiddleOfTheLinkedlList list = new MiddleOfTheLinkedlList();
+
+        list.insertFirst(1);
+        list.insertFirst(2);
+        list.insertFirst(3);
+        list.insertFirst(4);
+        list.insertFirst(5);
+
+     
+
+        list.display();
     }
 }
