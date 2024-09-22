@@ -80,5 +80,7 @@ public class MiddleOfTheLinkedlList {
 
 
         list.display();
+
+       
     }
 }
