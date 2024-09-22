@@ -41,6 +41,7 @@ public class MiddleOfTheLinkedlList {
         System.out.println(slow);
     }
 
+
     // display function
     public  void display(){
         Node node = head;
@@ -82,7 +83,7 @@ public class MiddleOfTheLinkedlList {
         list.display();
 
 
-        list.middle();
+
 
 
     }
