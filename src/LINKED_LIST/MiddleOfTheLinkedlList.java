@@ -81,8 +81,9 @@ public class MiddleOfTheLinkedlList {
 
         list.display();
 
-        list.middle(1);
-        
+
+        list.middle();
+
 
     }
 }
