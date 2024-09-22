@@ -1,2 +1,5 @@
-package LINKED_LIST;public class MiddleOfTheLinkedlList {
+package LINKED_LIST;
+
+public class MiddleOfTheLinkedlList {
+    
 }
