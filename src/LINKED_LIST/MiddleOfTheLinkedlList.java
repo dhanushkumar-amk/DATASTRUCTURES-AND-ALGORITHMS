@@ -30,7 +30,12 @@ public class MiddleOfTheLinkedlList {
 
 
     //main function
-    
+    public Node middle(Node head){
+        Node fast = head;
+        Node slow = head;
+
+        while
+    }
 
     // display function
     public  void display(){
