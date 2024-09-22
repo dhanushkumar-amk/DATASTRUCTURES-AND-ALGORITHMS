@@ -30,7 +30,7 @@ public class MiddleOfTheLinkedlList {
 
 
     //main function
-    public Node middle(Node head){
+    public void middle(Node head){
         Node fast = head;
         Node slow = head;
 
@@ -38,7 +38,7 @@ public class MiddleOfTheLinkedlList {
             slow = slow.next;
             fast = fast.next.next;
         }
-        return  slow;
+        System.out.println(slow);
     }
 
     // display function
@@ -81,6 +81,8 @@ public class MiddleOfTheLinkedlList {
 
         list.display();
 
-       
+        list.middle(1);
+        
+
     }
 }
