@@ -11,9 +11,30 @@ public class MiddleOfTheLinkedlList {
     }
 
 
+
+
+
+    // insert function from sll
+    public void insertFirst(int val){
+        Node node = new Node(val);   // create a nwe node;
+        node.next = head;  //  node => next = head
+        head = node; // then this node will be first head
+
+        if (tail == null)
+            tail = head; // if tail is a empty then head is equal to tail
+
+        size += 1;    // else size+=1
+
+    }
+
+
+
+    //main function
+    
+
     // display function
     public  void display(){
-        SingleLikedListMain.Node node = head;
+        Node node = head;
 
         while (node != null){
             System.out.print(node.value + " -> ");
@@ -25,13 +46,13 @@ public class MiddleOfTheLinkedlList {
 
     private  class Node{
         private int value;
-        private SingleLikedListMain.Node next;
+        private Node next;
 
         public  Node(int value){
             this.value = value;
         }
 
-        public  Node(int value, SingleLikedListMain.Node next){
+        public  Node(int value, Node next){
             this.value = value;
             this.next = next;
         }
