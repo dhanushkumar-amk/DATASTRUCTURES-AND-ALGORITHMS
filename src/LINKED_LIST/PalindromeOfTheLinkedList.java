@@ -1,2 +1,5 @@
-package LINKED_LIST;public class PalindromeOfTheLinkedList {
+package LINKED_LIST;
+
+public class PalindromeOfTheLinkedList {
+    
 }
