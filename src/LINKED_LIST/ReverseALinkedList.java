@@ -9,7 +9,7 @@ public class ReverseALinkedList {
     private Node tail;
 
     private int size;
-    private ReverseALinkedList next;
+    private Node next;
 
     public ReverseALinkedList(){
         this.size = 0;
@@ -22,7 +22,7 @@ public class ReverseALinkedList {
 
     //  main function
 
-    public static void reverse (ReverseALinkedList head){
+    public static Node reverse (Node head){
         if (head == null)
             return null;
 
@@ -30,20 +30,21 @@ public class ReverseALinkedList {
             return head;
 
 
-        ReverseALinkedList previousNode = null;
-        ReverseALinkedList CurrentNode = head;
+        Node previousNode = null;
+        Node CurrentNode = head;
 
 
         while(CurrentNode != null){
-            ReverseALinkedList NextNode = CurrentNode.next;
+            Node NextNode = CurrentNode.next;
             CurrentNode.next = previousNode;
             previousNode = CurrentNode;
             CurrentNode = NextNode;
         }
 
         head = previousNode;
-        System.out.println(head);
+//        System.out.println(head);
 
+        return head;
     }
 
 
