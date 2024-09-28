@@ -12,7 +12,7 @@ return 0;
 
 public  static  void reverse(String s){
     int i = 0;
-    int j =  s.length();
+    int j =  s.length() - 1;
 
     while (i <= j){
         int temp = i;
