@@ -7,11 +7,11 @@ public class ReverseASttring {
 
         String reverse = "";
 
-        s = s.toLowerCase();
-        for (int i = s.length() - 1; i >= 0 ; i--) {
+        String ans = s.toLowerCase();
+        for (int i = ans.length() - 1; i >= 0 ; i--) {
 
-            reverse = reverse + s.charAt(i);
-            System.out.println(s);
+            reverse = reverse + ans.charAt(i);
+            System.out.println(ans);
             }
 
 
