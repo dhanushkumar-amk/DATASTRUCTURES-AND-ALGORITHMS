@@ -3,7 +3,8 @@ package STRINGS;
 
 public class MaximumNumbberOperationsToMakeOnesToTeEnd {
     public static void main(String[] args) {
-reverse("Hello");
+        String s = "hello"
+reverse(s);
     }
 
     public  static int maxOperations(String s){
