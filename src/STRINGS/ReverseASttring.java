@@ -6,9 +6,12 @@ public class ReverseASttring {
 
 
         String reverse = "";
+
+        s = s.toLowerCase();
         for (int i = s.length() - 1; i > 0 ; i--) {
-            reverse += s.charAt(i);
-            System.out.println(s);
+            
+            reverse = reverse + s.charAt(i);
+
             }
 
 
