@@ -2,8 +2,7 @@ package STRINGS;
 
 public class ReverseASttring {
     public static void main(String[] args) {
-    String s = "Hello";
-
+        String s = "Hello";
 
         String reverse = "";
 
@@ -11,10 +10,8 @@ public class ReverseASttring {
 
         for (int i = ans.length() - 1; i >= 0 ; i--) {
             reverse = reverse + ans.charAt(i);
-            System.out.println(ans);
-            }
+        }
 
-
+        System.out.println("Reversed String: " + reverse);
     }
-
 }
