@@ -15,7 +15,7 @@ public  static  void reverse(String s){
     char i = 0;
     char j = (char) (s.length() - 1);
 
-    while (i < j){
+    while (i <= j){
         char temp = i;
         i = j;
         j =  temp;
