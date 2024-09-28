@@ -7,7 +7,7 @@ public class MaximumNumbberOperationsToMakeOnesToTeEnd {
     }
 
     public  static int maxOperations(String s){
-
+return  0;
     }
 
 
