@@ -11,13 +11,13 @@ return 0;
     }
 
 public  static  void reverse(String s){
-    int i = 0;
-    int j =  s.length() - 1;
+    char i = s.charAt(0);
+    char j =  s.charAt(s.length() - 1);
 
     while (i <= j){
-        int temp = s[i];
-        s[i] = s[j];
-        s[j] = temp;
+        char temp = s.charAt(i);
+        s.charAt(i) = s.charAt(j);
+        s.charAt(j) =  temp;
 
         i++;
         j--;
