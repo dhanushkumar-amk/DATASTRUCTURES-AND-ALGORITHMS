@@ -10,7 +10,7 @@ public class ReverseASttring {
         s = s.toLowerCase();
         for (int i = s.length() - 1; i >= 0 ; i--) {
 
-            reverse = reverse + s.charAt(i);
+            reverse = reverse + i;
             System.out.println(s);
             }
 
