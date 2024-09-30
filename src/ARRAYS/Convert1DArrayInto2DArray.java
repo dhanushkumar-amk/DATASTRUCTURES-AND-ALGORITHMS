@@ -4,7 +4,7 @@ package ARRAYS;
 
 public class Convert1DArrayInto2DArray {
     public static void main(String[] args) {
-int[] original = {1,2,3,4};
+int[] original = {1,2,3,4,5,6};
 
 int[][] res = construct2DArray(original, 2, 2);
 
