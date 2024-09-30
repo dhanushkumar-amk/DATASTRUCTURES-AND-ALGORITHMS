@@ -6,7 +6,7 @@ public class Convert1DArrayInto2DArray {
     public static void main(String[] args) {
 int[] original = {1,2,3,4,5,6};
 
-int[][] res = construct2DArray(original, 2, 2);
+int[][] res = construct2DArray(original, 3, 3);
 
         for (int i = 0; i < res.length ; i++) {
             for (int j = 0; j <res[0].length ; j++) {
