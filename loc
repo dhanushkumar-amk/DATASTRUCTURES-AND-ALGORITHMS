@@ -1,0 +1,19 @@
+[33mcommit b114d6d35222a62aeede75ddb13da1b57b35043b[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: dhanushkumar-amk <dhanushkumaramk@gmail.com>
+Date:   Mon Sep 30 19:47:31 2024 +0530
+
+    modified
+
+[1mdiff --git a/src/ARRAYS/Convert1DArrayInto2DArray.java b/src/ARRAYS/Convert1DArrayInto2DArray.java[m
+[1mindex 46108f0..fa51ace 100644[m
+[1m--- a/src/ARRAYS/Convert1DArrayInto2DArray.java[m
+[1m+++ b/src/ARRAYS/Convert1DArrayInto2DArray.java[m
+[36m@@ -6,7 +6,7 @@[m [mpublic class Convert1DArrayInto2DArray {[m
+     public static void main(String[] args) {[m
+ int[] original = {1,2,3,4,5,6};[m
+ [m
+[31m-int[][] res = construct2DArray(original, 3, 3);[m
+[32m+[m[32mint[][] res = construct2DArray(original, 3, 2);[m
+ [m
+         for (int i = 0; i < res.length ; i++) {[m
+             for (int j = 0; j <res[0].length ; j++) {[m
