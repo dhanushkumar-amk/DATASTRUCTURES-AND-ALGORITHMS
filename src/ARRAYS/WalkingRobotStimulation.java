@@ -25,9 +25,44 @@ public class WalkingRobotStimulation {
                 if (XDirection == 0 && YDirection == 1){
                     XDirection = 1;
                     YDirection =0;
+                } else if (XDirection == 0 && YDirection == -1) {
+                    XDirection = -1;
+                    YDirection = 0;
+                } else if (YDirection == 0 && XDirection == 1) {
+                    XDirection = 0;
+                    YDirection = -1;
+                } else if (YDirection == 0 && XDirection == -1) {
+                    XDirection = 0;
+                    YDirection = 1;
+                }
+            } else if (command == -2) {
+                if (XDirection == 0 && YDirection == 1){
+                    XDirection = -1;
+                    YDirection =0;
+                } else if (XDirection == 0 && YDirection == -1) {
+                    XDirection = 1;
+                    YDirection = 0;
+                } else if (YDirection == 0 && XDirection == 1) {
+                    XDirection = 0;
+                    YDirection = 1;
+                } else if (YDirection == 0 && XDirection == -1) {
+                    XDirection = 0;
+                    YDirection = -1;
                 }
             }
+            else {
+                for (int i = 1; i <= command ; i++) {
+                    if (!set.contains((CurrentX + XDirection) + ":" + (CurrentY + YDirection))){
+                        CurrentX += XDirection;
+                        CurrentY += YDirection;
+                    }
+                    else break;
+                }
+
+                max = Math.max(max, CurrentX * CurrentX + CurrentY * CurrentY);
+            }
         }
+        return max;
 
     }
 }
