@@ -5,6 +5,7 @@ import java.util.Set;
 
 public class WalkingRobotStimulation {
     public static void main(String[] args) {
+int[] commands = {4,-1,4,-2,4};
 
     }
 
