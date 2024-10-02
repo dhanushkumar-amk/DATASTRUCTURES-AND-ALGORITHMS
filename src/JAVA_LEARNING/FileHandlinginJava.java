@@ -24,7 +24,7 @@ public class FileHandlinginJava {
 //        }
 
 
-        try(FileReader fr = new FileReader("note.txt")){
+        try(FileReader fr = new FileReader("C:\\Users\\hp5cd\\OneDrive\\Documents\\DATASTRUCTURES-AND-ALGORITHMS\\src\\JAVA_LEARNING\\note.txt")){
             int letters = fr.read();
 
             while (fr.ready()){
