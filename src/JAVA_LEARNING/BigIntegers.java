@@ -27,5 +27,11 @@ public class BigIntegers {
 
         // operations in BigInteger
         System.out.println(A.add(C));
+        System.out.println(A.subtract(C));
+        System.out.println(A.multiply(C));
+        System.out.println(A.divide(C));
+        System.out.println(A.remainder(C));
+        System.out.println(A.sqrt());
+        System.out.println(A.pow(5));
     }
 }
