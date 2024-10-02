@@ -14,7 +14,7 @@ public class BigDecimals {
         BigDecimal B = new BigDecimal("0.04");
         BigDecimal ans1 = B.subtract(A);
 
-        System.out.println(ans1);
+        System.out.println(ans1);   // 0.01
 
 
 
