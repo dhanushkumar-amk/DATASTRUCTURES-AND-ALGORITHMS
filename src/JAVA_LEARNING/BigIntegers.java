@@ -41,9 +41,12 @@ public class BigIntegers {
         System.out.println(g);
 
 
-        System.out.println(fact(52));
+        System.out.println(fact(100));
 
     }
+
+
+    // bigInteger use case  in factorial program
 
     static  BigInteger fact(int num){
         BigInteger ans = new BigInteger("1");
