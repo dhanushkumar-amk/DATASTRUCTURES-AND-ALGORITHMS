@@ -12,7 +12,7 @@ public class BigDecimals {
 
         BigDecimal A = new BigDecimal("0.03");
         BigDecimal B = new BigDecimal("0.04");
-        BigDecimal ans1 = A.subtract(B);
+        BigDecimal ans1 = B.subtract(A);
 
         System.out.println(ans1);
 
