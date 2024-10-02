@@ -22,7 +22,10 @@ public class BigIntegers {
         BigInteger F = BigInteger.TEN;
 
 
-        System.out.println(E);
+//        System.out.println(E);
 
+
+        // operations in BigInteger
+        System.out.println(A.add(B));
     }
 }
