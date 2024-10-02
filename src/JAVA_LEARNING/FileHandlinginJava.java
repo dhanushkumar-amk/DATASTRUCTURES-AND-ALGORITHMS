@@ -7,7 +7,7 @@ public class FileHandlinginJava {
     public static void main(String[] args) {
 
         try(InputStreamReader isr = new InputStreamReader(System.in)){
-            System.out.println("Enter the something...");
+            System.out.print("Enter the something... : ");
             int letters = isr.read();
 
             while (isr.ready()){
