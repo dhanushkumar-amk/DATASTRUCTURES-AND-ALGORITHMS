@@ -13,10 +13,14 @@ public class StringBuffers {
         StringBuffer sb3 = new StringBuffer(30);  // to define size
 
         sb1.append("Welcome to world");
+        sb1.append("or die");  // it does not create the any new objects it will append on own
 
-        sb1.append("or die");
+        sb1.insert(7, " welcome ");
 
         System.out.println(sb1);
+
+
+
     }
 
 }
