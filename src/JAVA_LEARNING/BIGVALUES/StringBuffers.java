@@ -17,6 +17,8 @@ public class StringBuffers {
 
         sb1.insert(7, " welcome ");
 
+        sb1.replace(1,5,"hello ");
+
         System.out.println(sb1);
 
 
