@@ -2,7 +2,7 @@ package STRINGS;
 
 public class AlternatingCharacters {
     public static void main(String[] args) {
-        String s = "aabaab";
+        String s = "aabaaab";
         System.out.println(delete(s));
     }
     static  int delete(String s){
