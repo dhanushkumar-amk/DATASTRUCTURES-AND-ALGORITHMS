@@ -39,9 +39,6 @@ public class StringBuffers {
             int randomChar = 97 + (int)(random.nextFloat() * 26);
             s.append((char) randomChar);
         }
-
         return s.toString();
     }
-
-
 }
