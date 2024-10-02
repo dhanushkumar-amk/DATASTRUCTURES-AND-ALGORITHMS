@@ -10,8 +10,8 @@ public class BigDecimals {
      System.out.println(ans);  // 0.010000000000000002
 
 
-        BigDecimal A = new BigDecimal("0.03");
-        BigDecimal B = new BigDecimal("0.04");
+        BigDecimal A = new BigDecimal("0.00000000000000003");
+        BigDecimal B = new BigDecimal("0.00000000000000004");
         BigDecimal ans1 = B.subtract(A);
 
         System.out.println(ans1);   // 0.01
