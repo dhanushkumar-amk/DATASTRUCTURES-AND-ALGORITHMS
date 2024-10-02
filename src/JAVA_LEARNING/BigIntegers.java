@@ -26,6 +26,6 @@ public class BigIntegers {
 
 
         // operations in BigInteger
-        System.out.println(A.add(B));
+        System.out.println(A.add(C));
     }
 }
