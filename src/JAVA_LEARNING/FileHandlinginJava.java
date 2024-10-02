@@ -28,7 +28,7 @@ public class FileHandlinginJava {
             int letters = fr.read();
 
             while (fr.ready()){
-                System.out.print( letters);
+                System.out.print((char) letters);
                 letters = fr.read();
             }
 
