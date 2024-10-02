@@ -33,5 +33,12 @@ public class BigIntegers {
         System.out.println(A.remainder(C));
         System.out.println(A.sqrt());
         System.out.println(A.pow(5));
+
+
+        // convert the BigInteger to int using intValue();
+
+        int g = B.intValue();
+        System.out.println(g);
+
     }
 }
