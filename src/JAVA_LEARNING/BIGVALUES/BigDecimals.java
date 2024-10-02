@@ -18,7 +18,13 @@ public class BigDecimals {
 
         // we can also use  operations like bigInteger
 
-
+        System.out.println(A.add(B));
+        System.out.println(A.subtract(B));
+        System.out.println(A.multiply(B));
+        System.out.println(A.divide(B));
+        System.out.println(A.remainder(B));
+//        System.out.println(A.sqrt();
+        System.out.println(A.pow(5));
     }
 
 }
