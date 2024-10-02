@@ -19,6 +19,7 @@ public class StringBuffers {
 
         sb1.replace(0,5,"hello ");
 
+        sb1.reverse();
         System.out.println(sb1);
 
 
