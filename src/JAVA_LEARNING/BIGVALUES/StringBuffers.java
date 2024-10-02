@@ -19,11 +19,14 @@ public class StringBuffers {
 
         sb1.replace(0,5,"hello ");
 
-        sb1.reverse();
+//        sb1.reverse();
         System.out.println(sb1);
-
-
-
     }
+
+    // Generate the random string
+    static  String random(int size){
+        
+    }
+
 
 }
