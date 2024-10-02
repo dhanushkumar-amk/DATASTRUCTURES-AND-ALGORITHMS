@@ -26,14 +26,11 @@ public class FileHandlinginJava {
 // read the elements from the file
         try(FileReader fr = new FileReader("C:\\Users\\hp5cd\\OneDrive\\Documents\\DATASTRUCTURES-AND-ALGORITHMS\\src\\JAVA_LEARNING\\note.txt")){
             int letters = fr.read();
-
             while (fr.ready()){
                 System.out.print((char) letters);
                 letters = fr.read();
             }
-
             System.out.println();
-
         } catch (IOException e) {
             System.out.println(e.getMessage());;
         }
