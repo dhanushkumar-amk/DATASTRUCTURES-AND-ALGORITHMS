@@ -23,23 +23,20 @@ public class FileHandlinginJava {
 //            System.out.println(e.getMessage());;
 //        }
 
-
+// read the elements from the file
         try(FileReader fr = new FileReader("C:\\Users\\hp5cd\\OneDrive\\Documents\\DATASTRUCTURES-AND-ALGORITHMS\\src\\JAVA_LEARNING\\note.txt")){
             int letters = fr.read();
 
             while (fr.ready()){
-                System.out.print((char) letters);
+                System.out.print( letters);
                 letters = fr.read();
             }
 
-//            isr.close();
             System.out.println();
 
         } catch (IOException e) {
             System.out.println(e.getMessage());;
         }
-
-
 
     }
 
