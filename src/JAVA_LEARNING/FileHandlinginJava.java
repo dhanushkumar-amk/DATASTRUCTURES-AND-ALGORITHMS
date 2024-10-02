@@ -24,7 +24,7 @@ public class FileHandlinginJava {
 //        }
 
 
-        try(FileReader fr = new FileReader("note")){
+        try(FileReader fr = new FileReader("note.txt")){
             int letters = fr.read();
 
             while (fr.ready()){
