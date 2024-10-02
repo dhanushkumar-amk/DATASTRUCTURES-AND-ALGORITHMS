@@ -5,6 +5,6 @@ public class NextGreaterElement1 {
 
     }
     public static  int[] nextGreaterElement(int[] nums1, int[] nums2) {
-
+        return new int[];
     }
 }
