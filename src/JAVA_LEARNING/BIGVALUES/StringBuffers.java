@@ -1,5 +1,7 @@
 package JAVA_LEARNING.BIGVALUES;
 
+import java.util.Random;
+
 public class StringBuffers {
     public static void main(String[] args) {
 
@@ -20,12 +22,25 @@ public class StringBuffers {
         sb1.replace(0,5,"hello ");
 
 //        sb1.reverse();
-        System.out.println(sb1);
+//        System.out.println(sb1);
+
+        System.out.println(random(20));
     }
+
+
 
     // Generate the random string
     static  String random(int size){
-        
+        StringBuffer s = new StringBuffer(size);
+
+        Random random = new Random();
+
+        for (int i = 0; i < size; i++) {
+            int randomChar = 97 + (int)(random.nextFloat() * 26);
+            s.append((char) randomChar);
+        }
+
+        return s.toString();
     }
 
 
