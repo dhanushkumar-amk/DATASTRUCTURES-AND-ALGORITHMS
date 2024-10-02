@@ -34,13 +34,24 @@ public class BigIntegers {
         System.out.println(A.sqrt());
         System.out.println(A.pow(5));
 
+        // we can also do manyThings
 
         // convert the BigInteger to int using intValue();
         int g = B.intValue();
         System.out.println(g);
-        
 
 
+        System.out.println(fact(5));
 
     }
+
+    static  BigInteger fact(int num){
+        BigInteger ans = new BigInteger("1");
+
+        for (int i = 2; i <= num ; i++) {
+            ans = ans.multiply(BigInteger.valueOf(i));
+        }
+        return ans;
+    }
+
 }
