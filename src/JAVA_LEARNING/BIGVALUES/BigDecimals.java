@@ -1,12 +1,24 @@
 package JAVA_LEARNING.BIGVALUES;
 
+import java.math.BigDecimal;
+
 public class BigDecimals {
     public static void main(String[] args) {
     double x = 0.03;
     double y = 0.04;
      double ans = y - x;
+     System.out.println(ans);  // 0.010000000000000002
 
-        System.out.println(ans);
+
+        BigDecimal A = new BigDecimal("0.03");
+        BigDecimal B = new BigDecimal("0.04");
+        BigDecimal ans1 = new BigDecimal(" A - B");
+
+        System.out.println(ans1);
+
+
+
+
     }
 
 }
