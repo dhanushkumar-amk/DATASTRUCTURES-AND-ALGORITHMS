@@ -6,6 +6,7 @@ public class BreakingRecords {
     public static void main(String[] args) {
         int[] scores = {10,5,20,20,4,5,2,25,1};
 
+        System.out.println(count(scores));
     }
 
     static ArrayList<Integer> count(int[] scores){
@@ -30,7 +31,7 @@ public class BreakingRecords {
       ArrayList<Integer> result =  new ArrayList<>();
         result.add(maxCount);
         result.add(minCount);
-        result
+        return  result;
     }
 
 }
