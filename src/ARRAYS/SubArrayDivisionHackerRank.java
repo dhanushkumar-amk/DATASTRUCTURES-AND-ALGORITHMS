@@ -24,7 +24,7 @@ public class SubArrayDivisionHackerRank {
 
         for (int i = 0; i <=s.size()- m ; i++) {
             int sum = 0;
-            for (int j = i; j <m ; j++) {  // i < i + m;
+            for (int j = i; j < i+m ; j++) {  // i < i + m;
                  sum = sum + s.get(j);
             }
 
