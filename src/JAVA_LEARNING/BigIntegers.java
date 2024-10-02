@@ -41,7 +41,7 @@ public class BigIntegers {
         System.out.println(g);
 
 
-        System.out.println(fact(5));
+        System.out.println(fact(52));
 
     }
 
