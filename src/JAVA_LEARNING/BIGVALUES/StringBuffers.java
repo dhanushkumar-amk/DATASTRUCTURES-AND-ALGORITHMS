@@ -14,6 +14,8 @@ public class StringBuffers {
 
         sb1.append("Welcome to world");
 
+        sb1.append("or die");
+
         System.out.println(sb1);
     }
 
