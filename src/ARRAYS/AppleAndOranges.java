@@ -15,6 +15,7 @@ public class AppleAndOranges {
         oranges.add(2);
         oranges.add(-2);
         oranges.add(-7);
+        oranges.add(-8);
 
 
         int s = 7;
