@@ -17,14 +17,20 @@ public class BreakingRecords {
         int minCount = 0;
 
         for (int i = 1; i < scores.length ; i++) {
-            if (scores[i] > max){
+            if (scores[i] > max) {
                 max = scores[i];
                 maxCount++;
-            }else{
-                minCount
+            }
+
+            if (scores[i] < min) {
+                min = scores[i];
+                minCount++;
             }
         }
-
+      ArrayList<Integer> result =  new ArrayList<>();
+        result.add(maxCount);
+        result.add(minCount);
+        result
     }
 
 }
