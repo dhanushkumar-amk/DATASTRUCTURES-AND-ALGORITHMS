@@ -33,7 +33,7 @@ public class NextGreaterElement1 {
 
             // remove all  elements in stack smaller than element
 
-            while (helperStack.peek() <= element && !helperStack.isEmpty()){
+            while (helperStack.peek() < element && !helperStack.isEmpty()){
                 helperStack.pop();
             }
 
