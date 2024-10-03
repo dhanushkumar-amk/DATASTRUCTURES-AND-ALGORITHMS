@@ -17,7 +17,7 @@ public class NextGreaterElement1 {
 
         int[] nextGreaterElement = new int[nums2.length];
 
-        for (int i = nums2.length; i >=0 ; i--) {
+        for (int i = nums2.length - 1; i >=0 ; i--) {
             int element = nums2[i];
 
             if (helperStack.isEmpty()){
