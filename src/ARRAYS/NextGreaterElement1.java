@@ -10,6 +10,6 @@ public class NextGreaterElement1 {
 
         Stack<Integer> helperStack = new Stack<>();
 
-
+        
     }
 }
