@@ -20,11 +20,9 @@ public class RenameTheFile {
 
             // then create a new file
 
-            if (present){
               File RenameFile = new File("C:\\Users\\hp5cd\\OneDrive\\Documents\\DATASTRUCTURES-AND-ALGORITHMS\\src\\JAVA_LEARNING\\FILE_HANDLING\\file1.txt");
               boolean created = RenameFile.renameTo(RenameFile);
-            }
-            
+
         }
     }
 }
