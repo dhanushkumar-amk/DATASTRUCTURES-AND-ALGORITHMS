@@ -4,7 +4,7 @@ import java.io.File;
 
 public class ListTheFiles {
     public static void main(String[] args) {
-        File file = new File("C:\\Users\\hp5cd\\OneDrive\\Documents\\DATASTRUCTURES-AND-ALGORITHMS\\src");
+        File file = new File("C:\\Users\\hp5cd\\OneDrive\\Documents\\DATASTRUCTURES-AND-ALGORITHMS\\src\\ARRAYS");
 
 //       String[] listOfFiles =  file.list();
 
