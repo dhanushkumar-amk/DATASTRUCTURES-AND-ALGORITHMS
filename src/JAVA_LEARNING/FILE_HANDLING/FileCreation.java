@@ -9,6 +9,8 @@ public class FileCreation {
 
         boolean present = file.exists();
 
+
+        // the file may created or not created so we use try catch block
         if (!present){
             try{
                 boolean created = file.createNewFile();
