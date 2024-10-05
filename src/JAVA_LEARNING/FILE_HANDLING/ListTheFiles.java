@@ -32,7 +32,11 @@ public class ListTheFiles {
             String fileName = f.getName();
                   int lastDot =  fileName.lastIndexOf(".");
                   String extensionOfFileName = fileName.substring(lastDot + 1);
-            System.out.println(extensionOfFileName);
+//            System.out.println(extensionOfFileName);
+
+                if (extensionOfFileName == txt)
+                    System.out.println(txt);
+
         }
     }
 }
