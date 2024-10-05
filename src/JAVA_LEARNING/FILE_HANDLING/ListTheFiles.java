@@ -29,14 +29,14 @@ public class ListTheFiles {
     // print only specific files
 
         for(File f : fileFolderList) {
-            String fileName = f.getName();
-                  int lastDot =  fileName.lastIndexOf(".");
-                  String extensionOfFileName = fileName.substring(lastDot + 1);
+            if (f.isFile()) {
+                String fileName = f.getName();
+                int lastDot = fileName.lastIndexOf(".");
+                String extensionOfFileName = fileName.substring(lastDot + 1);
 //            System.out.println(extensionOfFileName);
 
-                if (extensionOfFileName == txt)
-                    System.out.println(txt);
 
+            }
         }
     }
 }
