@@ -8,7 +8,10 @@ public class FolderCreation {
 
             // check if the folder is already exists or not
         boolean present = file.exists();
+//        System.out.println("Folder present : " + present);
 
-        System.out.println("Folder present : " + present);
+        if (present == false){
+            file.mkdir();
+        }
     }
 }
