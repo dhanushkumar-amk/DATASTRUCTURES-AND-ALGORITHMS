@@ -35,7 +35,7 @@ public class ListTheFiles {
                 String extensionOfFileName = fileName.substring(lastDot + 1);
             // System.out.println(extensionOfFileName);
 
-                if (extensionOfFileName.equals("txt"))
+                if (extensionOfFileName.equals("html"))
                     System.out.println(fileName);
 
 
