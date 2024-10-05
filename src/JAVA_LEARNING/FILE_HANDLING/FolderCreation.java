@@ -11,7 +11,7 @@ public class FolderCreation {
 //        System.out.println("Folder present : " + present);
 
         if (!present){
-            file.mkdirs();
+            file.mkdir();
         }
     }
 }
