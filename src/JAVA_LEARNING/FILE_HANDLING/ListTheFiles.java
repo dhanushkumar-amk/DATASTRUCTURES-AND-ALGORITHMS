@@ -28,7 +28,7 @@ public class ListTheFiles {
 
     // print only specific files
 
-        for(File f : fileFolderList) 
+        for(File f : fileFolderList)
             if (f.isFile()) {
                 String fileName = f.getName();
                 int lastDot = fileName.lastIndexOf(".");
