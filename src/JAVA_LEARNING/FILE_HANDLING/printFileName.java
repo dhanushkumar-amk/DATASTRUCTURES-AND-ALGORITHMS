@@ -8,5 +8,11 @@ public class printFileName {
 
 
         System.out.println(file.getName());
+
+        // access modifier of the file
+        System.out.println(file.canExecute());
+        System.out.println(file.canRead());
+        System.out.println(file.canWrite());
+
     }
 }
