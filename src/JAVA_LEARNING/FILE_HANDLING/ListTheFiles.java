@@ -29,7 +29,7 @@ public class ListTheFiles {
     // print only specific files
 
         for(File f : fileFolderList) {
-            String fileName = file.getName();
+            String fileName = f.getName();
                   int lastDot =  fileName.lastIndexOf(".");
                   String extensionOfFileName = fileName.substring(lastDot + 1);
             System.out.println(extensionOfFileName);
