@@ -22,7 +22,7 @@ public class ListTheFiles {
 
         // print only folders
         for(File f : fileFolderList)
-            if (file.isDirectory())
+            if (file.isFile())
                 System.out.println(f);
     }
 }
