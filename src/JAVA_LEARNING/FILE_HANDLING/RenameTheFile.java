@@ -14,14 +14,17 @@ public class RenameTheFile {
         if (!present){
             try {
                 file.createNewFile();
+
+                // then create a new file
+
+                File RenameFile = new File("C:\\Users\\hp5cd\\OneDrive\\Documents\\DATASTRUCTURES-AND-ALGORITHMS\\src\\JAVA_LEARNING\\FILE_HANDLING\\file2.txt");
+                boolean created = RenameFile.renameTo(RenameFile);
+
             }catch (IOException e) {
                 System.out.println(e.getMessage());
             }
 
-            // then create a new file
 
-              File RenameFile = new File("C:\\Users\\hp5cd\\OneDrive\\Documents\\DATASTRUCTURES-AND-ALGORITHMS\\src\\JAVA_LEARNING\\FILE_HANDLING\\file2.txt");
-              boolean created = RenameFile.renameTo(RenameFile);
 
         }
     }
