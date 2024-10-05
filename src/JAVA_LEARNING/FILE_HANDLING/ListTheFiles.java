@@ -16,7 +16,7 @@ public class ListTheFiles {
 
         for(File f : fileFolderList)
             if (f.isFile())
-                System.out.println(f);
+                System.out.println(f.length());
 
     }
 }
