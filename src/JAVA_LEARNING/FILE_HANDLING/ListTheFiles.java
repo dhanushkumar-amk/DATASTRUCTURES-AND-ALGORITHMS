@@ -4,7 +4,7 @@ import java.io.File;
 
 public class ListTheFiles {
     public static void main(String[] args) {
-        File file = new File("C:\\Users\\hp5cd\\OneDrive\\Documents\\DATASTRUCTURES-AND-ALGORITHMS\\src");
+        File file = new File("C:\\Users\\hp5cd\\OneDrive\\Documents\\DATASTRUCTURES-AND-ALGORITHMS\\src\\JAVA_LEARNING\\FILE_HANDLING");
 
 //       String[] listOfFiles =  file.list();
 
@@ -21,8 +21,18 @@ public class ListTheFiles {
 
 
         // print only folders
-        for(File f : fileFolderList)
-            if (file.isFile())
-                System.out.println(f);
+//        for(File f : fileFolderList)
+//            if (file.isDirectory())
+//                System.out.println(f);
+
+
+    // print only specific files
+
+        for(File f : fileFolderList) {
+            String fileName = file.getName();
+                  int lastDot =  fileName.lastIndexOf(".");
+                  String extensionOfFileName = fileName.substring(lastDot + 1);
+            System.out.println(extensionOfFileName);
+        }
     }
 }
