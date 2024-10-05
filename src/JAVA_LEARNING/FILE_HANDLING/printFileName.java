@@ -14,5 +14,7 @@ public class printFileName {
         System.out.println(file.canRead());
         System.out.println(file.canWrite());
 
+
+
     }
 }
