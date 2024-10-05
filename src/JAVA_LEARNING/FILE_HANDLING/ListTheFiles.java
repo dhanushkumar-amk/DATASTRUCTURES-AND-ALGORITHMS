@@ -14,9 +14,15 @@ public class ListTheFiles {
 
         File[] fileFolderList = file.listFiles();
 
-        for(File f : fileFolderList)
-            if (f.isFile())
-                System.out.println(f);
+        // print only files
+//        for(File f : fileFolderList)
+//            if (f.isFile())
+//                System.out.println(f);
 
+
+        // print only folders
+        for(File f : fileFolderList)
+            if (file.isDirectory())
+                System.out.println(f);
     }
 }
