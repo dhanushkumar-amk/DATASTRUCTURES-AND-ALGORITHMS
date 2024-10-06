@@ -10,6 +10,9 @@ public class BufferReaderWriter {
         try {
             fWriter = new FileWriter(file);
             BufferedWriter bWriter = new BufferedWriter(fWriter);
+            bWriter.write("Hi am dhanushkumar");
+            bWriter.flush();
+            bWriter.close();
         }  catch (IOException e) {
             throw new RuntimeException(e);
         }
