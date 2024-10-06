@@ -12,8 +12,8 @@ public class FileReaderAndWriter {
         file.createNewFile();
 
             FileWriter writer = new FileWriter(file);
-            writer.write("hello world");
-            writer.flush();
+            writer.write("hello world \n welcom eto the world");// there is a one disadvantage iis we use manually escape sequence
+            writer.flush();   // to push the content into the file
             writer.close();
         } catch (IOException e) {
             throw new RuntimeException(e);
