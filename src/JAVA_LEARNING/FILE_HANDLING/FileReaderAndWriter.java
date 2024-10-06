@@ -12,18 +12,21 @@ public class FileReaderAndWriter {
         try{
         file.createNewFile();
 
+        // write the file
             FileWriter writer = new FileWriter(file);
             writer.write("hello world \n welcome to the world");// there is a one disadvantage iis we use manually escape sequence
             writer.flush();   // to push the content into the file
             writer.close();
 
-
+            // read the file
             FileReader fileReader = new FileReader(file);
             int output = fileReader.read();  // it will return -1 whenever it completes the reading the file
             while (output != -1) {
                 System.out.print((char)output);
                 output = fileReader.read();
             }
+
+
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
