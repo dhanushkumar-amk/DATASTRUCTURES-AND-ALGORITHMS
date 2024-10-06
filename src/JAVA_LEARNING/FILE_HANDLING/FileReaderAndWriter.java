@@ -12,7 +12,7 @@ public class FileReaderAndWriter {
         try{
         file.createNewFile();
 
-            FileWriter writer = new FileWriter(file, true);
+            FileWriter writer = new FileWriter(file);
             writer.write("hello world \n welcome to the world");// there is a one disadvantage iis we use manually escape sequence
             writer.flush();   // to push the content into the file
             writer.close();
