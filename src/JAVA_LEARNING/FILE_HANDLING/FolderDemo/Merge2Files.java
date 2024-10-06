@@ -21,12 +21,12 @@ public class Merge2Files {
         while (line1 != null || line2 != null){
             if (line1 != null) {
                 pWriter.println(line1);
-                line2 =
+                line1 =Breader1.readLine();
             }
             if (line2 != null) {
                 pWriter.println(line2);
+                line2 = Breader2.readLine();
             }
-
         }
 
 
