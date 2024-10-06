@@ -26,7 +26,7 @@ public class BufferReaderWriter {
              String output = bReader.readLine();
 
             System.out.println(output);
-
+            
         }  catch (IOException e) {
             throw new RuntimeException(e);
         }
