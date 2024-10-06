@@ -23,10 +23,12 @@ public class BufferReaderWriter {
             FileReader fReader =new FileReader(file);
 
             BufferedReader bReader = new BufferedReader(fReader);
-             String output = bReader.readLine();
+            String output = bReader.readLine();
+            while(output != null) {
+                System.out.println(output);
+                    output
+            }
 
-            System.out.println(output);
-            
         }  catch (IOException e) {
             throw new RuntimeException(e);
         }
