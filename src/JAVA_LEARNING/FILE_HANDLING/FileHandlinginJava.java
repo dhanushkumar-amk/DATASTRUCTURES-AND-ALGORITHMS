@@ -1,4 +1,4 @@
-package JAVA_LEARNING;
+package JAVA_LEARNING.FILE_HANDLING;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
