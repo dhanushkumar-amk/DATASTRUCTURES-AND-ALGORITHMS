@@ -1,2 +1,7 @@
-package JAVA_LEARNING.FILE_HANDLING;public class CopyTheFile {
+package JAVA_LEARNING.FILE_HANDLING;
+
+public class CopyTheFile {
+    public static void main(String[] args) {
+
+    }
 }
