@@ -12,7 +12,7 @@ public class BufferReaderWriter {
             BufferedWriter bWriter = new BufferedWriter(fWriter);
             bWriter.write("Hi am dhanushkumar");
             bWriter.flush();
-            bWriter.close();
+//            bWriter.close();
             bWriter.newLine();
             bWriter.write("Hello world");
             bWriter.flush();
