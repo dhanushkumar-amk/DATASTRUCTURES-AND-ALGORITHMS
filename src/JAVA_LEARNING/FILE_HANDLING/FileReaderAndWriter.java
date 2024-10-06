@@ -14,6 +14,7 @@ public class FileReaderAndWriter {
             FileWriter writer = new FileWriter(file);
             writer.write(7080);
             writer.flush();
+            writer.close();
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
