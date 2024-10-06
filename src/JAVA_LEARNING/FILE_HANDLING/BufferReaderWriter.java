@@ -13,6 +13,9 @@ public class BufferReaderWriter {
             bWriter.write("Hi am dhanushkumar");
             bWriter.flush();
             bWriter.close();
+            bWriter.newLine();
+            bWriter.write("Hello world");
+
         }  catch (IOException e) {
             throw new RuntimeException(e);
         }
