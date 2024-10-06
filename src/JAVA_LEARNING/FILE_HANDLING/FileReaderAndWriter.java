@@ -21,7 +21,7 @@ public class FileReaderAndWriter {
             FileReader fileReader = new FileReader(file);
             int output = fileReader.read();  // it will return -1 whenever it completes the reading the file
             while (output != -1) {
-                System.out.println(output);
+                System.out.print((char)output);
                 output = fileReader.read();
             }
         } catch (IOException e) {
