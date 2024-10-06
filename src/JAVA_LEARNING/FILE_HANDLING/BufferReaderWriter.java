@@ -18,6 +18,15 @@ public class BufferReaderWriter {
             bWriter.flush();
             bWriter.close();
 
+
+            // BufferReader
+            FileReader fReader =new FileReader(file);
+
+            BufferedReader bReader = new BufferedReader(fReader);
+             String output = bReader.readLine();
+
+            System.out.println(output);
+
         }  catch (IOException e) {
             throw new RuntimeException(e);
         }
