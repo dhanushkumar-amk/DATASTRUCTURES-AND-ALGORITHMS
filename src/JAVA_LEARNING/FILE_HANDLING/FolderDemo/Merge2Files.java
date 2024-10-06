@@ -29,6 +29,8 @@ public class Merge2Files {
             }
         }
 
+        pWriter.close();
+
 
 
 
