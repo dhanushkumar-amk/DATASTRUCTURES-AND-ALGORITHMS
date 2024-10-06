@@ -12,7 +12,7 @@ public class FileReaderAndWriter {
         file.createNewFile();
 
             FileWriter writer = new FileWriter(file);
-            writer.write(97);
+            writer.write("hello world");
             writer.flush();
             writer.close();
         } catch (IOException e) {
