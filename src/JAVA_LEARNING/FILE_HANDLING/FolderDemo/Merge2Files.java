@@ -28,8 +28,9 @@ public class Merge2Files {
                 line2 = Breader2.readLine();
             }
         }
-
-        pWriter.close();
+        Breader1.close();
+        Breader2.close();
+        pWriter.flush();
 
 
 
