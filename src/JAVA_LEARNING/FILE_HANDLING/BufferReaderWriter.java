@@ -26,7 +26,7 @@ public class BufferReaderWriter {
             String output = bReader.readLine();
             while(output != null) {
                 System.out.println(output);
-                    output
+                    output = bReader.readLine();
             }
 
         }  catch (IOException e) {
