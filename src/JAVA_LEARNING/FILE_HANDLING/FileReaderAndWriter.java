@@ -22,7 +22,7 @@ public class FileReaderAndWriter {
             int output = fileReader.read();  // it will return -1 whenever it completes the reading the file
             while (output != -1) {
                 System.out.print((char)output);
-                output = fileReader.read();
+//                output = fileReader.read();
             }
         } catch (IOException e) {
             throw new RuntimeException(e);
