@@ -21,7 +21,7 @@ public class GradingStudent {
 
 
         for (int i = 0; i < grade.length ; i++) {
-            System.out.println(grade[i] + " ");
+            System.out.print(grade[i] + " ");
         }
 
     }
