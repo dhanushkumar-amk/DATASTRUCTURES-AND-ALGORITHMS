@@ -5,10 +5,10 @@ public class StairsCase {
 
         int n = 5;
 
-        int spaces = n-1;
-        int hash = 1;
 
         for (int i = 0; i <n ; i++) {
+            int spaces = n-1;
+            int hash = 1;
 
             // print spaces
             for (int j = 0; j < spaces; j++) {
