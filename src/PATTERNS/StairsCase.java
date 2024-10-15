@@ -12,7 +12,7 @@ public class StairsCase {
 
             // print spaces
             for (int j = 0; j < spaces; j++) {
-                System.out.println(" ");
+                System.out.print(" ");
             }
 
             for (int j = 0; j <hash ; j++) {
