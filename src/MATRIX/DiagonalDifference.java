@@ -24,7 +24,7 @@ public class DiagonalDifference {
 
         for (int i = 0; i < n; i++) {
 
-            rightSum = matrix[i][n-1- i];
+            rightSum += matrix[i][n-1- i];
         }
 
         return  Math.abs(leftSum - rightSum);
