@@ -19,7 +19,9 @@ public class StairsCase {
 
             spaces--;
             hash++;
+
         }
+        System.out.println();
 
     }
 }
