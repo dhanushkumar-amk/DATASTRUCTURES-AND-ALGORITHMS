@@ -16,12 +16,12 @@ public class StairsCase {
             for (int j = 0; j <hash ; j++) {
                 System.out.print(" # ");
             }
+            System.out.println();
 
             spaces--;
             hash++;
 
         }
-        System.out.println();
 
     }
 }
