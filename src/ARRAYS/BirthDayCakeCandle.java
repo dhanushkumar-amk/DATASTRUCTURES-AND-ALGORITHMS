@@ -2,7 +2,7 @@ package ARRAYS;
 
 public class BirthDayCakeCandle {
     public static void main(String[] args) {
-        int[] arr = {2,3,3,2,1,3};
+        int[] arr = {2,3,3,2,1,3,3};
         System.out.println(count(arr));
     }
 
