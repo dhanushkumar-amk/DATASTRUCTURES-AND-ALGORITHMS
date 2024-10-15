@@ -2,7 +2,7 @@ package MATHEMATICALS;
 
 public class GradingStudent {
     public static void main(String[] args) {
-        int[] grades = {20,44,67,56,56};
+        int[] grades = {20,44,68,56,56};
         gradeStu(grades);
     }
 
