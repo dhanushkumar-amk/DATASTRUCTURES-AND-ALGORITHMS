@@ -11,8 +11,8 @@ public class FileDeletion {
 
             Scanner sc = new Scanner(System.in);
             System.out.println("Enter the name :");
-            name = sc.next();
-            
+          String  name = sc.next();
+
         }
     }
 }
