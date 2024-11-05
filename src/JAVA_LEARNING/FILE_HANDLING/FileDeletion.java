@@ -13,6 +13,7 @@ public class FileDeletion {
             System.out.println("Enter the name :");
           String  name = sc.next();
 
+            System.out.println(name);
         }
     }
 }
